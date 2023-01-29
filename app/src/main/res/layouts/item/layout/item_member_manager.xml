@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_header"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_10"
+            android:src="@mipmap/transfer_accounts_sol"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="@dimen/dp_1"
+            app:civ_circle_background_color="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_6"
+            android:layout_marginRight="@dimen/dp_50"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:layout_toRightOf="@+id/iv_header"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_14" />
+
+        <TextView
+            android:id="@+id/tv_moderator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_4"
+            android:layout_toRightOf="@+id/iv_header"
+            android:text="@string/member"
+            android:textColor="?attr/font_color"
+            android:textSize="@dimen/sp_10" />
+
+        <ImageView
+            android:id="@+id/iv_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/icon_member_uncheck" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

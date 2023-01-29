@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_sheet_dialog_bord"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginBottom="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_100"
+                android:layout_marginLeft="@dimen/dp_100">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/currency_color"
+                    android:textSize="@dimen/sp_16"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/tv_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/currency_color"
+                    android:textSize="@dimen/sp_14"
+                    android:layout_gravity="center_vertical"
+                    android:singleLine="true"
+                    android:ellipsize="middle"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10">
+
+                <TextView
+                    android:layout_width="@dimen/dp_100"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/swap_balance_2"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="?attr/font_color"/>
+
+                <TextView
+                    android:id="@+id/tv_balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text=""
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="?attr/currency_color"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_0_5"
+                android:background="?attr/line_1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10">
+
+                <TextView
+                    android:layout_width="@dimen/dp_100"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/request_link"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="?attr/font_color"/>
+
+                <TextView
+                    android:id="@+id/tv_link"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text=""
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="?attr/currency_color"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_0_5"
+                android:background="?attr/line_1"/>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/ll_risk"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_70"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10">
+
+                <TextView
+                    android:layout_width="@dimen/dp_100"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/Authorization_Risk"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="?attr/font_color"/>
+
+                <TextView
+                    android:id="@+id/tv_risk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/Authorization_Risk_msg"
+                    android:textSize="@dimen/sp_12"
+                    android:textColor="@color/text_fb3939"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_0_5"
+                android:background="?attr/line_1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10">
+
+                <TextView
+                    android:layout_width="@dimen/dp_100"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/token_address2"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="?attr/font_color"/>
+
+                <TextView
+                    android:id="@+id/tv_contract_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text=""
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="?attr/currency_color"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_0_5"
+                android:background="?attr/line_1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10">
+
+                <TextView
+                    android:id="@+id/tv_rd_title"
+                    android:layout_width="@dimen/dp_100"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/Receiving_address"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="?attr/font_color"/>
+
+                <TextView
+                    android:id="@+id/tv_receive_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text=""
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="?attr/currency_color"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_0_5"
+                android:background="?attr/line_1"/>
+
+            <LinearLayout
+                android:id="@+id/ll_auth_num"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp_10"
+                android:visibility="gone"
+                android:paddingRight="@dimen/dp_10">
+
+                <TextView
+                    android:layout_width="@dimen/dp_100"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/Authorized_quantity"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="?attr/font_color"/>
+
+                <TextView
+                    android:id="@+id/tv_auth_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:text=""
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="?attr/currency_color"/>
+
+                <ImageView
+                    android:id="@+id/iv_change_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="?attr/wallet_edit_src"
+                    android:layout_marginRight="@dimen/dp_10"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_0_5"
+                android:background="?attr/line_1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:text="@string/gas_fee"
+                    android:textColor="?attr/currency_color"
+                    android:textSize="@dimen/sp_14" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/tv_gas_fee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#ff8a8a8a"
+                    android:textSize="@dimen/sp_12" />
+
+            </LinearLayout>
+
+            <com.qianlihu.solanawallet.view.GasSetView
+                android:id="@+id/gsv_fee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_0_5"
+                android:background="?attr/line_1"/>
+
+            <LinearLayout
+                android:id="@+id/ll_money"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10">
+
+                <TextView
+                    android:layout_width="@dimen/dp_100"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/token_value"
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="?attr/font_color"/>
+
+                <TextView
+                    android:id="@+id/tv_transfer_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text=""
+                    android:textSize="@dimen/sp_14"
+                    android:textColor="?attr/currency_color"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40"
+                android:layout_margin="@dimen/dp_20"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_cancel"
+                    style="?attr/borderlessButtonStyle"
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bottom_sheet_add_wallet_bord"
+                    android:text="@string/cancel"
+                    android:textAllCaps="false"
+                    android:textColor="?attr/currency_color"
+                    android:textSize="@dimen/sp_16" />
+
+                <Button
+                    android:id="@+id/btn_approve"
+                    style="?attr/borderlessButtonStyle"
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dp_16"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_blue_1_bord"
+                    android:text="@string/approve"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_16" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

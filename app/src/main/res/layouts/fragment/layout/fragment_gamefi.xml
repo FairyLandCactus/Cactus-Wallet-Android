@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/dp_54"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_44"
+        android:text="@string/gamefi"
+        android:textColor="?attr/currency_color"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_44"
+        android:layout_marginRight="@dimen/dp_30"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="?attr/my_airdrop_src"
+                        android:text="@string/airdrop"
+                        android:gravity="center_horizontal"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="?attr/currency_color"
+                        android:textSize="@dimen/sp_14"
+                        android:drawablePadding="@dimen/dp_6"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:id="@+id/rl_node"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="?attr/my_node_src"
+                        android:text="@string/my_wallet_node"
+                        android:gravity="center_horizontal"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="?attr/currency_color"
+                        android:textSize="@dimen/sp_14"
+                        android:drawablePadding="@dimen/dp_6"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_commuity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="?attr/my_community_src"
+                        android:text="@string/my_community"
+                        android:gravity="center_horizontal"
+                        android:textColor="?attr/currency_color"
+                        android:textSize="@dimen/sp_14"
+                        android:layout_centerHorizontal="true"
+                        android:drawablePadding="@dimen/dp_6"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_60"
+                android:background="@drawable/gamefi_item_bg_bord"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_node"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_60"
+                    android:drawableLeft="?attr/icon_node_src"
+                    android:drawablePadding="@dimen/dp_10"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dp_16"
+                    android:text="@string/node"
+                    android:textColor="?attr/currency_color"
+                    android:textSize="@dimen/sp_16" />
+
+                <TextView
+                    android:id="@+id/tv_node_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:drawableRight="@mipmap/sol_page_copy"
+                    android:drawablePadding="@dimen/dp_4"
+                    android:ellipsize="middle"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#ff545d71"
+                    android:textSize="@dimen/sp_14" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_manage_wallet"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_60"
+                android:layout_marginTop="@dimen/dp_30"
+                android:background="@drawable/gamefi_item_bg_bord"
+                android:drawableLeft="?attr/gamefi_manage_wallet_src"
+                android:drawablePadding="@dimen/dp_10"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/dp_16"
+                android:text="@string/manage_wallet"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_16" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_60"
+                android:layout_marginTop="@dimen/dp_14"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_blind_box"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/gamefi_item_bg_bord"
+                    android:drawableLeft="?attr/gamefi_help_center_src"
+                    android:drawablePadding="@dimen/dp_10"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dp_16"
+                    android:text="@string/blind_box"
+                    android:textColor="?attr/currency_color"
+                    android:textSize="@dimen/sp_16" />
+
+                <TextView
+                    android:id="@+id/tv_airdrop"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dp_18"
+                    android:layout_weight="1"
+                    android:background="@drawable/gamefi_item_bg_bord"
+                    android:drawableLeft="?attr/gamefi_airdrop_src"
+                    android:drawablePadding="@dimen/dp_10"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dp_16"
+                    android:text="@string/airdrop"
+                    android:textColor="?attr/currency_color"
+                    android:textSize="@dimen/sp_16" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_60"
+                android:layout_marginTop="@dimen/dp_14"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_invite"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/gamefi_item_bg_bord"
+                    android:drawableLeft="?attr/gamefi_blind_box_src"
+                    android:drawablePadding="@dimen/dp_10"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dp_16"
+                    android:text="@string/invite"
+                    android:textColor="?attr/currency_color"
+                    android:textSize="@dimen/sp_16" />
+
+                <TextView
+                    android:id="@+id/tv_help_center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dp_18"
+                    android:layout_weight="1"
+                    android:background="@drawable/gamefi_item_bg_bord"
+                    android:drawableLeft="?attr/gamefi_invite_src"
+                    android:drawablePadding="@dimen/dp_10"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dp_16"
+                    android:text="@string/help_center"
+                    android:textColor="?attr/currency_color"
+                    android:textSize="@dimen/sp_16" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_telegram"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40"
+                android:layout_marginTop="@dimen/dp_50"
+                android:drawableLeft="?attr/gamefi_telegram_src"
+                android:drawableRight="?attr/icon_in_src"
+                android:drawablePadding="@dimen/dp_10"
+                android:gravity="center_vertical"
+                android:text="@string/telegram"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_16" />
+
+            <TextView
+                android:id="@+id/tv_follow_twitter"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40"
+                android:layout_marginTop="@dimen/dp_10"
+                android:drawableLeft="?attr/gamefi_follow_on_twitter_src"
+                android:drawableRight="?attr/icon_in_src"
+                android:drawablePadding="@dimen/dp_10"
+                android:gravity="center_vertical"
+                android:text="@string/follow_on_twitter"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_16" />
+
+            <LinearLayout
+                android:id="@+id/ll_about_ius"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40"
+                android:layout_marginTop="@dimen/dp_10"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="?attr/gamefi_about_ius_src"
+                    android:drawablePadding="@dimen/dp_10"
+                    android:text="@string/about_ius"
+                    android:textColor="?attr/currency_color"
+                    android:textSize="@dimen/sp_16" />
+
+                <TextView
+                    android:id="@+id/tv_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:drawableRight="?attr/icon_in_src"
+                    android:drawablePadding="@dimen/dp_6"
+                    android:text="V1.0.0"
+                    android:textColor="#5E6172"
+                    android:textSize="@dimen/sp_14" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_bind_wallet"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40"
+                android:layout_marginTop="@dimen/dp_10"
+                android:drawableLeft="?attr/gamefi_bind_wallet_src"
+                android:drawableRight="?attr/icon_in_src"
+                android:drawablePadding="@dimen/dp_10"
+                android:gravity="center_vertical"
+                android:text="@string/bind_wallet"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_16" />
+
+            <TextView
+                android:id="@+id/tv_bind"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40"
+                android:layout_marginTop="@dimen/dp_10"
+                android:drawableLeft="?attr/bind_src"
+                android:drawableRight="?attr/icon_in_src"
+                android:drawablePadding="@dimen/dp_10"
+                android:gravity="center_vertical"
+                android:text="@string/invite_bind"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_16" />
+
+
+            <TextView
+                android:id="@+id/tv_set_up"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginBottom="@dimen/dp_20"
+                android:drawableLeft="?attr/gamefi_set_up_src"
+                android:drawableRight="?attr/icon_in_src"
+                android:drawablePadding="@dimen/dp_10"
+                android:gravity="center_vertical"
+                android:text="@string/set_up"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_16" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

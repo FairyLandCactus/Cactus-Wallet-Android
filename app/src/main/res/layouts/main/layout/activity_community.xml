@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/color_bg_main_2"
+    tools:context=".activity.CommunityActivity">
+
+    <include layout="@layout/include_title"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_meeting"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/dp_16"/>
+
+    <Button
+        android:id="@+id/btn_confirm"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_margin="@dimen/dp_16"
+        android:background="@drawable/bottom_sheet_wallet_manager_bord"
+        android:text="@string/confirm"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_14" />
+
+
+</LinearLayout>

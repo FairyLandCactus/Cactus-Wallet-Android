@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_16"
+            android:background="@drawable/swap_exchange_child_bg_bord"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_16"
+                android:layout_marginRight="@dimen/dp_20">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/swap_exchange_statiscal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/swap_exchange"
+                    android:textColor="?attr/currency_color"
+                    android:textSize="@dimen/sp_18"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/swap_exchange_setting" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:src="@mipmap/swap_exchange_time" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:src="@mipmap/swap_refresh" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/swap_exchange_timely"
+                android:textColor="#ff808297"
+                android:textSize="@dimen/sp_12" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_0_5"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="?attr/line_1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_16"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/rl_sell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/iv_sell_pic"
+                        android:layout_width="@dimen/dp_30"
+                        android:layout_height="@dimen/dp_30"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dp_6"
+                        android:src="@mipmap/transfer_accounts_ius"
+                        app:civ_border_width="@dimen/dp_0_5"
+                        app:civ_border_color="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/tv_sell_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv_sell_pic"
+                        android:text="IUS"
+                        android:textColor="?attr/currency_color"
+                        android:textSize="@dimen/sp_16" />
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:layout_toRightOf="@+id/tv_sell_name"
+                        android:src="@mipmap/icon_swap_exchange_down" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/swap_balance"
+                    android:textColor="#ff9eaec1"
+                    android:textSize="@dimen/sp_16" />
+
+                <TextView
+                    android:id="@+id/tv_sell_balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="0.00"
+                    android:textColor="#ff9eaec1"
+                    android:textSize="@dimen/sp_14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_16"
+                android:background="@drawable/swap_exchange_edit_bord"
+                android:orientation="vertical"
+                android:padding="@dimen/dp_10">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:gravity="right"
+                    android:hint="0"
+                    android:inputType="numberDecimal"
+                    android:textColor="?attr/currency_color"
+                    android:textColorHint="?attr/swap_exchange_hint_color"
+                    android:textSize="@dimen/sp_18" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_20"
+                    android:layout_gravity="right"
+                    android:background="@drawable/swap_btn_max_bord"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dp_10"
+                    android:paddingRight="@dimen/dp_10"
+                    android:text="@string/swap_exchange_max"
+                    android:textColor="#ff06cbd8"
+                    android:textSize="@dimen/sp_12" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_up_down_exchange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dp_10"
+                android:src="?attr/swap_exchange_2_src" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_16"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/rl_buy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/iv_buy_pic"
+                        android:layout_width="@dimen/dp_30"
+                        android:layout_height="@dimen/dp_30"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dp_6"
+                        android:src="@mipmap/icon_solana"
+                        app:civ_border_width="@dimen/dp_0_5"
+                        app:civ_border_color="@color/white"/>
+
+                    <TextView
+                        android:id="@+id/tv_buy_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv_buy_pic"
+                        android:text="SOL"
+                        android:textColor="?attr/currency_color"
+                        android:textSize="@dimen/sp_16" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:layout_toRightOf="@+id/tv_buy_name"
+                        android:src="@mipmap/icon_swap_exchange_down" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/swap_balance"
+                    android:textColor="#ff9eaec1"
+                    android:textSize="@dimen/sp_16" />
+
+                <TextView
+                    android:id="@+id/tv_buy_balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="0.00"
+                    android:textColor="#ff9eaec1"
+                    android:textSize="@dimen/sp_14" />
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_16"
+                android:background="@drawable/swap_exchange_edit_bord"
+                android:gravity="right|center_vertical"
+                android:hint="0"
+                android:paddingRight="@dimen/dp_10"
+                android:inputType="numberDecimal"
+                android:textColor="?attr/currency_color"
+                android:textColorHint="?attr/swap_exchange_hint_color"
+                android:textSize="@dimen/sp_18" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_16"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/swap_exchange_slip"
+                    android:textColor="#ff8043ce"
+                    android:textSize="@dimen/sp_14" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="0.5%"
+                    android:textColor="#ff06cbd8"
+                    android:textSize="@dimen/sp_12" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_exchange"
+                style="?attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:layout_margin="@dimen/dp_20"
+                android:background="@drawable/swap_exchange_input_bord"
+                android:text="@string/swap_exchange_enter_amount"
+                android:textAllCaps="false"
+                android:textColor="?attr/swap_exchange_btn_coloe"
+                android:textSize="@dimen/sp_16" />
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

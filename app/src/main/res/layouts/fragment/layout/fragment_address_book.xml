@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/color_bg_main_2"
+    android:orientation="vertical"
+    tools:context=".activity.AddressManagerActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_address"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_weight="1"
+        android:layout_marginBottom="@dimen/dp_10"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:background="?attr/line_1" />
+
+    <LinearLayout
+        android:id="@+id/ll_add_new_address"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:background="@drawable/btn_add_bord"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:drawableLeft="?attr/icon_add_src"
+            android:drawablePadding="@dimen/dp_6"
+            android:text="@string/add_new_address"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_16" />
+
+    </LinearLayout>
+
+</LinearLayout>

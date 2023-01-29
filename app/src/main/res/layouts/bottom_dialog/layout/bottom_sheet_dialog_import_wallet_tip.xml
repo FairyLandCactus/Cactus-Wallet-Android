@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_sheet_dialog_bord"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_16"
+            android:text="@string/mnemonics_private_title"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_16" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:background="?attr/line_1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:layout_marginRight="@dimen/dp_24"
+            android:text="@string/mnemonics_private_1"
+            android:textColor="?attr/font_color"
+            android:textSize="@dimen/sp_14" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_24"
+            android:text="@string/mnemonics_private_2"
+            android:textColor="?attr/font_color"
+            android:textSize="@dimen/sp_14" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_24"
+            android:text="@string/mnemonics_private_3"
+            android:textColor="?attr/font_color"
+            android:textSize="@dimen/sp_14" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:layout_marginTop="@dimen/dp_30"
+            android:background="?attr/line_1" />
+
+        <TextView
+            android:id="@+id/tv_close"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/close"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_16" />
+
+    </LinearLayout>
+</LinearLayout>

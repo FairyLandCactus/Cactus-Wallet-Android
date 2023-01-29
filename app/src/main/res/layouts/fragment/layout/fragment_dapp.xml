@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_44"
+        android:layout_marginRight="@dimen/dp_16"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="@dimen/dp_36"
+            android:layout_weight="1"
+            android:background="@drawable/bg_dapp_search_bord"
+            android:cursorVisible="false"
+            android:drawableLeft="@mipmap/icon_search"
+            android:drawablePadding="@dimen/dp_6"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/enter_dapp_web_address"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:paddingLeft="@dimen/dp_10"
+            android:textColor="?attr/main_title_text"
+            android:textColorHint="@color/txt_999"
+            android:textSize="@dimen/sp_14" />
+
+        <ImageView
+            android:id="@+id/iv_scan_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:src="?attr/icon_right_top_scan" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_30"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp_30"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <net.lucode.hackware.magicindicator.MagicIndicator
+                android:id="@+id/magic_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_more"
+            android:layout_width="@dimen/dp_18"
+            android:layout_height="@dimen/dp_18"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:src="@mipmap/icon_dapp_more"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+    <com.qianlihu.solanawallet.view.NoScrollViewPager
+        android:id="@+id/vp_dapp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0"
+        android:layout_weight="1" />
+</LinearLayout>

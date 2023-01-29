@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/dp_16"
+    android:paddingRight="@dimen/dp_16"
+    android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_16"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@mipmap/icon_dapp_browse"
+                    android:text="@string/recent_browsing"
+                    android:textColor="?attr/currency_color"
+                    android:textSize="@dimen/sp_16" />
+
+                <TextView
+                    android:id="@+id/tv_cross"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:drawableTop="@mipmap/icon_polymerization"
+                    android:text="@string/Aggregate_transaction"
+                    android:textColor="?attr/currency_color"
+                    android:textSize="@dimen/sp_16" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:drawableTop="?attr/icon_dapp_increase"
+                    android:text="@string/add"
+                    android:textColor="?attr/currency_color"
+                    android:textSize="@dimen/sp_16" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_30"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/dapp_interested"
+                    android:textColor="?attr/font_2_color"
+                    android:textSize="@dimen/sp_12" />
+
+                <TextView
+                    android:id="@+id/tv_hide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dapp_hide"
+                    android:textColor="@color/bg_658CFF"
+                    android:textSize="@dimen/sp_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_interest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dp_10"
+                android:orientation="vertical">
+
+                <com.youth.banner.Banner
+                    android:id="@+id/banner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_120" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_6"
+                    android:text="@string/dapp_Win_stepn"
+                    android:textColor="?attr/currency_color"
+                    android:textSize="@dimen/sp_14" />
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cactus   04-01  00:16"
+                        android:textColor="?attr/font_2_color"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:background="?attr/dapp_might_bg_color"
+                        android:paddingLeft="@dimen/dp_6"
+                        android:paddingRight="@dimen/dp_6"
+                        android:text="@string/dapp_new"
+                        android:textColor="#ff4377db"
+                        android:textSize="@dimen/sp_10" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_6"
+                        android:background="?attr/dapp_might_bg_color"
+                        android:paddingLeft="@dimen/dp_6"
+                        android:paddingRight="@dimen/dp_6"
+                        android:text="@string/dapp_ads"
+                        android:textColor="?attr/font_2_color"
+                        android:textSize="@dimen/sp_10" />
+                </LinearLayout>
+                <com.scwang.smartrefresh.layout.SmartRefreshLayout
+                    android:id="@+id/refresh_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_might"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/dp_10" />
+                </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+                <include layout="@layout/include_foot_tip" />
+            </LinearLayout>
+
+</LinearLayout>

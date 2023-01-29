@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="horizontal"
+    android:padding="@dimen/dp_10"
+    android:layout_marginTop="@dimen/dp_12">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:src="@mipmap/icon_solana"
+        android:layout_gravity="center_vertical"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="@dimen/dp_1"
+        app:civ_circle_background_color="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SOL"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:textColor="?attr/main_title_text"
+            android:textSize="@dimen/sp_18" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¥3.35"
+            android:textColor="@color/txt_666"
+            android:textSize="@dimen/sp_14" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_sol_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00"
+            android:layout_gravity="right"
+            android:textColor="?attr/main_title_text"
+            android:textSize="@dimen/sp_18" />
+
+        <TextView
+            android:id="@+id/tv_usdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="≈0.00USDT"
+            android:layout_gravity="right"
+            android:textColor="@color/txt_666"
+            android:textSize="@dimen/sp_14" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

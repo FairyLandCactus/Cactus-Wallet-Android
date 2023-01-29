@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SplashActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_start_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/start_bg"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/start_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:gravity="center_horizontal"
+            android:text="@string/start_page_dec"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_16" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_guide_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.youth.banner.Banner
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tv_jump"
+            android:layout_width="@dimen/dp_34"
+            android:layout_height="@dimen/dp_34"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/dp_50"
+            android:layout_marginRight="@dimen/dp_16"
+            android:background="@drawable/jump_bg_bord"
+            android:gravity="center"
+            android:text="@string/guide_jump"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp_126"
+            android:text="@string/guide_brand"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_24"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_dec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_centerHorizontal="true"
+            android:text="@string/guide_wallet"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_18"
+            android:textStyle="bold" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_into_app"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_45"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dp_30"
+            android:background="@drawable/guide_btn_bg_bord"
+            android:text="@string/guide_try_it_now"
+            android:layout_marginRight="@dimen/dp_60"
+            android:layout_marginLeft="@dimen/dp_60"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_14" />
+    </RelativeLayout>
+
+</RelativeLayout>

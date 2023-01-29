@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_top"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/xupdate_bg_app_top" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/xupdate_bg_app_info"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/sp_18"
+                tools:text="" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/dp_30"
+                android:layout_marginRight="@dimen/dp_30"
+                android:paddingTop="@dimen/dp_10"
+                android:paddingBottom="@dimen/dp_20">
+
+                <TextView
+                    android:id="@+id/tv_update_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lineSpacingExtra="10px"
+                    android:textColor="#666"
+                    android:textSize="@dimen/sp_14" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/text_fb3939"
+                android:layout_marginLeft="@dimen/dp_30"
+                android:layout_marginRight="@dimen/dp_30"
+                android:gravity="center"
+                android:minHeight="@dimen/dp_40"
+                android:text="@string/now_update_app"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="@dimen/dp_20"
+                android:textSize="@dimen/dp_18" />
+
+            <TextView
+                android:id="@+id/tv_ignore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minHeight="@dimen/dp_80"
+                android:text="@string/xupdate_lab_ignore"
+                android:textColor="#666"
+                android:textSize="@dimen/sp_18"
+                android:visibility="gone" />
+
+            <com.xuexiang.xupdate.widget.NumberProgressBar
+                android:id="@+id/npb_progress"
+                style="@style/XUpdate_ProgressBar_Red"
+                android:paddingTop="@dimen/dp_20"
+                android:paddingBottom="@dimen/dp_20"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_background_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minHeight="@dimen/dp_70"
+                android:text="@string/xupdate_lab_background_update"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/dp_26"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/ll_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="@dimen/dp_2"
+            android:layout_height="@dimen/dp_50"
+            android:background="#D8D8D8"
+            android:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_close"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginTop="-4dp"
+            app:srcCompat="@drawable/xupdate_icon_app_close" />
+
+    </LinearLayout>
+</LinearLayout>

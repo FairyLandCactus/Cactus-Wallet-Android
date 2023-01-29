@@ -1,0 +1,301 @@
+[{
+	"name": "BNB",
+	"dec": "Bsc",
+	"contractAdd": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+	"logoUrl": "https://bscscan.com/images/gen/binance_20.png",
+	"decimals": 18
+},{
+	"name": "ETH",
+	"dec": "Binance-Peg Ethereum Token",
+	"contractAdd": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+	"logoUrl": "https://bscscan.com/token/images/ethereum_32.png",
+	"decimals": 18
+},{
+	"name": "USDT",
+	"dec": "Binance usdt",
+	"contractAdd": "0x55d398326f99059fF775485246999027B3197955",
+	"logoUrl": "https://bscscan.com/token/images/busdt_32.png",
+	"decimals": 18
+},{
+	"name": "WBNB",
+	"dec": "Wrapped BNB",
+	"contractAdd": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+	"logoUrl": "https://bscscan.com/token/images/binance_32.png",
+	"decimals": 18
+},{
+	"name": "XRP",
+	"dec": "Binance-Peg XRP Token",
+	"contractAdd": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
+	"logoUrl": "https://bscscan.com/token/images/xrp_32.png",
+	"decimals": 18
+},{
+	"name": "ADA",
+	"dec": "Binance-Peg Cardano Token",
+	"contractAdd": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
+	"logoUrl": "https://bscscan.com/token/images/cardano_32.png",
+	"decimals": 18
+},{
+	"name": "AVAX",
+	"dec": "Binance-Peg Avalanche Token",
+	"contractAdd": "0x1CE0c2827e2eF14D5C4f29a091d735A204794041",
+	"logoUrl": "https://bscscan.com/token/images/avax_32.png",
+	"decimals": 18
+},{
+	"name": "BUSD",
+	"dec": "Binance-Peg BUSD Token",
+	"contractAdd": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+	"logoUrl": "https://bscscan.com/token/images/busd_32.png",
+	"decimals": 18
+},{
+	"name": "DOT",
+	"dec": "Binance-Peg Polkadot Token",
+	"contractAdd": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
+	"logoUrl": "https://bscscan.com/token/images/polkadot_32.png",
+	"decimals": 18
+},{
+	"name": "ANKR",
+	"dec": "Ankr",
+	"contractAdd": "0xf307910A4c7bbc79691fD374889b36d8531B08e3",
+	"logoUrl": "https://bscscan.com/token/images/ankr_32.png",
+	"decimals": 18
+},{
+	"name": "SHIB",
+	"dec": "Binance-Peg SHIBA INU Token",
+	"contractAdd": "0x2859e4544C4bB03966803b044A93563Bd2D0DD4D",
+	"logoUrl": "https://bscscan.com/token/images/shibatoken_32.png",
+	"decimals": 18
+},{
+	"name": "UST",
+	"dec": "Wrapped UST Token",
+	"contractAdd": "0x23396cF899Ca06c4472205fC903bDB4de249D6fC",
+	"logoUrl": "https://bscscan.com/token/images/terra-ust_32.png",
+	"decimals": 18
+},{
+	"name": "DAI",
+	"dec": "Binance-Peg Dai Token",
+	"contractAdd": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+	"logoUrl": "https://bscscan.com/token/images/dai_32.png",
+	"decimals": 18
+},{
+	"name": "ATOM",
+	"dec": "Binance-Peg Cosmos Token",
+	"contractAdd": "0x0Eb3a705fc54725037CC9e008bDede697f62F335",
+	"logoUrl": "https://bscscan.com/token/images/cosmos_32.png",
+	"decimals": 18
+},{
+	"name": "LTC",
+	"dec": "Binance-Peg Litecoin Token",
+	"contractAdd": "0x4338665CBB7B2485A8855A139b75D5e34AB0DB94",
+	"logoUrl": "https://bscscan.com/token/images/litecoin_32.png",
+	"decimals": 18
+},{
+	"name": "NEAR",
+	"dec": "Binance-Peg NEAR Protocol",
+	"contractAdd": "0x1Fa4a73a3F0133f0025378af00236f3aBDEE5D63",
+	"logoUrl": "https://bscscan.com/token/images/near_32.png",
+	"decimals": 18
+},{
+	"name": "LINK ",
+	"dec": "Binance-Peg ChainLink Token",
+	"contractAdd": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
+	"logoUrl": "https://bscscan.com/token/images/chainlink_32.png?v=2",
+	"decimals": 18
+},{
+	"name": "UNI",
+	"dec": "Binance-Peg Uniswap",
+	"contractAdd": "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1",
+	"logoUrl": "https://bscscan.com/token/images/uniswap_32.png",
+	"decimals": 18
+},{
+	"name": "TRX",
+	"dec": "TRON",
+	"contractAdd": "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B",
+	"logoUrl": "https://bscscan.com/token/images/tron_32.png",
+	"decimals": 18
+},{
+	"name": "BCH",
+	"dec": "Binance-Peg Bitcoin Cash Token",
+	"contractAdd": "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf",
+	"logoUrl": "https://bscscan.com/token/images/bitcoincash_32.png",
+	"decimals": 18
+},{
+	"name": "FTM",
+	"dec": "Fantom",
+	"contractAdd": "0xAD29AbB318791D579433D831ed122aFeAf29dcfe",
+	"logoUrl": "https://bscscan.com/token/images/ftm_32.png?=v2",
+	"decimals": 18
+},{
+	"name": "BTCB",
+	"dec": "Binance-Peg BTCB Token",
+	"contractAdd": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+	"logoUrl": "https://bscscan.com/token/images/btcb_32.png",
+	"decimals": 18
+},{
+	"name": "ETC",
+	"dec": "Binance-Peg Ethereum Classic",
+	"contractAdd": "0x3d6545b08693daE087E957cb1180ee38B9e3c25E",
+	"logoUrl": "https://bscscan.com/token/images/ethclassic_32.png?v=1",
+	"decimals": 18
+},{
+	"name": "AXS",
+	"dec": "Binance-Peg Axie Infinity Shard Token",
+	"contractAdd": "0x715D400F88C167884bbCc41C5FeA407ed4D2f8A0",
+	"logoUrl": "https://bscscan.com/token/images/axieinfinity_32.png",
+	"decimals": 18
+},{
+	"name": "EGLD",
+	"dec": "Binance-Peg Elrond Token",
+	"contractAdd": "0xbF7c81FFF98BbE61B40Ed186e4AfD6DDd01337fe",
+	"logoUrl": "https://bscscan.com/token/images/elrond_32.png?v=2",
+	"decimals": 18
+},{
+	"name": "XTZ",
+	"dec": "Binance-Peg Tezos Token",
+	"contractAdd": "0x16939ef78684453bfDFb47825F8a5F714f12623a",
+	"logoUrl": "https://bscscan.com/token/images/tezos_32.png",
+	"decimals": 18
+},{
+	"name": "FRAX",
+	"dec": "Frax",
+	"contractAdd": "0x90C97F71E18723b0Cf0dfa30ee176Ab653E89F40",
+	"logoUrl": "https://bscscan.com/token/images/frax_32.png",
+	"decimals": 18
+},{
+	"name": "BTT",
+	"dec": "Binance-Peg BitTorrent Token",
+	"contractAdd": "0x8595F9dA7b868b1822194fAEd312235E43007b49",
+	"logoUrl": "https://bscscan.com/token/images/bittorrent_32.png",
+	"decimals": 18
+},{
+	"name": "IOTA",
+	"dec": "MIOTAC",
+	"contractAdd": "0xd944f1D1e9d5f9Bb90b62f9D45e447D989580782",
+	"logoUrl": "https://bscscan.com/token/images/miota_32.png?=v1",
+	"decimals": 18
+},{
+	"name": "EOS",
+	"dec": "Binance-Peg EOS Token",
+	"contractAdd": "0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6",
+	"logoUrl": "https://bscscan.com/token/images/eos_32.png",
+	"decimals": 18
+},{
+	"name": "FLOW",
+	"dec": "Binance-Peg FLOW Token",
+	"contractAdd": "0xC943c5320B9c18C153d1e2d12cC3074bebfb31A2",
+	"logoUrl": "https://bscscan.com/token/images/onflow_32.png",
+	"decimals": 18
+},{
+	"name": "GALA",
+	"dec": "pTokens GALA",
+	"contractAdd": "0x7dDEE176F665cD201F93eEDE625770E2fD911990",
+	"logoUrl": "https://bscscan.com/token/images/galagames_32.png",
+	"decimals": 18
+},{
+	"name": "MKR",
+	"dec": "Binance-Peg Maker",
+	"contractAdd": "0x5f0Da599BB2ccCfcf6Fdfd7D81743B6020864350",
+	"logoUrl": "https://bscscan.com/token/images/makerdao_32.png",
+	"decimals": 18
+},{
+	"name": "BTT",
+	"dec": "BitTorrent",
+	"contractAdd": "0x352Cb5E19b12FC216548a2677bD0fce83BaE434B",
+	"logoUrl": "https://bscscan.com/token/images/bittorrent_32.png",
+	"decimals": 18
+},{
+	"name": "ZEC",
+	"dec": "Binance-Peg Zcash Token",
+	"contractAdd": "0x1Ba42e5193dfA8B03D15dd1B86a3113bbBEF8Eeb",
+	"logoUrl": "https://bscscan.com/token/images/zcash_32.png",
+	"decimals": 18
+},{
+	"name": "TUSD",
+	"dec": "Binance-Peg TrueUSD Token",
+	"contractAdd": "0x14016E85a25aeb13065688cAFB43044C2ef86784",
+	"logoUrl": "https://bscscan.com/token/images/trueusd_32.png",
+	"decimals": 18
+},{
+	"name": "XEC",
+	"dec": "Binance-Peg eCash Token",
+	"contractAdd": "0x0Ef2e7602adD1733Bfdb17aC3094d0421B502cA3",
+	"logoUrl": "https://bscscan.com/token/images/ecash_32.png",
+	"decimals": 18
+},{
+	"name": "FXS",
+	"dec": "Frax Share",
+	"contractAdd": "0xe48A3d7d0Bc88d552f730B62c006bC925eadB9eE",
+	"logoUrl": "https://bscscan.com/token/images/fraxfinanceshare_32_2.png?v=3",
+	"decimals": 18
+},{
+	"name": "BAT",
+	"dec": "Binance-Peg Basic Attention Token",
+	"contractAdd": "0x101d82428437127bF1608F699CD651e6Abf9766E",
+	"logoUrl": "https://bscscan.com/token/images/bat_32.png",
+	"decimals": 18
+},{
+	"name": "USDP",
+	"dec": "Binance-Peg Pax Dollar Token",
+	"contractAdd": "0xb3c11196A4f3b1da7c23d9FB0A3dDE9c6340934F",
+	"logoUrl": "https://bscscan.com/token/images/paxdollar_32.png",
+	"decimals": 18
+},{
+	"name": "PAX",
+	"dec": "Binance-Peg Paxos Standard",
+	"contractAdd": "0xb7F8Cd00C5A06c0537E2aBfF0b58033d02e5E094",
+	"logoUrl": "https://bscscan.com/token/images/paxos_32.png",
+	"decimals": 18
+},{
+	"name": "COMP",
+	"dec": "Binance-Peg Compound Coin",
+	"contractAdd": "0x52CE071Bd9b1C4B00A0b92D298c512478CaD67e8",
+	"logoUrl": "https://bscscan.com/token/images/compound_32.png?v1",
+	"decimals": 18
+},{
+	"name": "YFI",
+	"dec": "Binance-Peg yearn.finance",
+	"contractAdd": "0x88f1A5ae2A3BF98AEAF342D26B30a79438c9142e",
+	"logoUrl": "https://bscscan.com/token/images/yfi_32.png",
+	"decimals": 18
+},{
+	"name": "IOTX",
+	"dec": "Binance-Peg IoTeX Network",
+	"contractAdd": "0x9678E42ceBEb63F23197D726B29b1CB20d0064E5",
+	"logoUrl": "https://bscscan.com/token/images/iotex_32.png",
+	"decimals": 18
+},{
+	"name": "SLP",
+	"dec": "Binance-Peg Smooth Love Potion",
+	"contractAdd": "0x070a08BeEF8d36734dD67A491202fF35a6A16d97",
+	"logoUrl": "https://bscscan.com/token/images/slpbsc_32.png",
+	"decimals": 18
+},{
+	"name": "SFM",
+	"dec": "SafeMoon",
+	"contractAdd": "0x42981d0bfbAf196529376EE702F2a9Eb9092fcB5",
+	"logoUrl": "https://bscscan.com/token/images/safemoon2_32.png",
+	"decimals": 18
+},{
+	"name": "BNT",
+	"dec": "Binance-Peg Bancor Network Token",
+	"contractAdd": "0xA069008A669e2Af00a86673D9D584cfb524A42Cc",
+	"logoUrl": "https://bscscan.com/token/images/bancor_32.png",
+	"decimals": 18
+},{
+	"name": "1INCH",
+	"dec": "1INCH Token",
+	"contractAdd": "0x111111111117dC0aa78b770fA6A738034120C302",
+	"logoUrl": "https://bscscan.com/token/images/1inch_32.png",
+	"decimals": 18
+},{
+	"name": "ZIL",
+	"dec": "Zilliqa",
+	"contractAdd": "0xb86AbCb37C3A4B64f74f59301AFF131a1BEcC787",
+	"logoUrl": "https://bscscan.com/token/images/zilliqa_32.png",
+	"decimals": 12
+},{
+	"name": "ONT ",
+	"dec": "Binance-Peg Ontology Token",
+	"contractAdd": "0xFd7B3A77848f1C2D67E05E54d78d174a0C850335",
+	"logoUrl": "https://bscscan.com/token/images/ontology_32.png",
+	"decimals": 18
+}]

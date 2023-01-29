@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_import_pool"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_16"
+        android:background="@drawable/swap_exchange_child_bg_bord"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_import_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_14"
+                android:src="?attr/icon_back_2_src" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_20"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/swap_import_pool"
+                        android:textColor="?attr/currency_color"
+                        android:textSize="@dimen/sp_18"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@mipmap/swap_exchange_setting" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/dp_20"
+                        android:layout_marginRight="@dimen/dp_20"
+                        android:src="@mipmap/swap_exchange_time" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_4"
+                    android:text="@string/swap_import_existing_pool"
+                    android:textColor="#ffb9accb"
+                    android:textSize="@dimen/sp_12" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="?attr/line_1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_54"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_16"
+            android:background="@drawable/swap_exchange_edit_bord"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/dp_28"
+                android:layout_height="@dimen/dp_28"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:src="@mipmap/icon_solana" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_6"
+                android:layout_marginRight="@dimen/dp_10"
+                android:layout_weight="1"
+                android:drawableRight="?attr/icon_white_down_src"
+                android:text="SOL"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_16"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/dp_10"
+            android:text="+"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_28" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_54"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:background="@drawable/swap_exchange_edit_bord"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/dp_28"
+                android:layout_height="@dimen/dp_28"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:src="@mipmap/transfer_accounts_ius" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_6"
+                android:layout_marginRight="@dimen/dp_10"
+                android:layout_weight="1"
+                android:drawableRight="?attr/icon_white_down_src"
+                android:text="IUS"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_16"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_100"
+            android:layout_margin="@dimen/dp_20"
+            android:background="@drawable/swap_select_token_liquidity_bord"
+            android:gravity="center"
+            android:text="@string/swap_find_choice"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_14" />
+
+    </LinearLayout>
+
+</LinearLayout>

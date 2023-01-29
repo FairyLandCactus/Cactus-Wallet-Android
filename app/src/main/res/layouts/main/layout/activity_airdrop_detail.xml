@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/color_bg_main"
+    android:orientation="vertical"
+    tools:context=".activity.AirdropDetailActivity">
+
+    <include layout="@layout/include_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_30"
+        android:text="@string/availables"
+        android:textColor="?attr/currency_color"
+        android:textSize="@dimen/sp_14" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_ius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+           android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_20"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_4"
+            android:text="IUS"
+           android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_14" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_right_now"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_40"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@drawable/btn_blue_1_bord"
+        android:gravity="center"
+        android:paddingLeft="@dimen/dp_20"
+        android:paddingRight="@dimen/dp_20"
+        android:text="@string/get_it_right_now"
+        android:textAllCaps="false"
+       android:textColor="@color/white"
+        android:textSize="@dimen/sp_16" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_16"
+            android:background="@drawable/gamefi_item_bg_bord"
+            android:orientation="vertical"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/airdrop_time"
+               android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_16" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_6"
+                android:text="2021.10.27-2021.10.31"
+                android:textColor="?attr/font_2_color"
+                android:textSize="@dimen/sp_16" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_16"
+                android:text="@string/receiving_condition"
+               android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_16" />
+
+            <TextView
+                android:id="@+id/tv_condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_6"
+                android:text="@string/ius_users"
+                android:textColor="?attr/font_2_color"
+                android:textSize="@dimen/sp_16" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_16"
+                android:text="@string/airdrop_rules"
+               android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_16" />
+
+            <TextView
+                android:id="@+id/tv_rules"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_6"
+                android:text="@string/meet_the_conditions"
+                android:textColor="?attr/font_2_color"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_16"
+                android:text="@string/project_introduction"
+               android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_16" />
+
+            <TextView
+                android:id="@+id/tv_introduction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_6"
+                android:text="@string/island_mining"
+                android:textColor="?attr/font_2_color"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_20"
+                android:text="@string/airdrop_is_only"
+                android:textColor="?attr/font_2_color"
+                android:textSize="@dimen/sp_12" />
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

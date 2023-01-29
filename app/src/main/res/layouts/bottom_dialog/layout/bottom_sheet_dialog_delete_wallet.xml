@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_sheet_dialog_bord"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_pwd_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="@string/delet_wallet"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_16" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/line_ccc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:gravity="center"
+            android:text="@string/delete_mnemonic"
+            android:textColor="?attr/font_color"
+            android:textSize="@dimen/sp_14" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@color/line_ccc" />
+
+        <TextView
+            android:id="@+id/tv_confirm_delete"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:gravity="center"
+            android:text="@string/confirm_deletion"
+            android:textColor="#ffff4c4c"
+            android:textSize="@dimen/sp_16" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_4"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_16" />
+
+    </LinearLayout>
+</LinearLayout>

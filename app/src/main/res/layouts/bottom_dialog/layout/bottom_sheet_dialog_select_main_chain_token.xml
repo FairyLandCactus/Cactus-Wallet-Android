@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_sheet_dialog_bord"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_16">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/token_select_main_chain"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_16" />
+
+            <ImageView
+                android:id="@+id/iv_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="?attr/dapp_close"
+                android:layout_marginRight="@dimen/dp_20"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/et_search_chain"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_36"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@drawable/add_token_search_bg_bord"
+            android:drawableLeft="@mipmap/icon_search"
+            android:drawablePadding="@dimen/dp_6"
+            android:hint="@string/hint_main_chain"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:inputType="text"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingRight="@dimen/dp_10"
+            android:textColor="?attr/currency_color"
+            android:textColorHint="@color/txt_999"
+            android:textSize="@dimen/sp_14" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:layout_marginTop="@dimen/dp_16"
+            android:background="?attr/line_1" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_main_chain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:overScrollMode="never"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_40"/>
+
+    </LinearLayout>
+</LinearLayout>

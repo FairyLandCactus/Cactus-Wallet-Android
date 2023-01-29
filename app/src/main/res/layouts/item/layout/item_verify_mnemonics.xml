@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_mnemonics"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp_40"
+        android:layout_weight="1"
+        android:text="chunk"
+        android:textColor="?attr/currency_color"
+        android:textSize="@dimen/sp_16"
+        android:gravity="center"
+        android:background="@drawable/verify_item_bg_bord"
+        />
+
+</LinearLayout>

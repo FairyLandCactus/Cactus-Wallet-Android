@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp_30"
+        android:background="@drawable/bottom_sheet_dialog_dapp_risk_bord"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_20"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dapp_opening"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/dp_16" />
+
+            <ImageView
+                android:id="@+id/iv_close"
+                android:layout_width="@dimen/dp_16"
+                android:layout_height="@dimen/dp_16"
+                android:layout_gravity="center_vertical"
+                android:src="?attr/dapp_close" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="?attr/line_1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/dp_120"
+                android:layout_height="wrap_content"
+                android:text="@string/dapp_name"
+                android:textColor="#ff748294"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BabySwap"
+                android:textColor="#ff9fb2c8"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/dp_120"
+                android:layout_height="wrap_content"
+                android:text="@string/dapp_info"
+                android:textColor="#ff748294"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/tv_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#ff9fb2c8"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_web_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/dp_120"
+                android:layout_height="wrap_content"
+                android:text="@string/dapp_website"
+                android:textColor="#ff748294"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/tv_website"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/dapp_copy"
+                android:drawablePadding="@dimen/dp_10"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                android:text="https://exchange.babys"
+                android:textColor="#ff9fb2c8"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="@dimen/dp_120"
+                android:layout_height="wrap_content"
+                android:text="@string/dapp_email"
+                android:textColor="#ff748294"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/dapp_copy"
+                android:drawablePadding="@dimen/dp_10"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                android:text="babysitter@b...swap.finae"
+                android:textColor="#ff9fb2c8"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_telegram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="@dimen/dp_120"
+                android:layout_height="wrap_content"
+                android:text="@string/dapp_telegram"
+                android:textColor="#ff748294"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/tv_telegram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/dapp_copy"
+                android:drawablePadding="@dimen/dp_10"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                android:text="https://t.me/baby_swap"
+                android:textColor="#ff9fb2c8"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_twitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="@dimen/dp_120"
+                android:layout_height="wrap_content"
+                android:text="@string/dapp_twitter"
+                android:textColor="#ff748294"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/tv_twitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/dapp_copy"
+                android:drawablePadding="@dimen/dp_10"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                android:text="https://t.me/baby_swap"
+                android:textColor="#ff9fb2c8"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/dp_16"
+            android:layout_weight="1"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginRight="@dimen/dp_20"
+                android:background="?attr/dapp_risk_tip_bg_color"
+                android:orientation="vertical"
+                android:padding="@dimen/dp_10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dapp_risk_warning"
+                    android:textColor="?attr/currency_color"
+                    android:textSize="@dimen/sp_16" />
+
+                <TextView
+                    android:id="@+id/tv_risk_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:text="@string/dapp_risk_dec"
+                    android:textColor="#ff7e8caf"
+                    android:textSize="@dimen/sp_12" />
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <Button
+            android:id="@+id/btn_got_it"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_45"
+            android:layout_margin="@dimen/dp_20"
+            android:background="@drawable/swap_exchane_btn_bord"
+            android:text="@string/got_it"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="@dimen/dp_16">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/dp_6"
+            android:src="@mipmap/sol_page_transfer" />
+
+        <TextView
+            android:id="@+id/tv_transfer_address"
+            android:layout_width="@dimen/dp_150"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Transfer"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_sol_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            android:text="0.00"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_13"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_6"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:text="2021-12-22 18:45"
+            android:textColor="@color/txt_999"
+            android:textSize="@dimen/dp_12" />
+
+        <TextView
+            android:id="@+id/tv_usdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="≈0.00USDT"
+            android:textColor="@color/txt_999"
+            android:textSize="@dimen/sp_12" />
+    </LinearLayout>
+
+</LinearLayout>

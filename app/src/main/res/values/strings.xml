@@ -1,0 +1,649 @@
+<resources>
+    <string name="app_name">Cactus</string>
+
+    <string name="start_page_dec">发现优质资产，尽在Cactus</string>
+    <string name="guide_brand">全新的数字资产</string>
+    <string name="guide_wallet">从Cactus钱包开始</string>
+    <string name="guide_multiple">拥有多种的钱包</string>
+    <string name="guide_various">可实现多种玩法</string>
+    <string name="guide_available">拥有黑白两种底色</string>
+    <string name="guide_switched">可以进行随意的切换</string>
+    <string name="guide_try_it_now">立即体验</string>
+    <string name="guide_jump">跳过</string>
+
+    <string name="wallet">应用</string>
+    <string name="storage">存储</string>
+    <string name="gamefi">我的</string>
+    <string name="swap">社交</string>
+    <string name="dapp">DApp</string>
+
+    <string name="number_letter">0123456789zxcvbnmasdfghjklqwertyuiopZXCVBNMASDFGHJKLQWERTYUIOP </string>
+    <string name="number_decimal">0123456789.</string>
+
+    <string name="pwd_error">密码错误</string>
+    <string name="no_wallet">你还没有钱包。请先创建一个钱包</string>
+    <string name="operate">不要频繁操作</string>
+    <string name="loading_data">加载数据中...</string>
+    <string name="request_abnormal">请求数据异常。请稍后再试</string>
+    <string name="request_exception">请求异常</string>
+    <string name="is_connect">钱包网络未连接 !</string>
+    <string name="connect_fail">当前网络不支持访问，请切换网络</string>
+    <string name="data_exception">数据异常</string>
+
+    <string name="language">语言</string>
+    <string name="select_language">选择语言</string>
+    <string name="chinese">简体中文</string>
+    <string name="english">英文</string>
+    <string name="russia">俄文</string>
+
+    <!--    我的钱包-->
+    <string name="application_wallet">应用钱包</string>
+    <string name="storage_wallet">存储钱包</string>
+    <string name="my_assets">我的资产</string>
+    <string name="scan">扫一扫</string>
+    <string name="transfer">转账</string>
+    <string name="collection">收款</string>
+    <string name="all_assets">全部资产</string>
+    <string name="add_currency">添加代币</string>
+    <string name="my_wallet">我的钱包</string>
+    <string name="tip_delete_token">您确定删除或者屏蔽当前代币吗？</string>
+    <string name="shield">屏蔽</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="reminder">温馨提示</string>
+    <string name="invalid_address">无效地址</string>
+    <string name="flow">流量:</string>
+    <string name="select_currency">选择币种</string>
+    <string name="select_wallet">选择钱包</string>
+    <string name="please_select_wallet">请选择钱包</string>
+    <string name="manage_wallet">管理钱包</string>
+    <string name="add_wallet">添加钱包</string>
+    <string name="transfer_error">交易失败</string>
+
+    <!--    Dapp-->
+    <string name="my">我的</string>
+    <string name="Cross_chain">跨链</string>
+    <string name="Aggregate_transaction">聚合交易</string>
+    <string name="ranking">排行</string>
+    <string name="sol">SOL</string>
+    <string name="ius">IUS</string>
+    <string name="news">New</string>
+    <string name="IRS">NFT</string>
+    <string name="bsc">BSC</string>
+    <string name="eth">ETH</string>
+    <string name="heco">HECO</string>
+    <string name="defii">Defi</string>
+    <string name="net">NET</string>
+    <string name="tron">TRON</string>
+    <string name="iost">IOST</string>
+    <string name="enter_dapp_web_address">输入DApp名称或网址</string>
+    <string name="defi">金融</string>
+    <string name="efficient_aggregator_on_sol_chain">sol 链上的高效聚合器</string>
+    <string name="recent_browsing">最近浏览</string>
+    <string name="dapp_money_security_smart">币安智能链(BSC)新项目</string>
+    <string name="dex">Dex</string>
+    <string name="GameFi">GameFi</string>
+    <string name="nft">NFT</string>
+    <string name="to_loan">借贷</string>
+    <string name="derivative">衍生品</string>
+    <string name="aggregation">收益聚合</string>
+    <string name="Asset_Bridge">资产桥</string>
+    <string name="Oracle">预言机</string>
+    <string name="dapp_opening">您即将跳转到DApp</string>
+    <string name="dapp_name">DApp 名称</string>
+    <string name="dapp_info">项目介绍</string>
+    <string name="dapp_website">网址</string>
+    <string name="dapp_email">邮箱</string>
+    <string name="dapp_telegram">Telegram</string>
+    <string name="dapp_twitter">Twitter</string>
+    <string name="dapp_risk_warning">风险提示</string>
+    <string name="dapp_copy_link">复制链接</string>
+    <string name="dapp_risk_dec">"1.DApp页面完全由该项目方控制，Cactus仅仅充
+当浏览器的作用，故请在使用该DApp时务必小心谨
+慎，转账请务必核对收款地址或合约地址；
+2.Cactus不推荐任何DApp，仅做收录，不构成投
+资意见。Cactus会尽可能收集更多客观信息，以帮
+助判断是否继续使用DApp；
+3.一旦您使用DApp后导致资产丢失，Cactus不承
+担任何责任，也不具备赔偿义务。Cactus将配合相
+关机构提取项目方数据配合调查；
+4.在使用该DApp时若遇到问题，可以通过上面联系
+方式与项目方取得联系，或联系Cactus客服;"</string>
+    <string name="swap_you_liquidity">您的流动性</string>
+    <string name="swap_remove_liquidity">移除流动性以收回代币</string>
+    <string name="swap_no_liquidity_found">未找到流动性</string>
+    <string name="swap_no_liquidity">未看到您加入的流动性池？</string>
+    <string name="swap_find_other_lp">查找其他LP代币</string>
+    <string name="swap_add_liquidity">增加流动性</string>
+    <string name="swap_import_pool">导入流动性池</string>
+    <string name="swap_import_existing_pool">导入现有流动性池</string>
+    <string name="swap_find_choice">选择代币以查找您的流动性</string>
+    <string name="swap_add_lp_token">增加流动性以接收LP代币</string>
+    <string name="dapp_sol_item_1">Solana上最人性化的Dex</string>
+    <string name="dapp_eth_item_1">Eth主流的交易市场</string>
+    <string name="dapp_interested">你可能感兴趣</string>
+    <string name="dapp_hide">隐藏</string>
+    <string name="dapp_display">展示</string>
+    <string name="dapp_Win_stepn">数字化时代来了—— 《兵俑剪纸长卷》Cactus合作NFT发行</string>
+    <string name="dapp_new">NEW</string>
+    <string name="dapp_ads">广告</string>
+    <string name="dapp_search_history">历史记录</string>
+    <string name="dapp_Weekend">周末荐读:纵览红杉加密投资版图，a1阐述Web3去中心化...</string>
+    <string name="classify">分类</string>
+    <string name="hot">热门</string>
+    <string name="av">影音</string>
+    <string name="Industry">工业</string>
+    <string name="Business">商务</string>
+    <string name="product">产品</string>
+    <string name="message">信息</string>
+    <string name="energy">能源</string>
+    <string name="technology">科技</string>
+    <string name="main_chain_2">支持主网</string>
+    <string name="click_switch">点击切换</string>
+
+
+    <!--    swap-->
+    <string name="QUOTATION">行情</string>
+    <string name="EXCHANGE">兑换</string>
+    <string name="web3">Web3</string>
+    <string name="nft_market">NFT市场</string>
+    <string name="exchange">兑换</string>
+    <string name="LANCHID">跨链桥</string>
+    <string name="Daily">每日</string>
+    <string name="Weekly">每周</string>
+    <string name="Quarerly">夸利</string>
+    <string name="Sundy">桑迪</string>
+    <string name="enter_contract_address">输入合同地址</string>
+    <string name="real_time_price">实时价格</string>
+    <string name="yuan_universe">元宇宙</string>
+    <string name="whole">全部</string>
+    <string name="swap_collect">收藏</string>
+    <string name="swap_increase_list">#涨幅榜</string>
+    <string name="swap_decline_list">#跌幅榜</string>
+    <string name="swap_new_currency_list">#新币榜</string>
+    <string name="swap_sell">卖出</string>
+    <string name="swap_buy">买入</string>
+    <string name="swap_balance">余额:</string>
+    <string name="swap_balance_2">余额</string>
+    <string name="swap_exchange">兑换</string>
+    <string name="swap_exchange_mobility">流动性</string>
+    <string name="swap_exchange_timely">及时交易代币</string>
+    <string name="swap_exchange_max">最大</string>
+    <string name="swap_exchange_slip">滑点容差</string>
+    <string name="swap_exchange_enter_amount">输入金额</string>
+    <string name="swap_exchange_select_token">选择代币</string>
+    <string name="swap_entrusted_price">委托价格/波动区间</string>
+    <string name="swap_slide_point">滑点设置/GAS FEE</string>
+    <string name="swap_enter_entrusted_price">请输入委托价格</string>
+    <string name="swap_entrusted_quantity">委托数量</string>
+    <string name="swap_enter_entrusted_quantity">请输入委托数量</string>
+    <string name="swap_expected_obtain">预计获得</string>
+    <string name="swap_liquidity_pool">流动性池</string>
+    <string name="swap_current_price">当前价格:</string>
+    <string name="swap_quantity">数量</string>
+    <string name="swap_please_select">请选择</string>
+    <string name="swap_place_order">提交订单</string>
+
+    <!--    我的-->
+    <string name="blind_box">盲盒</string>
+    <string name="airdrop">空投</string>
+    <string name="node">节点</string>
+    <string name="invite">邀请</string>
+    <string name="help_center">帮助中心</string>
+    <string name="telegram">Telegram</string>
+    <string name="follow_on_twitter">关注 Twitter</string>
+    <string name="about_ius">关于 Cactus</string>
+    <string name="set_up">设置</string>
+    <string name="my_wallet_node">钱包节点</string>
+    <string name="my_community">社区</string>
+
+    <!--    扫一扫-->
+    <string name="scan_for_transfer_address">请扫描二维码</string>
+    <string name="qr_code">二维码</string>
+    <string name="album">相册</string>
+    <string name="not_recognize_qr_code">无法识别图片二维码</string>
+
+    <!--    转账-->
+    <string name="collection_address">收款地址</string>
+    <string name="enter_collection_address">请输入收款地址</string>
+    <string name="transfer_quantity">转账数量</string>
+    <string name="gas_fee">燃料费</string>
+    <string name="gas_custom">自定义燃料费</string>
+    <string name="gas_price">燃料价格(GWEI)</string>
+    <string name="gas_limit">燃料限制</string>
+    <string name="gas_estimated">预计燃料费</string>
+    <string name="speed_fast">快</string>
+    <string name="speed_recommend">推荐</string>
+    <string name="speed_slow">慢</string>
+    <string name="usd_unknown">未知</string>
+    <string name="available">可用: </string>
+    <string name="memo">备注</string>
+    <string name="enter_memo">请输入备注</string>
+    <string name="fill_transfer_address">请填写转账地址</string>
+    <string name="fill_amount">请填写金额</string>
+    <string name="running_low">余额不足</string>
+    <string name="do_not_leave">正在转账，请不要离开当前页面！</string>
+    <string name="conform_transfer_loading">交易确认中，请稍等！</string>
+    <string name="transfer_succeeded">转账成功！</string>
+    <string name="recharge_succeeded">充值成功！</string>
+    <string name="transfer_fail">转账失败，请检查！</string>
+    <string name="transaction_data_processing">交易数据处理中，请勿离开当前页面...</string>
+    <string name="confirmation_of_transaction">交易数据确认中，请勿离开当前页面，以免数据丢失，请稍后...</string>
+
+    <!--    收款-->
+    <string name="enter_wallet_pwd">请输入您的钱包密码</string>
+    <string name="import_wallet_pwd">输入钱包密码</string>
+    <string name="confirm_wallet_pwd">确认钱包密码</string>
+    <string name="two_pwd_inconsistent">两次输入密码不一致</string>
+    <string name="note">注意：该地址只支持%s收款，请勿将其转移至其他公链资产。</string>
+    <string name="share">分享</string>
+    <string name="copy_address">复制地址</string>
+    <string name="scan_qr_code_pay_me">扫描二维码，向我支付</string>
+    <string name="collection_verify_tip">为了您的账户安全和确保您的地址没有被篡改，请输入您的钱包密码进行验证 </string>
+
+    <!--    添加代币-->
+    <string name="search_coin">搜索名称或输入合约地址</string>
+    <string name="search">搜索</string>
+    <string name="top_assets">热门资产</string>
+    <string name="add_other_tokens">添加其他代币</string>
+    <string name="input_content_empty">输入内容不能为空</string>
+    <string name="no_token">暂无此币种</string>
+    <string name="not_yet">你还没有钱包。请导入或创建钱包</string>
+    <string name="not_need_add_again">此代币已添加，无需再次添加</string>
+    <string name="hand_add_token">手动添加缺少的代币</string>
+    <string name="currency_name">代币名称</string>
+    <string name="enter_token_name">请输入代币简称</string>
+    <string name="token_address">代币地址</string>
+    <string name="enter_token_address">请输入代币合约地址</string>
+    <string name="token_description">代币描述</string>
+    <string name="enter_token_description">请输入代币描述</string>
+    <string name="token_Decimal">小数位(默认18位)</string>
+    <string name="enter_token_Decimal">请输入小数位</string>
+    <string name="token_add_icon">添加图标</string>
+    <string name="please_token_add_icon">请添加图标</string>
+    <string name="confirm_add">确认添加</string>
+    <string name="hint_main_chain">请输入主链名称</string>
+
+    <!--    交易记录-->
+    <string name="no_transaction_record">无交易记录</string>
+    <string name="pull_up_loading_record">上拉加载记录</string>
+    <string name="transaction_record">记录</string>
+    <string name="transfer_completed">转账完成</string>
+    <string name="transfer_address_this">转账地址（此钱包）</string>
+    <string name="transfer_in_address">转入地址</string>
+    <string name="miner_fee">手续费</string>
+    <string name="time">交易时间</string>
+    <string name="transaction_id">交易ID</string>
+    <string name="collection_completed">已收款</string>
+    <string name="tool">工具</string>
+    <string name="asset_introduction">关于</string>
+    <string name="tool_block_browser">区块浏览器</string>
+    <string name="tool_detection">授权检测</string>
+    <string name="tool_defi">DeFi排行榜</string>
+    <string name="web3_spece">个人空间</string>
+    <string name="web3_friends_list">好友列表</string>
+    <string name="web3_world">Web3世界</string>
+    <string name="web3_trajectory">轨迹</string>
+    <string name="put_away">    收起</string>
+    <string name="view_all">查看全部</string>
+    <string name="coin_info">币信息</string>
+    <string name="token_name">代币名称</string>
+    <string name="project_name">项目名称</string>
+    <string name="total_circulation">总发行量</string>
+    <string name="token_address2">合约地址</string>
+    <string name="bnb_dec">"Binance Coin是由币安发行的代币，简称BNB,是基于以太坊Ethereum的
+去中心化的区块链数字资产。发行总量恒定为2亿个，每个季度根据币安
+平台当季交易量对BNB进行销毁,销毁记录将会第-时间公布，用户可通
+过区块链浏览器查询,确保公开透明，直至销毁到总量为1亿个BNB币为
+止。
+BNB作为Binance生态系统和去中心化交易所燃料,已经应用到多个场
+景,如用BNB抵扣binance交易手续费，最高可获得50%的折扣,在
+Monaco Visa及APP应用中可使用BNB支付，在Uplive直播平台可以使用
+BNB购买虚拟礼物等。目前BNB排名稳居全球TOP20,最佳排名为全球
+TOP10,受到全球180余国家和地区区块链爱好者的支持。
+"</string>
+    <string name="solana_dec">"Solana由前高通,英特尔和Dropbox工程师于2017年底创立,是一种单链
+委托权益证明协议，其重点是在不降低分散性或安全性的前提下提供可扩
+展性。Solana扩展解决方案的核心是名为”历史证明(PoH) "的分散式时
+钟，旨在解决分布式网络中没有单个可信赖时间源的时间问题。通过使用
+可验证的延迟功能,PoH允许每个节点使用SHA256计算在本地生成时间
+戳。这样就无需在整个网络上广播时间戳，从而提高了整体网络效率。
+SOL是Solana区块链的本地令牌。Solana使用委托权益证明共识算法来激
+励令牌持有者验证交易。作为Solana安全设计的一部分，所有费用都将在
+SOL中支付并被烧掉,从而减少总供应量。这种通货紧缩的SOL机制激励
+了更多的代币持有者参股,从而提高了网络安全性。"</string>
+    <string name="delete_record">确定删除此记录吗？</string>
+
+    <!--    钱包管理-->
+    <string name="enter_wallet_name">请输入钱包名称</string>
+    <string name="modified_successfully">修改成功</string>
+    <string name="add">添加</string>
+    <string name="enter_new_wallet_name">输入新的钱包名称</string>
+    <string name="private_key">私钥</string>
+    <string name="close">关闭</string>
+    <string name="copy">复制</string>
+    <string name="delet_wallet">您确定要删除钱包吗？</string>
+    <string name="delete_mnemonic">删除后，您可以通过备份助记符重新导入钱包</string>
+    <string name="confirm_deletion">确认删除</string>
+    <string name="modify_wallet_name">修改钱包名称</string>
+    <string name="view_private_key">查看私钥</string>
+    <string name="view_mnemonics">查看助记词</string>
+    <string name="wallet_id">钱包ID</string>
+    <string name="delete_wallet">删除钱包</string>
+    <string name="mn_transcribe">建议手写抄录</string>
+    <string name="mn_digital_copy">请勿复制保存</string>
+    <string name="mn_screenshot">请勿截屏保存</string>
+
+    <!--    添加钱包-->
+    <string name="multi_chain">专注DeFi的多链钱包</string>
+    <string name="suppurt_more">支持包括BTC，ETH，BSC，HECO，OKT，TRX，DOT，FIL等在内的超过30条公链</string>
+    <string name="create_new_wallet">创建新钱包</string>
+    <string name="brand_new_wallet">创建一个全新的钱包</string>
+    <string name="import_existing_wallet">导入已有钱包</string>
+    <string name="import_mnemonic_private_key">从备份的钱包助记词或私钥中导入</string>
+    <string name="select_wallet_type">选择导入钱包类型</string>
+    <string name="select_create_wallet_type">选择需要添加的钱包</string>
+    <string name="select_main_chain">请选择主链</string>
+    <string name="next_stept">下一步</string>
+
+    <!--    助记词-->
+    <string name="not_take_screenshots">请勿拍照截屏</string>
+    <string name="cameras_around">请勿截屏分享和储存，并注意周围是否有其他人或摄像头。</string>
+    <string name="safe_place">请在纸质文本上正确抄写助记词，并保存在安全的地方。</string>
+    <string name="got_it">知道了</string>
+    <string name="backup_mnemonics">备份助记词</string>
+    <string name="they_are_correct">请按顺序抄写以下助记词并确保正确</string>
+    <string name="toggle_24">切换24位助记词</string>
+    <string name="toggle_12">切换12位助记词</string>
+    <string name="change_group">换一组</string>
+    <string name="backed_up">我已备份</string>
+    <string name="mnemonics_properly">助记词相当于钱包的钥匙，拥有助记词就等同于拥有钱包。请妥善保管好您的助记词。</string>
+    <string name="retrieve_your_wallet">Cactus不会在服务器上保存您的助记词，故一旦丢失，Cactus也无法帮您找回钱包</string>
+    <string name="usually_composed">助记词一般较为常用的为12位或24位单词组成，单词数量越多，越安全</string>
+
+    <!--    助记词验证-->
+    <string name="enter_th_word">请输入第%s个单词</string>
+    <string name="enter_th_word_1">第%s个</string>
+    <string name="word_wrong">第%s个单词是错误的</string>
+    <string name="wallet_create_success">钱包创建成功</string>
+    <string name="verification_mnemonics">验证助记词</string>
+    <string name="verify_the_following_questions">请按序号选择正确的助记词</string>
+    <string name="enter_mnemonics">输入助记词</string>
+
+    <!--    导入钱包-->
+    <string name="separated_by_spaces">请输入助记词或私钥，助记词之间用空格隔开</string>
+    <string name="enter_mnemonic_or_private_key">请输入助记词或私钥</string>
+    <string name="confirm_import">确认导入</string>
+    <string name="inprot_wallet_success">钱包导入成功</string>
+    <string name="mnemonics_private_title">什么是助记词和私钥</string>
+    <string name="mnemonics_private_1">助记词是一组随机生成的12个英文单词，一组助记词可以管理所有主链下的钱包。</string>
+    <string name="mnemonics_private_2">私钥是一组无序无规则的字符串，一组私钥只能管理一个或多个主链下的钱包。</string>
+    <string name="mnemonics_private_3">请尽量不要通过复制粘贴输入助记词或私钥，因为在复制后，很有可能会被其他软件监听到内容。</string>
+
+    <!--    邀请-->
+    <string name="invite_friends">邀请好友</string>
+    <string name="together">邀请好友一启使用Cactus吧</string>
+    <string name="scan_install_ius">扫一扫安装Cactus</string>
+    <string name="share_install_ius">分享链接安装Cactus</string>
+    <string name="share_with_your_friends">分享给好友</string>
+
+    <!--    空投-->
+    <string name="claim_airdrop">领取空投</string>
+    <string name="ongoing">进行中</string>
+    <string name="ended">已结束</string>
+    <string name="event_time">活动时间</string>
+    <string name="availables">可领取</string>
+    <string name="get_it_right_now">立即领取</string>
+    <string name="airdrop_time">空投时间</string>
+    <string name="receiving_condition">领取条件</string>
+    <string name="ius_users">IUS 用户</string>
+    <string name="airdrop_rules">空投规则</string>
+    <string name="meet_the_conditions">参与了IUSA和IUS活动的用户，符合条件即可领取</string>
+    <string name="project_introduction">Project Introduction</string>
+    <string name="island_mining">挖矿岛屿是一个建立在币安智能链（BSC）上的元宇宙，包括交易平台和NFT交易市场，未来还会有社交平台</string>
+    <string name="airdrop_is_only">*DeFi空投仅为粉丝福利活动，不作为投资建议。IUS提醒用户，数字资产价格波动较大，请用户在充分了解并接受数字资产投资后谨慎参与。本次IUS空投最终解释权归IUS所有</string>
+
+    <string name="Website">网站</string>
+    <string name="Mail">邮箱</string>
+    <string name="user_agreement">用户使用协议</string>
+    <string name="privacy_agreement">隐私协议</string>
+    <string name="version">版本</string>
+    <string name="one_star_per_week">每周一篇</string>
+    <string name="use_settings">使用设备</string>
+    <string name="Address_book_management">地址本管理</string>
+    <string name="Security_settings">安全设置</string>
+    <string name="open_pwd">使用钱包密码开启</string>
+    <string name="Secret">本次使用期间免密支付</string>
+    <string name="Currency_unit">货币单位</string>
+    <string name="DApp_node_settings">IUS节点设置</string>
+    <string name="Display_setting">显示设置</string>
+    <string name="Display_setting_theme">显示模式</string>
+    <string name="about_us_dec">cactus是一款基于Solana的完全分散式移动钱包。它的工作原理是代表用户创建和管理私钥，允许用户存储资金和签署交易。可用于管理数字资产和访问Solana区块链上分散的应用程序。</string>
+
+    <!--    地址管理-->
+    <string name="no_address_added_yet">还没有添加地址</string>
+    <string name="add_new_address">添加新地址</string>
+    <string name="edit_address">编辑地址</string>
+    <string name="hint_name">请输入您的地址名称</string>
+    <string name="hint_address">请输入地址</string>
+    <string name="tip_delete_address">您确定删除该地址吗？</string>
+    <string name="delete_succeeded">删除成功</string>
+    <string name="address_name">地址名称</string>
+    <string name="enter_address">输入地址</string>
+    <string name="choose_your_own_network">选择您自己的网络</string>
+    <string name="delete">删除</string>
+    <string name="save">保存</string>
+    <string name="add_address">添加地址</string>
+    <string name="incorrect_input">输入错误</string>
+    <string name="wallet_already_exists">钱包已经存在了</string>
+    <string name="address_alrealy_exists">地址已经存在</string>
+    <string name="added_successfully">添加成功</string>
+    <string name="seed_forced">种子太短，可能会被暴力破解</string>
+    <string name="invalid_public_key_input">无效的公钥输入</string>
+    <string name="max_seed_length_exceeded">超过最大种子长度</string>
+    <string name="invalid_seeds">无效种子，地址必须从曲线上脱落</string>
+    <string name="program_address_nonce">暂时找不到可行的程序地址</string>
+    <string name="address_book">地址本</string>
+
+
+    <!--    自定义添加代币-->
+    <string name="token_custom_add_token">自定义添加代币</string>
+    <string name="token_corresponding">没有找到相应代币，可点击下方按钮添加</string>
+    <string name="token_select_main_chain">选择主链</string>
+    <string name="token_select_add_wallet">选择钱包</string>
+    <string name="token_is_add_token">是否添加代币</string>
+    <string name="token_no_add">暂不添加</string>
+    <string name="token_right_add">立即添加</string>
+    <string name="token_dialog_select_main_chain">选择代币所在主链</string>
+    <string name="token_dialog_select_add_wallet">选择要添加的钱包</string>
+    <string name="token_no_found_contract">没有找到合约地址</string>
+    <string name="token_no_type">此类型代币暂未开放</string>
+    <string name="token_no_wallet">您还没有此类型代币的钱包，创建后添加</string>
+
+    <string name="no_wallet_data">暂无钱包，请创建</string>
+    <string name="no_more_data">没有更多数据了</string>
+    <string name="no_data">暂无数据</string>
+    <string name="dilog_ok">好的</string>
+    <string name="not_yet_open">暂未开放</string>
+    <string name="main_chain">主链</string>
+    <string name="copied_text">已复制</string>
+    <string name="press_again_to_exit">再按一次退出</string>
+    <string name="new_version">发现新版本</string>
+    <string name="version_update">版本更新</string>
+    <string name="downloading_update">正在下载更新中</string>
+    <string name="version_update_permission">请允许权限进行下载安装</string>
+    <string name="app_downloading">软件下载中，请稍后...</string>
+    <string name="is_upgrade_version">是否升级到%s版本？</string>
+    <string name="now_update_app">立即更新</string>
+    <string name="approve">批准</string>
+    <string name="request_link">请求链接</string>
+    <string name="transfer_in">转入地址</string>
+    <string name="transfer_out">转出地址</string>
+    <string name="exchang_quantity">数量</string>
+    <string name="operate_after_purchase">您还没有该币种，请购买后操作!</string>
+    <string name="cannot_read_encrypt_file">钱包无法读取加密密钥。需要重新导入</string>
+    <string name="authentication_error">没有提供正确的身份验证来解锁密钥或超时。请再试一遍</string>
+    <string name="device_security_changed">创建此密钥后，移动设备的安全性已更改，并且操作系统使密钥无效。请重新导入您的密钥</string>
+    <string name="message_authentication_failed">身份验证失败</string>
+    <string name="message_reject_request">遭到用户拒绝</string>
+    <string name="dialog_reject">拒绝</string>
+    <string name="dialog_approve">同意</string>
+    <string name="session_terminated">会话已终止。请启动重DAPP并重新连接钱包。</string>
+
+    <!--    dapp 工具-->
+    <string name="Blockchain_browser">区块链浏览器</string>
+    <string name="blockchain_browser_porta">多链区块链浏览器入口</string>
+    <string name="Batch_transfer">批量转账</string>
+    <string name="batch_transfer_tool">多链批量转账工具</string>
+    <string name="Contract_inspection">合约检测</string>
+    <string name="contract_detection_tool">多链代币合约检测工具</string>
+    <string name="Transaction_authorization">交易授权</string>
+    <string name="Transaction_loading">交易进行中，请勿离开当前页面...</string>
+    <string name="user_cancle">用户取消授权</string>
+    <string name="Risk_statement">当前使用代币非官方发布的代币，请谨慎使用，谨防上当受骗！</string>
+    <string name="connect_request">连接请求中...</string>
+    <string name="detector">探测器</string>
+    <string name="close_wsol_tip">您正在解包%s WSOL,这会将WSOL转成SOL并关闭此代币账户</string>
+    <string name="close_success_wsol">WSOL关闭成功!</string>
+    <string name="request_timeout">请求超时!</string>
+    <string name="verify_fingerprint">验证指纹</string>
+    <string name="fingerprint_authentication_failed">指纹认证失败，请再试一次</string>
+    <string name="invite_bind">绑定邀请</string>
+    <string name="bind_wallet">绑定钱包</string>
+    <string name="binding_courtesy">绑定有礼</string>
+    <string name="airdrop_gifts">手机绑定钱包，领取更多空投好礼</string>
+    <string name="bind_now">立即绑定</string>
+    <string name="unbound">暂不绑定</string>
+    <string name="invite_mobile_ID">邀请手机ID</string>
+    <string name="my_wallet_address">我的钱包地址</string>
+    <string name="My_mobile_ID">我的手机ID</string>
+    <string name="hint_invite_mobile_id">请输入邀请手机ID</string>
+    <string name="hint_wallet_address">请输入钱包地址</string>
+    <string name="submitting_data">提交数据中...</string>
+    <string name="moblie_id">手机ID: </string>
+    <string name="verification_data">验证数据中...</string>
+    <string name="error_in_invitation_QR_code">邀请二维码有误</string>
+    <string name="pwd_verify">密码验证</string>
+    <string name="pay_address">付款地址</string>
+    <string name="Receiving_address">接收地址</string>
+    <string name="unlimited">无限制</string>
+    <string name="Authorized_quantity">授权数量</string>
+    <string name="token_value">价值</string>
+    <string name="Data_processing">数据处理中...</string>
+    <string name="Authorization_Risk">授权风险</string>
+    <string name="Authorization_Risk_msg">注意！授予此权限后，该合约将会获得您%s的转账权限，如果该合约为恶意合约，会有被盗的风险，请务必确当前链接是可信赖的！</string>
+    <string name="articles_source">来源：</string>
+    <string name="permissions_tip">您拒绝该权限，将不能正常使用聊天软件定位附近的人,如果需要再次使用定位权限，请到设置>应用设置>应用管理>Cactus>权限管理,找到定位权限授权后就能正常使用定位权限！</string>
+    <string name="sweep_wallet_fragment_request_wallet_balance_failed_connection">您和Electrum网络的链接不良。</string>
+    <string name="sweep_wallet_fragment_request_wallet_balance_empty">纸钱包是空的。</string>
+
+    <!--    社区会议-->
+    <string name="creat_meeting">创建会议</string>
+    <string name="creat_meeting_dec">仅您发起链接邀请的好友可加入此会议</string>
+    <string name="join_meeting">加入会议</string>
+    <string name="join_meeting_dec">输入创建人设置的会议号即可加入会议</string>
+    <string name="meeting_no">会议号</string>
+    <string name="meeting_name">会议名</string>
+    <string name="meeting_person">会议人数</string>
+    <string name="hint_meeting_no">请输入会议号</string>
+    <string name="hint_meeting_name">请输入会议室的名字</string>
+    <string name="hint_meeting_person">请输入会议的人数</string>
+    <string name="open_mike">开启麦克风</string>
+    <string name="open_speaker">开启扬声器</string>
+    <string name="open_video">开启视频</string>
+    <string name="meeting_room">会议室(%s人)</string>
+    <string name="moderator">(主持人)</string>
+    <string name="member">(成员)</string>
+    <string name="mute">静音</string>
+    <string name="video">开启视频</string>
+    <string name="member_manager">成员管理</string>
+    <string name="meeting_member">会议成员</string>
+    <string name="more">更多</string>
+    <string name="meeting_user_name">您的名称</string>
+    <string name="meeting_header">您的头像</string>
+    <string name="hint_user_name">请输入您的名称</string>
+    <string name="member_list">成员列表</string>
+    <string name="kick_out">踢出</string>
+    <string name="more_intive">邀请</string>
+    <string name="more_safe">安全</string>
+    <string name="more_chat">聊天</string>
+    <string name="more_red_paper">红包</string>
+    <string name="more_float_window">浮窗</string>
+    <string name="more_set">设置</string>
+    <string name="select_invite_type">请选择邀请方式</string>
+    <string name="invite_weichat">微信</string>
+    <string name="invite_qq">QQ</string>
+    <string name="invite_copy">复制邀请</string>
+    <string name="invite_qr">二维码</string>
+    <string name="set_host">主持人设置</string>
+    <string name="set_member_join_mute">成员入会时静音</string>
+    <string name="set_timeout_open">超过6人时自动开启</string>
+    <string name="set_member_join_tip_voice">成员进入时播放提示音</string>
+    <string name="set_local_recording_permissions">本地录制权限</string>
+    <string name="set_only_host_record">仅主持人可录制</string>
+    <string name="set_open_subtitle">允许成员开启字幕</string>
+    <string name="set_personal">个人设置</string>
+    <string name="set_mine_name">我的名称</string>
+    <string name="set_mine_header">我的头像</string>
+    <string name="set_open_mike_window">开启麦克风浮窗</string>
+    <string name="set_voice_mode">语音模式</string>
+    <string name="set_video_mirroring">视频镜像</string>
+    <string name="set_show_duration">显示参会时长</string>
+    <string name="set_show_bullet_chat">显示弹幕</string>
+    <string name="set_voice_stimulation">语音激励</string>
+    <string name="set_noise_reduction">视频降噪</string>
+    <string name="safe_meeting_manager">会议管理</string>
+    <string name="safe_lock_meeting">锁定会议</string>
+    <string name="safe_open_waiting_room">开启等候室</string>
+    <string name="safe_hide_pwd">隐藏会议号和密码</string>
+    <string name="safe_allow_participants">允许参会者</string>
+    <string name="safe_initiate_sharing">发起共享</string>
+    <string name="safe_own_chat">自有聊天</string>
+    <string name="safe_open_video">开启视频</string>
+    <string name="safe_change_name">改名</string>
+    <string name="safe_self_unmute">自我解除静音</string>
+    <string name="safe_sharing_apps">分享应用</string>
+    <string name="safe_comments">互动批注</string>
+    <string name="red_send">发红包</string>
+    <string name="red_luck">拼手气红包</string>
+    <string name="red_number">红包个数</string>
+    <string name="red_hint_num">填写个数</string>
+    <string name="red_num">个</string>
+    <string name="red_join_member">当前参会人数%s人</string>
+    <string name="red_total_money">总金额</string>
+    <string name="red_default_blessing">恭喜发财，大吉大利</string>
+    <string name="red_hint_blessing">请输入祝福语</string>
+    <string name="red_into">塞钱进红包</string>
+    <string name="red_timeout_back">未领取的红包，将于24小时后发起退款</string>
+    <string name="red_common">普通红包</string>
+    <string name="share_meeting_qr">会议二维码</string>
+    <string name="share_hour">%s小时</string>
+    <string name="share_tip">请使用手机端Cactus App的社区扫码入会</string>
+    <string name="share_save_camer">保存到相册</string>
+    <string name="share_save_camer_tip">以保存到保相册，请前往查看！</string>
+    <string name="share_launch">%s发起的会议</string>
+    <string name="meeting_num_tip">会议人数不能低于2人</string>
+    <string name="exit_meeting_tip">如果您不想结束会议，请离开会议前指定新的主持人</string>
+    <string name="exit_meeting_member_tip">你确定要离开会议吗？</string>
+    <string name="leav_meeting">离开会议</string>
+    <string name="end_meeting">结束会议</string>
+    <string name="prem_tip">如果不授权将不能正常使用相关的功能!</string>
+    <string name="entering_meeting">正在进入会议中...</string>
+    <string name="kick_out_tip">你已被踢出房间</string>
+    <string name="room_disbanded_tip">房间已解散</string>
+    <string name="meeting_max_personal">会议最多容纳300人</string>
+    <string name="meeting_share_dec">%s组织的会议正在Cactus进行中,请尽快加入会议\n会议号: %s</string>
+    <string name="not_indtall_weichat_tip">检测到您未安装微信，安装后再试</string>
+    <string name="not_indtall_qq_tip">检测到您未安装QQ，安装后再试</string>
+    <string name="open_float_window_tip">使用浮窗功能，需要您授权悬浮窗权限</string>
+    <string name="go_open">去开启</string>
+    <string name="send">发送</string>
+    <string name="message_overrun_tip">消息过长，最多可发送200字</string>
+
+    <string name="net_parsing">解析数据异常</string>
+    <string name="net_request">服务器更新或异常，请稍后再试</string>
+    <string name="net_abnormal">网络连接异常，请检查网络</string>
+    <string name="net_connect">请求连接超时，请稍后再试</string>
+    <string name="net_unknown">系统未知错误</string>
+
+</resources>

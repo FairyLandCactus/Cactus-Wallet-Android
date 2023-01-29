@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/color_bg_main"
+    android:orientation="vertical"
+    tools:context=".activity.MyWalletActivity">
+
+    <include layout="@layout/include_title" />
+
+    <LinearLayout
+        android:id="@+id/ll_modify_Wallet_Name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="?attr/wallet_manager_item_bg_color"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_weight="1"
+            android:drawableRight="?attr/icon_in_src"
+            android:text="@string/modify_wallet_name"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_view_private_key"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginTop="@dimen/dp_4"
+        android:background="?attr/wallet_manager_item_bg_color"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_weight="1"
+            android:drawableRight="?attr/icon_in_src"
+            android:text="@string/view_private_key"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_view_mnemonics"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginTop="@dimen/dp_4"
+        android:background="?attr/wallet_manager_item_bg_color"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_weight="1"
+            android:drawableRight="@mipmap/icon_in"
+            android:text="@string/view_mnemonics"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_wallet_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_4"
+        android:padding="@dimen/dp_10"
+        android:background="?attr/wallet_manager_item_bg_color"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:text="@string/wallet_id"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_16" />
+
+        <TextView
+            android:id="@+id/tv_wallet_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/dp_6"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:drawableRight="@mipmap/collection_copy"
+            android:drawablePadding="@dimen/dp_6"
+            android:textIsSelectable="true"
+            android:textColor="#ffc8c8c8"
+            android:textSize="@dimen/sp_11" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btn_delete_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:background="@drawable/btn_delete_wallet_bord"
+        android:layout_marginRight="@dimen/dp_30"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginBottom="@dimen/dp_40"
+        style="?attr/borderlessButtonStyle"
+        android:textAllCaps="false"
+        android:text="@string/delete_wallet"
+        android:textColor="@color/txt_EB1D1D"
+        android:textSize="@dimen/sp_16"/>
+</LinearLayout>

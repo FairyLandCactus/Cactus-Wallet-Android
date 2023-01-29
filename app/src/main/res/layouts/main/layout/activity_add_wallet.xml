@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/color_bg_main"
+    android:orientation="vertical"
+    tools:context=".activity.AddWalletActivity">
+
+    <include layout="@layout/include_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_280"
+        android:layout_margin="@dimen/dp_16"
+        android:background="@mipmap/add_wallet_bg">
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/multi_chain"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/suppurt_more"
+                android:textColor="#ffc7c7c7"
+                android:textSize="@dimen/sp_12" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_create_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"
+        android:background="@drawable/bg_add_wallet_bord"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_20"
+        android:paddingRight="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_20">
+
+        <ImageView
+            android:id="@+id/iv_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_6"
+            android:src="?attr/add_wallet_establish_src" />
+
+        <TextView
+            android:id="@+id/tv_create_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_create"
+            android:text="@string/create_new_wallet"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_create_title"
+            android:layout_toRightOf="@+id/iv_create"
+            android:text="@string/brand_new_wallet"
+            android:textColor="?attr/font_color"
+            android:textSize="@dimen/sp_14" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_import_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"
+        android:background="@drawable/bg_add_wallet_bord"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_20"
+        android:paddingRight="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_20">
+
+        <ImageView
+            android:id="@+id/iv_import"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_6"
+            android:src="?attr/add_wallet_import_src" />
+
+        <TextView
+            android:id="@+id/tv_import_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_import"
+            android:text="@string/import_existing_wallet"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_import_title"
+            android:layout_toRightOf="@+id/iv_import"
+            android:text="@string/import_mnemonic_private_key"
+            android:textColor="?attr/font_color"
+            android:textSize="@dimen/sp_14" />
+    </RelativeLayout>
+
+</LinearLayout>

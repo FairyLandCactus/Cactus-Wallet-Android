@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_liquidity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_16"
+        android:background="@drawable/swap_exchange_child_bg_bord"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_20"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/swap_you_liquidity"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_18"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/swap_exchange_setting" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginRight="@dimen/dp_20"
+                android:src="@mipmap/swap_exchange_time" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_4"
+            android:text="@string/swap_remove_liquidity"
+            android:textColor="#ffb9accb"
+            android:textSize="@dimen/sp_12" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_20"
+            android:background="?attr/swap_lquidity_bg_coloe"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dp_20"
+                android:text="@string/swap_no_liquidity_found"
+                android:gravity="center"
+                android:textColor="#ffb9accb"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dp_10"
+                android:text="@string/swap_no_liquidity"
+                android:textColor="#ffb9accb"
+                android:gravity="center"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:id="@+id/tv_look_other_token"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_36"
+                android:layout_marginLeft="@dimen/dp_60"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_60"
+                android:layout_marginBottom="@dimen/dp_20"
+                android:background="@drawable/swap_btn_max_bord"
+                android:gravity="center"
+                android:text="@string/swap_find_other_lp"
+                android:textColor="#ff06d0dd"
+                android:textSize="@dimen/sp_16" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_add_liquidity"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:layout_margin="@dimen/dp_20"
+            android:background="@drawable/swap_liquidity_btn_bg_bord"
+            android:text="@string/swap_add_liquidity"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_14"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>

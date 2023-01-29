@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_line_bord_dp10"
+    android:padding="@dimen/dp_16">
+
+    <ImageView
+        android:id="@+id/iv_float_call"
+        android:layout_width="@dimen/dp_60"
+        android:layout_height="@dimen/dp_40"
+        android:src="@mipmap/videocall_float_logo"/>
+</RelativeLayout>

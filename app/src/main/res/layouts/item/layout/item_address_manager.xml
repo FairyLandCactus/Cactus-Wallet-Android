@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp_16">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:text="My Address"
+        android:textColor="?attr/currency_color"
+        android:textSize="@dimen/sp_14" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_4"
+        android:layout_marginRight="@dimen/dp_50"
+        android:text="254d58dd85fe8f47s4sf7474rrd47f4r7"
+        android:textColor="?attr/font_2_color"
+        android:textIsSelectable="true"
+        android:textSize="@dimen/sp_12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dp_16"
+        android:text="..."
+        android:textColor="?attr/font_color"
+        android:textSize="@dimen/sp_28" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:layout_below="@+id/tv_address"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="?attr/font_color" />
+
+</RelativeLayout>

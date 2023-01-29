@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_sheet_dialog_bord"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_16"
+            android:src="@mipmap/mnemonic_words_popup_warning" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="@string/not_take_screenshots"
+            android:textColor="@color/txt_333"
+            android:textSize="@dimen/sp_16" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:layout_marginTop="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_10"
+            android:button="@drawable/point_bord"
+            android:gravity="top"
+            android:paddingLeft="@dimen/dp_6"
+            android:text="@string/cameras_around"
+            android:textColor="#ffb0b0b0"
+            android:textSize="@dimen/sp_14" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:button="@drawable/point_bord"
+            android:gravity="top"
+            android:paddingLeft="@dimen/dp_6"
+            android:text="@string/safe_place"
+            android:textColor="#ffb0b0b0"
+            android:textSize="@dimen/sp_14" />
+
+        <Button
+            android:id="@+id/btn_got_it"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_45"
+            android:layout_margin="@dimen/dp_30"
+            android:background="@drawable/bottom_sheet_wallet_manager_bord"
+            android:text="@string/got_it"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_16" />
+    </LinearLayout>
+</LinearLayout>

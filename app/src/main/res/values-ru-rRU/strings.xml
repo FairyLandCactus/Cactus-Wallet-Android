@@ -1,0 +1,647 @@
+<resources>
+    <string name="app_name">Cactus</string>
+
+    <string name="start_page_dec">Откройте для себя высококачественные активы с Cactus</string>
+    <string name="guide_brand">Совершенно новый цифровой актив</string>
+    <string name="guide_wallet">Начните с кошелька Cactus</string>
+    <string name="guide_multiple">Иметь разные кошельки</string>
+    <string name="guide_various">Различные способы игры</string>
+    <string name="guide_available">Доступен в черном и белом цветах </string>
+    <string name="guide_switched">Можно переключать по желанию</string>
+    <string name="guide_try_it_now">Попробуй это сейчас</string>
+    <string name="guide_jump">пропустить</string>
+
+    <string name="wallet">Apply</string>
+    <string name="storage">Storage</string>
+    <string name="gamefi">мой</string>
+    <string name="swap">обмен</string>
+    <string name="dapp">DApp</string>
+
+    <string name="number_letter">0123456789zxcvbnmasdfghjklqwertyuiopZXCVBNMASDFGHJKLQWERTYUIOP </string>
+    <string name="number_decimal">0123456789.</string>
+
+    <string name="pwd_error">ошибка пароля</string>
+    <string name="no_wallet">У тебя еще нет бумажника.  Сначала создайте бумажник</string>
+    <string name="operate">не часто работать</string>
+    <string name="loading_data">Загрузка данных...</string>
+    <string name="request_abnormal">запрашиваемые данные аномальны.  Попробуйте позже</string>
+    <string name="request_exception">Ошибка запроса</string>
+    <string name="is_connect">бумажник не подключен !</string>
+    <string name="connect_fail">текущая сеть не поддерживает доступ, переключите сеть</string>
+    <string name="data_exception">аномалия данных</string>
+
+    <string name="language">язык</string>
+    <string name="select_language">язык</string>
+    <string name="chinese">китайский язык</string>
+    <string name="english">английский</string>
+    <string name="russia">русский язык</string>
+
+    <!--    我的钱包-->
+    <string name="application_wallet">прикладной кошелек</string>
+    <string name="storage_wallet">сохранить бумажник</string>
+    <string name="my_assets">мои активы</string>
+    <string name="scan">подметать</string>
+    <string name="transfer">трансферт</string>
+    <string name="collection">инкассо</string>
+    <string name="all_assets">все активы</string>
+    <string name="add_currency">Добавить знак</string>
+    <string name="my_wallet">мой кошелек</string>
+    <string name="tip_delete_token">Удалить или экранировать текущую валюту？</string>
+    <string name="confirm">определение</string>
+    <string name="shield">Скрыть</string>
+    <string name="cancel">отмена</string>
+    <string name="reminder">подсказка</string>
+    <string name="invalid_address">недействительный адрес</string>
+    <string name="flow">поток:</string>
+    <string name="select_currency">Выбор валюты</string>
+    <string name="select_wallet">выбор бумажника</string>
+    <string name="please_select_wallet">Пожалуйста, выберите кошелек</string>
+    <string name="manage_wallet">Управление</string>
+    <string name="add_wallet">Добавить</string>
+    <string name="transfer_error">Ошибка сделки</string>
+
+    <!--    Dapp-->
+    <string name="my">мой</string>
+    <string name="Cross_chain">пролётная цепь</string>
+    <string name="Aggregate_transaction">Полимеризация</string>
+    <string name="ranking">строй</string>
+    <string name="sol">SOL</string>
+    <string name="ius">IUS</string>
+    <string name="news">New</string>
+    <string name="IRS">NFT</string>
+    <string name="bsc">BSC</string>
+    <string name="eth">ETH</string>
+    <string name="heco">HECO</string>
+    <string name="defii">Defi</string>
+    <string name="net">NET</string>
+    <string name="tron">TRON</string>
+    <string name="iost">IOST</string>
+    <string name="enter_dapp_web_address">Введите имя или адрес</string>
+    <string name="defi">финансы</string>
+    <string name="efficient_aggregator_on_sol_chain">полимеризатор на цепи sol</string>
+    <string name="recent_browsing">Обзор</string>
+    <string name="dapp_money_security_smart">новый проект « интеллектуальная цепочка монетной безопасности» (BSC)</string>
+    <string name="dex">Dex</string>
+    <string name="GameFi">GameFi</string>
+    <string name="nft">NFT</string>
+    <string name="to_loan">ссуда</string>
+    <string name="derivative">производная</string>
+    <string name="aggregation">полимеризация доходов</string>
+    <string name="Asset_Bridge">мост активов</string>
+    <string name="Oracle">предсказатель</string>
+    <string name="dapp_opening">Вы будете прыгать в DAPP</string>
+    <string name="dapp_name">DApp имя</string>
+    <string name="dapp_info">Проект</string>
+    <string name="dapp_website">сайт</string>
+    <string name="dapp_email">почтовый ящик</string>
+    <string name="dapp_telegram">Telegram</string>
+    <string name="dapp_twitter">Twitter</string>
+    <string name="dapp_risk_warning">подсказка риска</string>
+    <string name="dapp_copy_link">копировать</string>
+    <string name="dapp_risk_dec">"страница DApp полностью контролируется стороной проекта, Cactus только заполнен
+ когда роль браузера, используйте DAPP осторожно
+ осмотрительно, при перечислении обязательно Проверьте адрес получателя или адрес контракта;
+ 2. Cactus не рекомендует никаких DApp, только сделать запись, не представляет собой голосование
+ Совет.  Cactus будет собирать как можно больше объективной информации, чтобы помочь
+ помочь определить, продолжать ли использовать DAPP;
+ 3. как только вы используете DAPP, после потери активов Cactus
+ никакой ответственности не существует.  Cactus будет сотрудничать
+ сбор данных о проекте в сочетании с обследованием;
+ 4. если при использовании DAPP возникают проблемы, можно обратиться к ним
+ способ связаться с участниками проекта или связаться с службой Cactus;"</string>
+    <string name="swap_you_liquidity">Ваша текучесть</string>
+    <string name="swap_remove_liquidity">изъятие ликвидности для возврата денежных знаков</string>
+    <string name="swap_no_liquidity_found">неустановившееся течение</string>
+    <string name="swap_no_liquidity">не вижу бассейн текучести？</string>
+    <string name="swap_find_other_lp">поиск других денежных знаков LP</string>
+    <string name="swap_add_liquidity">увеличение текучести</string>
+    <string name="swap_import_pool">вводный бассейн текучести</string>
+    <string name="swap_import_existing_pool">Импортировать текущий бассейн текучести</string>
+    <string name="swap_find_choice">Выберите монету для поиска вашей текучести</string>
+    <string name="swap_add_lp_token">увеличить подвижность для получения денежных знаков LP</string>
+    <string name="dapp_sol_item_1">Dex на Solana</string>
+    <string name="dapp_eth_item_1">бизнес - рынок</string>
+    <string name="dapp_interested">Тебе может быть интересно</string>
+    <string name="dapp_hide">Скрыть</string>
+    <string name="dapp_display">демонстрировать</string>
+    <string name="dapp_Win_stepn">наступила эпоха оцифровки - выпуск длинной бумаги для вырезки терракотового войска</string>
+    <string name="dapp_new">NEW</string>
+    <string name="dapp_ads">реклама</string>
+    <string name="dapp_search_history">Historical records</string>
+    <string name="dapp_Weekend">В конце недели: просмотр криптографии секвойи, а 1 описание Web3 перейти в центр...</string>
+    <string name="classify">классификация</string>
+    <string name="hot">горячий</string>
+    <string name="av">звук</string>
+    <string name="Industry">промышленность</string>
+    <string name="Business">бизнес</string>
+    <string name="product">продукт</string>
+    <string name="message">сведения</string>
+    <string name="energy">энергетика</string>
+    <string name="technology">наука</string>
+    <string name="main_chain_2">главная цепь</string>
+    <string name="click_switch">переключение щелчком</string>
+
+    <!--    swap-->
+    <string name="QUOTATION">конъюнктура</string>
+    <string name="EXCHANGE">обмен</string>
+    <string name="web3">Web3</string>
+    <string name="nft_market">рынок NFT</string>
+    <string name="exchange">обмен</string>
+    <string name="LANCHID">цепной мост</string>
+    <string name="Daily">ежедневно</string>
+    <string name="Weekly">неделя</string>
+    <string name="Quarerly">преувеличивать</string>
+    <string name="Sundy">Санди</string>
+    <string name="enter_contract_address">Введите адрес контракта</string>
+    <string name="real_time_price">цена реального времени</string>
+    <string name="yuan_universe">элементарная вселенная</string>
+    <string name="whole">все</string>
+    <string name="swap_collect">коллекция</string>
+    <string name="swap_increase_list">#доска объявлений</string>
+    <string name="swap_decline_list">#хит - парад</string>
+    <string name="swap_new_currency_list">#Список новых банкнот</string>
+    <string name="swap_sell">продать</string>
+    <string name="swap_buy">покупать</string>
+    <string name="swap_balance">сальдо:</string>
+    <string name="swap_balance_2">сальдо</string>
+    <string name="swap_exchange">обмен</string>
+    <string name="swap_exchange_mobility">текучесть</string>
+    <string name="swap_exchange_timely">своевременный обмен валюты</string>
+    <string name="swap_exchange_max">максимум</string>
+    <string name="swap_exchange_slip">допуск точки скольжения</string>
+    <string name="swap_exchange_enter_amount">входная сумма</string>
+    <string name="swap_exchange_select_token">выбор подстановки</string>
+    <string name="swap_entrusted_price">Диапазон/волатильности</string>
+    <string name="swap_slide_point">Настройки/GAS FEE</string>
+    <string name="swap_enter_entrusted_price">Введите принципиальную цену</string>
+    <string name="swap_entrusted_quantity">количество поручений</string>
+    <string name="swap_enter_entrusted_quantity">Введите количество заданий</string>
+    <string name="swap_expected_obtain">ожидаемый получение</string>
+    <string name="swap_liquidity_pool">бассейн текучести</string>
+    <string name="swap_current_price">текущая цена:</string>
+    <string name="swap_quantity">количество</string>
+    <string name="swap_please_select">Выберите</string>
+    <string name="swap_place_order">представлять заказ</string>
+
+    <!--    我的-->
+    <string name="blind_box">глухая коробка</string>
+    <string name="airdrop">сбрасывать</string>
+    <string name="node">узел</string>
+    <string name="invite">приглашать</string>
+    <string name="help_center">Центр помощи</string>
+    <string name="telegram">Telegram</string>
+    <string name="follow_on_twitter">озабоченность Twitter</string>
+    <string name="about_ius">О Cactus</string>
+    <string name="set_up">Настройки</string>
+    <string name="my_wallet_node">узел</string>
+    <string name="my_community">община</string>
+
+    <!--    扫一扫-->
+    <string name="scan_for_transfer_address">сканировать двухмерный код</string>
+    <string name="qr_code">двухмерный код</string>
+    <string name="album">альбом</string>
+    <string name="not_recognize_qr_code">Невозможно распознать двухмерный код изображения</string>
+
+    <!--    转账-->
+    <string name="collection_address">адрес инкассации</string>
+    <string name="enter_collection_address">Введите адрес получателя</string>
+    <string name="transfer_quantity">количество перечислений</string>
+    <string name="gas_fee">расход газа</string>
+    <string name="gas_custom">Пользовательские шахтеры</string>
+    <string name="gas_price">стоимость топлива(GWEI)</string>
+    <string name="gas_limit">ограничение топлива</string>
+    <string name="gas_estimated">Ожидаемые затраты</string>
+    <string name="speed_fast">быстрый</string>
+    <string name="speed_recommend">средний</string>
+    <string name="speed_slow">медленный</string>
+    <string name="usd_unknown">Неизвестно</string>
+    <string name="available">доступный: </string>
+    <string name="memo">Примечание</string>
+    <string name="enter_memo">Введите примечание</string>
+    <string name="fill_transfer_address">Заполните, пожалуйста, адрес перевода.</string>
+    <string name="fill_amount">Укажите сумму</string>
+    <string name="running_low">дефицит</string>
+    <string name="do_not_leave">переводить, пожалуйста, не покидайте текущую страницу！</string>
+    <string name="conform_transfer_loading">подтверждение сделки, подождите！</string>
+    <string name="transfer_succeeded">успешно переводить！</string>
+    <string name="recharge_succeeded">положительный заряд！</string>
+    <string name="transfer_fail">ошибка перевода, проверьте！</string>
+    <string name="transaction_data_processing">Не удалять текущую страницу...</string>
+    <string name="confirmation_of_transaction">подтверждение операции, не удаляйте текущую страницу, чтобы избежать потери данных, пожалуйста, позже...</string>
+
+    <!--    收款-->
+    <string name="enter_wallet_pwd">Введите пароль для бумажника</string>
+    <string name="import_wallet_pwd">Введите пароль бумажника</string>
+    <string name="confirm_wallet_pwd">подтвердить пароль бумажника</string>
+    <string name="two_pwd_inconsistent">двоичная ошибка ввода пароля</string>
+    <string name="note">Примечание: этот адрес поддерживает только дебиторскую задолженность %s и не передает ее в другие активы публичной цепочки.</string>
+    <string name="share">делить</string>
+    <string name="copy_address">Скопировать адрес</string>
+    <string name="scan_qr_code_pay_me">Просканируйте двухмерный код и заплатите мне</string>
+    <string name="collection_verify_tip">для того чтобы ваш счёт был безопасным и удостовериться, что ваш адрес не был изменён, введите пароль для вашего бумажника для проверки </string>
+
+    <!--    添加代币-->
+    <string name="search_coin">Поиск имени или введите адрес контракта</string>
+    <string name="search">поиск</string>
+    <string name="top_assets">горячие активы</string>
+    <string name="add_other_tokens">добавить другой знак</string>
+    <string name="input_content_empty">содержимое ввода не может быть пустым</string>
+    <string name="no_token">Пока нет такой валюты</string>
+    <string name="not_yet">У тебя еще нет бумажника.  импорт или создание бумажника</string>
+    <string name="not_need_add_again">эта монета была добавлена, и не нужно ее снова добавлять</string>
+    <string name="hand_add_token">вручную добавить недостающие символы</string>
+    <string name="currency_name">наименование подстановки</string>
+    <string name="enter_token_name">Введите название</string>
+    <string name="token_address">денежный адрес</string>
+    <string name="enter_token_address">Введите адрес договора обмена валюты</string>
+    <string name="token_description">описание</string>
+    <string name="enter_token_description">Введите описание подстановки</string>
+    <string name="token_Decimal">малый разряд (по умолчанию 18 бит)</string>
+    <string name="enter_token_Decimal">Введите небольшой разряд</string>
+    <string name="token_add_icon">Добавить значок</string>
+    <string name="please_token_add_icon">Добавить значок</string>
+    <string name="confirm_add">подтверждать Добавление</string>
+    <string name="hint_main_chain">Введите имя главной цепи</string>
+
+    <!--    交易记录-->
+    <string name="no_transaction_record">запись без операции</string>
+    <string name="pull_up_loading_record">запись загрузки сверху</string>
+    <string name="transaction_record">запись</string>
+    <string name="transfer_completed">Завершение перечисления</string>
+    <string name="transfer_address_this">адрес перечисления (этот кошелек)</string>
+    <string name="transfer_in_address">адрес перехода</string>
+    <string name="miner_fee">комиссионные</string>
+    <string name="time">время операции</string>
+    <string name="transaction_id">идентификатор операции</string>
+    <string name="collection_completed">инкассация</string>
+    <string name="tool">Tool</string>
+    <string name="asset_introduction">О</string>
+    <string name="tool_block_browser">блочный просмотр</string>
+    <string name="tool_detection">проверка разрешения</string>
+    <string name="tool_defi">рейтинг DeFi</string>
+    <string name="web3_spece">пространство</string>
+    <string name="web3_friends_list">список друзей</string>
+    <string name="web3_world">Web3 World</string>
+    <string name="web3_trajectory">траектория</string>
+    <string name="put_away">    убирать</string>
+    <string name="view_all">все.</string>
+    <string name="coin_info">денежная информация</string>
+    <string name="token_name">наименование подстановки</string>
+    <string name="project_name">Название проекта</string>
+    <string name="total_circulation">общий тираж</string>
+    <string name="token_address2">адрес контракта</string>
+    <string name="bnb_dec">"Binance Coin был выпущен в качестве монеты, известной как BNB и основанной на Ethereum
+ перейти к цифровым активам в Центральной цепочке блоков.  Общий объем выпуска постоянно составляет 200 млн. штук, ежеквартально в зависимости от безопасности валюты
+ платформа уничтожает НБ при сезонном обороте, отчеты об уничтожении публикуются на время, доступное для пользователей
+ Просмотрщик блочных цепей обеспечивает открытость и прозрачность до тех пор, пока не будет уничтожено 100 млн.
+ Стоп.
+ BNB, как биотопливо для бинance экосистем и для перехода на центральную биржу, уже используется на нескольких участках
+ как и в случае с скидкой в размере до 50% от стоимости сделки BNB
+ Monaco Visa и APP - приложения могут быть оплачены BNB, в Uplive прямой трансляции
+ BNB покупает виртуальные подарки и так далее.  В настоящее время BNB занимает стабильное место в мире TOP20, а лучшее место в мире
+ топ - 10, пользуется поддержкой более чем 180 стран и регионов мира, входящих в цепочку блоков.
+"</string>
+    <string name="solana_dec">"Solana была основана в конце 2017 года бывшими инженерами высокого уровня, Intel и Dropbox и представляет собой однородную цепь
+ Соглашение о подтверждении прав и интересов принципала с упором на расширение без снижения степени децентрализации или безопасности
+ развёртывайся.  В основе расширенной программы Solana лежит "историческое свидетельство (PoH)" децентрализации
+ колокол, чтобы решить проблему времени в распределенной сети, нет единого надежного источника времени.  через использование
+ проверяемая функция задержки PoH позволяет каждому узлу вычислить время генерации на локальном уровне с помощью SHA256
+ удар.  Таким образом, нет необходимости указывать время вещания по всей сети, что повышает общую эффективность сети.
+ SOL - местный символ цепи блоков Солана.  Solana использует метод подтверждения консенсуса
+ владельцу товарного знака было предложено проверить сделку.  как часть плана безопасности Соланы, все расходы будут оплачены
+ В результате этого общий объем поставок сократился.  стимул к такому дефляционному механизму SOL
+ более широкое участие в акционерном капитале лиц, пользующихся денежными знаками, способствовало повышению безопасности сети."</string>
+    <string name="delete_record">Удалить запись？</string>
+
+    <!--    钱包管理-->
+    <string name="enter_wallet_name">Введите имя бумажника</string>
+    <string name="modified_successfully">изменение завершено</string>
+    <string name="add">Добавить</string>
+    <string name="enter_new_wallet_name">Введите новое имя бумажника</string>
+    <string name="private_key">закрытый ключ</string>
+    <string name="close">закрыть</string>
+    <string name="copy">копировать</string>
+    <string name="delet_wallet">Удалить бумажник？</string>
+    <string name="delete_mnemonic">после удаления бумажник можно импортировать заново через резервную копию</string>
+    <string name="confirm_deletion">Подтверждение удаления</string>
+    <string name="modify_wallet_name">Изменить имя бумажника</string>
+    <string name="view_private_key">Просмотр закрытого ключа</string>
+    <string name="view_mnemonics">служебная запись</string>
+    <string name="wallet_id">кошелек ID</string>
+    <string name="delete_wallet">Удалить бумажник</string>
+    <string name="mn_transcribe">рукопись предложения</string>
+    <string name="mn_digital_copy">не копировать сохранить</string>
+    <string name="mn_screenshot">Не сохранять экран</string>
+
+    <!--    添加钱包-->
+    <string name="multi_chain">Сконцентрируйся на нескольких бумажниках DeFi</string>
+    <string name="suppurt_more">поддержка более 30 общественных цепей, включая BTC, ETH, BSC, HECO, OKT, TRX, DOT, FIL и т.д.</string>
+    <string name="create_new_wallet">Создать новый бумажник</string>
+    <string name="brand_new_wallet">Создать новый бумажник</string>
+    <string name="import_existing_wallet">Импортировать бумажник</string>
+    <string name="import_mnemonic_private_key">Импорт из резервной бумажника или частного ключа</string>
+    <string name="select_wallet_type">Выберите тип импорта бумажника</string>
+    <string name="select_create_wallet_type">Выберите бумажник, который необходимо добавить</string>
+    <string name="select_main_chain">Выберите цепочку</string>
+    <string name="next_stept">Следующие шаги</string>
+
+    <!--    助记词-->
+    <string name="not_take_screenshots">не фотографировать</string>
+    <string name="cameras_around">Не открывайте экран для обмена и хранения, и следите за тем, есть ли другие люди или камеры вокруг.</string>
+    <string name="safe_place">Пожалуйста, правильно переписывайте текст на бумажном языке и храните его в безопасном месте.</string>
+    <string name="got_it">Понятно</string>
+    <string name="backup_mnemonics">резервное вспомогательное слово</string>
+    <string name="they_are_correct">Пожалуйста, напишите следующее вспомогательное слово по порядку и убедитесь в правильности</string>
+    <string name="toggle_24">Переключить 24 - битное вспомогательное слово</string>
+    <string name="toggle_12">Переключить 12 - битное вспомогательное слово</string>
+    <string name="change_group">Другая группа</string>
+    <string name="backed_up">У меня есть подкрепление</string>
+    <string name="mnemonics_properly">если ключ от кошелька, то его можно приравнять к бумажнику.  будьте внимательны и внимательны.</string>
+    <string name="retrieve_your_wallet">Cactus не сохранит вашу справку на сервере, так что после потери Cactus не сможет помочь вам получить деньги包</string>
+    <string name="usually_composed">вспомогательное слово обычно используется в составе 12 или 24 слов, чем больше количество слов, тем безопаснее</string>
+
+    <!--    助记词验证-->
+    <string name="enter_th_word">Введите слово %s</string>
+    <string name="enter_th_word_1">%s шт</string>
+    <string name="word_wrong">слово %s неверно</string>
+    <string name="wallet_create_success">бумажник создан успешно</string>
+    <string name="verification_mnemonics">проверочный мнемонический слово</string>
+    <string name="verify_the_following_questions">Выберите правильное вспомогательное слово по порядку</string>
+    <string name="enter_mnemonics">вводная мнемоника</string>
+
+    <!--    导入钱包-->
+    <string name="separated_by_spaces">Введите вспомогательное слово или закрытый ключ</string>
+    <string name="enter_mnemonic_or_private_key">Введите служебное слово или закрытый ключ</string>
+    <string name="confirm_import">Импорт подтверждения</string>
+    <string name="inprot_wallet_success">Импорт бумажника завершился успешно</string>
+    <string name="mnemonics_private_title">Что такое &amp; help</string>
+    <string name="mnemonics_private_1">вспомогательные слова - это набор из 12 слов на английском языке, которые случайно сгенерированы, и набор слов, которые могут быть использованы для управления всеми бумажниками в основной цепочке.</string>
+    <string name="mnemonics_private_2">закрытый ключ - это набор беспорядочных строк, и группа закрытых ключей может управлять только одним или несколькими бумажниками в рамках основной цепи.</string>
+    <string name="mnemonics_private_3">Пожалуйста, не вставляйте вспомогательное слово или закрытый ключ копированием и вставкой, поскольку после копирования содержимое, вероятно, будет слышно другим программным обеспечением.</string>
+
+    <!--    邀请-->
+    <string name="invite_friends">приглашать друзей</string>
+    <string name="together">пригласить друзей начать использовать Cactus</string>
+    <string name="scan_install_ius">Очистить установку Cactus</string>
+    <string name="share_install_ius">Share - line install Cactus</string>
+    <string name="share_with_your_friends">поделиться с друзьями</string>
+
+    <!--    空投-->
+    <string name="claim_airdrop">получать десант</string>
+    <string name="ongoing">в процессе</string>
+    <string name="ended">конец</string>
+    <string name="event_time">время действия</string>
+    <string name="availables">получаться</string>
+    <string name="get_it_right_now">получить сразу</string>
+    <string name="airdrop_time">время сбрасывания</string>
+    <string name="receiving_condition">условие получения</string>
+    <string name="ius_users">IUS пользователь</string>
+    <string name="airdrop_rules">Правило десантирования</string>
+    <string name="meet_the_conditions">пользователи, участвовавшие в мероприятиях юса и юс</string>
+    <string name="project_introduction">Project Introduction</string>
+    <string name="island_mining">Остров рытья - это метавселенная, построенная на компьютерной цепи монетной безопасности (BSC), включая торговые платформы и биржевой рынок NFT, где в будущем будет социальный мир.台</string>
+    <string name="airdrop_is_only">* десант DeFi предназначен исключительно для обеспечения благополучия поклонников и не является инвестиционным предложением.  США. США напоминает пользователям о том, что цены на цифровые активы колеблются в большей степени, и предлагает им проявлять осторожность, когда они полностью осознают и принимают инвестиции в цифровые активы.  окончательное право толкования при нынешней авиаперевозке IUS принадлежит US</string>
+
+    <string name="Website">сайт</string>
+    <string name="Mail">почтовый ящик</string>
+    <string name="user_agreement">Пользовательский протокол</string>
+    <string name="privacy_agreement">частная жизнь</string>
+    <string name="version">версия</string>
+    <string name="one_star_per_week">каждую неделю</string>
+    <string name="use_settings">эксплуатационное оборудование</string>
+    <string name="Address_book_management">адресное управление</string>
+    <string name="Security_settings">Настройки безопасности</string>
+    <string name="open_pwd">использовать пароль бумажника</string>
+    <string name="Secret">освобождение от уплаты за текущий срок службы</string>
+    <string name="Currency_unit">денежная единица</string>
+    <string name="DApp_node_settings">Настройки узла IUS</string>
+    <string name="Display_setting">Показать настройки</string>
+    <string name="Display_setting_theme">Показать режим</string>
+    <string name="about_us_dec">кактус - это полностью рассредоточенный мобильный кошелек, основанный на Solana.  принцип его работы заключается в создании и управлении закрытого ключа от имени пользователя, позволяющем пользователю сохранять средства и подписывать сделки.  для управления цифровыми активами и получения доступа к децентрализованным приложениям в секторальной цепочке « солана».</string>
+
+    <!--    地址管理-->
+    <string name="no_address_added_yet">адрес ещё не добавлен</string>
+    <string name="add_new_address">Добавить новый адрес</string>
+    <string name="edit_address">изменить адрес</string>
+    <string name="hint_name">Введите имя вашего адреса</string>
+    <string name="hint_address">Введите адрес</string>
+    <string name="tip_delete_address">Удалить адрес？</string>
+    <string name="delete_succeeded">Удалено успешно</string>
+    <string name="address_name">наименование адреса</string>
+    <string name="enter_address">входной адрес</string>
+    <string name="choose_your_own_network">Выберите свою сеть</string>
+    <string name="delete">Удалить</string>
+    <string name="save">Сохранить</string>
+    <string name="add_address">Добавить адрес</string>
+    <string name="incorrect_input">Ошибка ввода</string>
+    <string name="wallet_already_exists">бумажник уже существует</string>
+    <string name="address_alrealy_exists">адрес уже существует</string>
+    <string name="added_successfully">Добавление успешно</string>
+    <string name="seed_forced">семена слишком короткие, может быть взломаны</string>
+    <string name="invalid_public_key_input">Неверный ввод открытого ключа</string>
+    <string name="max_seed_length_exceeded">превышение максимальной длины семян</string>
+    <string name="invalid_seeds">Недопустимое семя, адрес должен быть вычеркнут с кривой</string>
+    <string name="program_address_nonce">пока не найден возможный адрес программы</string>
+    <string name="address_book">Адресная книга</string>
+
+
+    <!--    自定义添加代币-->
+    <string name="token_custom_add_token">Изменить размер</string>
+    <string name="token_corresponding">не найдены соответствующие символы, нажмите кнопку внизу для добавления</string>
+    <string name="token_select_main_chain">селективная главная цепь</string>
+    <string name="token_select_add_wallet">выбор бумажника</string>
+    <string name="token_is_add_token">Добавить символы</string>
+    <string name="token_no_add">временно не добавлять</string>
+    <string name="token_right_add">Добавить сразу</string>
+    <string name="token_dialog_select_main_chain">выбор подстановки</string>
+    <string name="token_dialog_select_add_wallet">выбор бумажника для добавления</string>
+    <string name="token_no_found_contract">адрес контракта не найден</string>
+    <string name="token_no_type">Этот тип валюты пока не открыт</string>
+    <string name="token_no_wallet">у вас нет бумажника этого типа, который будет создан после добавления</string>
+
+    <string name="no_wallet_data">Пока нет бумажника, создайте его</string>
+    <string name="no_more_data">Больше нет данных</string>
+    <string name="no_data">Пока нет данных</string>
+    <string name="dilog_ok">Хорошо.</string>
+    <string name="not_yet_open">пока не открыт</string>
+    <string name="main_chain">главная цепь</string>
+    <string name="copied_text">копировать</string>
+    <string name="press_again_to_exit">повторный выход</string>
+    <string name="new_version">найти новую версию</string>
+    <string name="version_update">обновление версии</string>
+    <string name="downloading_update">Загрузить обновление</string>
+    <string name="version_update_permission">разрешение на загрузку</string>
+    <string name="app_downloading">загрузка программного обеспечения, пожалуйста, позже...</string>
+    <string name="is_upgrade_version">обновление версии %s？</string>
+    <string name="now_update_app">обновить немедленно</string>
+    <string name="approve">Ратификация</string>
+    <string name="request_link">ссылка запроса</string>
+    <string name="transfer_in">адрес перехода</string>
+    <string name="transfer_out">исходящий адрес</string>
+    <string name="exchang_quantity">количество</string>
+    <string name="operate_after_purchase">у вас нет такой валюты!</string>
+    <string name="cannot_read_encrypt_file">бумажник не может прочитать ключ шифрования.  нужно снова импортировать</string>
+    <string name="authentication_error">не указана правильная идентификация для разблокирования ключа или таймаута.  Попробуйте ещё раз.</string>
+    <string name="device_security_changed">после создания этого ключа была изменена безопасность мобильных устройств, а операционная система сделала ключ недействительным.  Импортировать ваш ключ</string>
+    <string name="message_authentication_failed">Ошибка идентификации</string>
+    <string name="message_reject_request">получить отказ от пользователя</string>
+    <string name="dialog_reject">отказ</string>
+    <string name="dialog_approve">согласие</string>
+    <string name="session_terminated">Сеанс окончен.  Перезагрузите DAPP и Перезагрузите бумажник.</string>
+
+    <!--    dapp 工具-->
+    <string name="Blockchain_browser">браузер</string>
+    <string name="blockchain_browser_porta">вход в многоцепной блочный браузер</string>
+    <string name="Batch_transfer">Пакетный перевод</string>
+    <string name="batch_transfer_tool">многоцепной механизм массового перевода</string>
+    <string name="Contract_inspection">Проверка контракта</string>
+    <string name="contract_detection_tool">инструмент для проверки многоцепных монетных контрактов</string>
+    <string name="Transaction_authorization">разрешение сделок</string>
+    <string name="Transaction_loading">не покидать текущую страницу...</string>
+    <string name="user_cancle">Пользователь отменил разрешение</string>
+    <string name="Risk_statement">В настоящее время используйте монеты, выпущенные неофициально, пожалуйста, используйте их осторожно, не обманывайте!</string>
+    <string name="connect_request">запрос подключения...</string>
+    <string name="detector">детектор</string>
+    <string name="close_wsol_tip">распаковка %s WSOL, которая преобразует WSOL в SOL и закроет этот денежный счёт</string>
+    <string name="close_success_wsol">WSOL успешно закрыт!</string>
+    <string name="request_timeout">запрос истек !</string>
+    <string name="verify_fingerprint">проверить отпечатки пальцев</string>
+    <string name="fingerprint_authentication_failed">Ошибка аутентификации отпечатков пальцев. Попробуйте ещё раз</string>
+    <string name="invite_bind">привязывать</string>
+    <string name="bind_wallet">бумажник</string>
+    <string name="binding_courtesy">связанный этикет</string>
+    <string name="airdrop_gifts">мобильный кошелек привязать, получать больше подарков</string>
+    <string name="bind_now">немедленная привязка</string>
+    <string name="unbound">не связанный</string>
+    <string name="invite_mobile_ID">идентификатор приглашённого телефона</string>
+    <string name="my_wallet_address">адрес моего бумажника</string>
+    <string name="My_mobile_ID">идентификатор моего телефона</string>
+    <string name="hint_invite_mobile_id">номер устройства</string>
+    <string name="hint_wallet_address">Введите адрес бумажника</string>
+    <string name="submitting_data">представлять данные...</string>
+    <string name="moblie_id">мобильный: </string>
+    <string name="verification_data">проверить данные...</string>
+    <string name="error_in_invitation_QR_code">Ошибка при приглашении двухмерного кода</string>
+    <string name="pwd_verify">проверка пароля</string>
+    <string name="pay_address">Адрес платежа</string>
+    <string name="Receiving_address">приёмный адрес</string>
+    <string name="unlimited">без ограничений</string>
+    <string name="Authorized_quantity">количество</string>
+    <string name="token_value">значение</string>
+    <string name="Data_processing">в процессе...</string>
+    <string name="Authorization_Risk">риск</string>
+    <string name="Authorization_Risk_msg">Внимание!  после предоставления этого права контракт получит право на перевод %s, если контракт является злонамеренным, риск кражи, убедитесь, что текущая ссылка надежна!</string>
+    <string name="articles_source">Источник: </string>
+    <string name="permissions_tip">если вам необходимо снова использовать права локализации, обратитесь к управлению правами доступа - > применить > ></string>
+    <string name="sweep_wallet_fragment_request_wallet_balance_failed_connection">У вас плохое соединение с сетью Electrum.</string>
+    <string name="sweep_wallet_fragment_request_wallet_balance_empty">Бумажный кошелек пуст.</string>
+
+    <!--    社区会议-->
+    <string name="creat_meeting">создать собрание</string>
+    <string name="creat_meeting_dec">только вы запустите ссылку на приглашение</string>
+    <string name="join_meeting">вступить в собрание</string>
+    <string name="join_meeting_dec">Введите номер сеанса</string>
+    <string name="meeting_no">нумерация</string>
+    <string name="meeting_name">имя</string>
+    <string name="meeting_person">численность</string>
+    <string name="hint_meeting_no">Введите номер Конференции</string>
+    <string name="hint_meeting_name">Введите имя зала заседаний.</string>
+    <string name="hint_meeting_person">Введите количество заседаний</string>
+    <string name="open_mike">микрофон</string>
+    <string name="open_speaker">репродуктор</string>
+    <string name="open_video">открыть видео</string>
+    <string name="meeting_room">комната(%s человек)</string>
+    <string name="moderator">(ведущий)</string>
+    <string name="member">(член)</string>
+    <string name="mute">Звук выключен</string>
+    <string name="video">видео</string>
+    <string name="member_manager">управление</string>
+    <string name="meeting_member">Персонал</string>
+    <string name="more">больше</string>
+    <string name="meeting_user_name">Ваше имя</string>
+    <string name="meeting_header">голова</string>
+    <string name="hint_user_name">Введите ваше имя</string>
+    <string name="member_list">Список членов</string>
+    <string name="kick_out">Выкинь.</string>
+    <string name="more_intive">Invite</string>
+    <string name="more_safe">Safe</string>
+    <string name="more_chat">Разговор</string>
+    <string name="more_red_paper">Пакет</string>
+    <string name="more_float_window">Окно</string>
+    <string name="more_set">Setting</string>
+    <string name="select_invite_type">Выберите форму приглашения.</string>
+    <string name="invite_weichat">Микросхема</string>
+    <string name="invite_qq">QQ</string>
+    <string name="invite_copy">Копирование</string>
+    <string name="invite_qr">QR - код</string>
+    <string name="set_host">Настройка модератора</string>
+    <string name="set_member_join_mute">Тишина при входе</string>
+    <string name="set_timeout_open">Автоматически включается при наличии более 6 человек.</string>
+    <string name="set_member_join_tip_voice">Автоматически включается при наличии более 6 человек.</string>
+    <string name="set_local_recording_permissions">Локальные права записи</string>
+    <string name="set_only_host_record">Только ведущие могут записывать.</string>
+    <string name="set_open_subtitle">Разрешить членам открывать субтитры</string>
+    <string name="set_personal">Индивидуальные настройки</string>
+    <string name="set_mine_name">Моё имя</string>
+    <string name="set_mine_header">Моя голова.</string>
+    <string name="set_open_mike_window">Откройте окно микрофона.</string>
+    <string name="set_voice_mode">Голосовой режим</string>
+    <string name="set_video_mirroring">Видеозапись</string>
+    <string name="set_show_duration">Показать время участия</string>
+    <string name="set_show_bullet_chat">Показать занавес</string>
+    <string name="set_voice_stimulation">возбуждение</string>
+    <string name="set_noise_reduction">шумоподавление</string>
+    <string name="safe_meeting_manager">Конференционное управление</string>
+    <string name="safe_lock_meeting">Заблокировать встречу</string>
+    <string name="safe_open_waiting_room">Открыть зал ожидания.</string>
+    <string name="safe_hide_pwd">Скрыть номер конференции и пароль</string>
+    <string name="safe_allow_participants">Допускать участников</string>
+    <string name="safe_initiate_sharing">Начать совместное использование</string>
+    <string name="safe_own_chat">Собственный разговор.</string>
+    <string name="safe_open_video">Включить видео</string>
+    <string name="safe_change_name">Переименование</string>
+    <string name="safe_self_unmute">Самовыключение</string>
+    <string name="safe_sharing_apps">Поделиться приложением</string>
+    <string name="safe_comments">Интерактивные комментарии</string>
+    <string name="red_send">Красный конверт</string>
+    <string name="red_luck">Борьба с красным конвертом</string>
+    <string name="red_number">Красное число</string>
+    <string name="red_hint_num">Заполнить число</string>
+    <string name="red_num">А</string>
+    <string name="red_join_member">Текущее число участников %s </string>
+    <string name="red_total_money">Общая сумма</string>
+    <string name="red_default_blessing">Поздравляем с богатством, Италия</string>
+    <string name="red_hint_blessing">Введите благословение.</string>
+    <string name="red_into">Положи деньги в красный конверт.</string>
+    <string name="red_timeout_back">Невыплаченные красные конверты будут возвращены через 24 часа</string>
+    <string name="red_common">Обычный красный конверт.</string>
+    <string name="share_meeting_qr">QR - код конференции</string>
+    <string name="share_hour">%s Часы</string>
+    <string name="share_tip">Пожалуйста, используйте приложение Cactus для сообщества.</string>
+    <string name="share_save_camer">Сохранить в альбоме</string>
+    <string name="share_save_camer_tip">Чтобы сохранить в гарантийном альбоме, пожалуйста, пройдите и посмотрите!</string>
+    <string name="share_launch">%s Инициирование</string>
+    <string name="meeting_num_tip">Количество участников не может быть меньше двух.2</string>
+    <string name="exit_meeting_tip">Если вы не хотите заканчивать встречу, пожалуйста, выберите нового ведущего перед отъездом.</string>
+    <string name="exit_meeting_member_tip">Ты уверен, что хочешь уйти с собрания?</string>
+    <string name="leav_meeting">Выйти из собрания</string>
+    <string name="end_meeting">Закрытие сессии</string>
+    <string name="prem_tip">Без разрешения соответствующие функции не будут использоваться должным образом.</string>
+    <string name="entering_meeting">Входит в собрание. ...</string>
+    <string name="kick_out_tip">Тебя выгнали из комнаты.</string>
+    <string name="room_disbanded_tip">Комната распалась.</string>
+    <string name="meeting_max_personal">Заседание вмещает до 300 человек.</string>
+    <string name="meeting_share_dec">Конференция %s Organization проходит в Cactus, пожалуйста, добавьте номер конференции \n как можно скорее: %s</string>
+    <string name="not_indtall_weichat_tip">Узнайте, что вы не установили WeChat, попробуйте снова после установки</string>
+    <string name="not_indtall_qq_tip">Узнайте, что вы не установили QQ, попробуйте снова после установки</string>
+    <string name="open_float_window_tip">Для использования функции плавающих окон требуется разрешение на доступ к подвесным окнам</string>
+    <string name="go_open">Открой.</string>
+    <string name="send">Отправить</string>
+    <string name="message_overrun_tip">Сообщение слишком длинное, чтобы отправить до 200 слов</string>
+
+    <string name="net_parsing">Ошибка обработки данных</string>
+    <string name="net_request">Сервер обновления или аномалии, попробуйте позже</string>
+    <string name="net_abnormal">ошибка сетевого подключения, проверьте сеть</string>
+    <string name="net_connect">время ожидания соединения, попробуйте позже</string>
+    <string name="net_unknown">Неизвестная ошибка системы</string>
+</resources>

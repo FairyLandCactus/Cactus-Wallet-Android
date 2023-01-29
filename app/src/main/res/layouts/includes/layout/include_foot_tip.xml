@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_foot_tip"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_30"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:gravity="center"
+        android:text="@string/no_more_data"
+        android:textColor="@color/picture_color_grey"
+        android:visibility="gone"/>
+
+</LinearLayout>

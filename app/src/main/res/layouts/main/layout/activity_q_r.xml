@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.QRActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_zxing_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.king.zxing.ViewfinderView
+            android:id="@+id/viewfinderView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/ivTorch"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/zxl_torch_selector"
+            android:layout_marginTop="@dimen/torchMarginTop" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:text="@string/scan_for_transfer_address"
+        android:textSize="@dimen/sp_16"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dp_150"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_64"
+        android:background="#17161E"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/dp_18"
+            android:layout_height="@dimen/dp_24"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginBottom="@dimen/dp_12"
+            android:src="@mipmap/icon_back" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dp_14"
+            android:text="@string/qr_code"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_20"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/album"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dp_14"
+            android:layout_marginRight="@dimen/dp_20"
+            android:textSize="@dimen/sp_16" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

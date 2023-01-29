@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_audio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="?attr/meeting_room_item_chair_src"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_header"
+                android:layout_width="@dimen/dp_26"
+                android:layout_height="@dimen/dp_26"
+                android:layout_marginTop="@dimen/dp_10"
+                android:src="@mipmap/icon_solana"
+                android:layout_centerHorizontal="true"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="@dimen/dp_1"
+                app:civ_circle_background_color="@color/white" />
+
+        </RelativeLayout>
+
+    <com.tencent.rtmp.ui.TXCloudVideoView
+        android:id="@+id/txcvv_member"
+        android:visibility="gone"
+        android:layout_width="@dimen/dp_86"
+        android:layout_height="@dimen/dp_86"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_6"
+            android:drawableRight="?attr/meeting_room_icon_voice_src"
+            android:drawablePadding="@dimen/dp_6"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_14" />
+
+        <TextView
+            android:id="@+id/tv_moderator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_4"
+            android:text="@string/member"
+            android:textColor="?attr/font_color"
+            android:textSize="@dimen/sp_10" />
+
+</LinearLayout>

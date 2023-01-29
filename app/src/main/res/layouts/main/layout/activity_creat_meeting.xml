@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/color_bg_main"
+    android:orientation="vertical"
+    tools:context=".activity.CreatMeetingActivity">
+
+    <include layout="@layout/include_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_12"
+        android:background="?attr/bg_create_meeting_color"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_10">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_50"
+                android:gravity="center_vertical"
+                android:text="@string/select_wallet"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_50"
+                android:gravity="center_vertical"
+                android:text="@string/meeting_no"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_50"
+                android:gravity="center_vertical"
+                android:text="@string/meeting_name"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_50"
+                android:gravity="center_vertical"
+                android:text="@string/meeting_person"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_50"
+                android:gravity="center_vertical"
+                android:text="@string/meeting_user_name"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_50"
+                android:gravity="center_vertical"
+                android:text="@string/meeting_header"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_14"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_wallet"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:gravity="center_vertical"
+                android:hint="@string/please_select_wallet"
+                android:drawablePadding="@dimen/dp_6"
+                android:drawableRight="?attr/icon_in_src"
+                android:paddingRight="@dimen/dp_16"
+                android:maxLength="50"
+                android:singleLine="true"
+                android:ellipsize="middle"
+                android:textColor="?attr/font_color"
+                android:textColorHint="?attr/font_color"
+                android:textSize="@dimen/sp_12" />
+
+            <EditText
+                android:id="@+id/et_no"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/hint_meeting_no"
+                android:inputType="number"
+                android:maxLength="9"
+                android:maxLines="1"
+                android:textColor="?attr/font_color"
+                android:textColorHint="?attr/font_color"
+                android:textSize="@dimen/sp_12" />
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/hint_meeting_name"
+                android:inputType="textMultiLine"
+                android:maxLength="50"
+                android:maxLines="1"
+                android:textColor="?attr/font_color"
+                android:textColorHint="?attr/font_color"
+                android:textSize="@dimen/sp_12" />
+
+            <EditText
+                android:id="@+id/et_person"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/hint_meeting_person"
+                android:inputType="number"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:textColor="?attr/font_color"
+                android:textColorHint="?attr/font_color"
+                android:textSize="@dimen/sp_12" />
+
+            <EditText
+                android:id="@+id/et_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/hint_user_name"
+                android:inputType="textMultiLine"
+                android:textColorHint="?attr/font_color"
+                android:maxLength="50"
+                android:maxLines="1"
+                android:textColor="?attr/font_color"
+                android:textSize="@dimen/sp_12" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/civ_header"
+                    android:layout_width="@dimen/dp_30"
+                    android:layout_height="@dimen/dp_30"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/icon_solana"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="@dimen/dp_1"
+                    app:civ_circle_background_color="@color/white" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="?attr/icon_in_src"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_10"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp_12"
+        android:background="?attr/bg_create_meeting_color"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/open_mike"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_14"
+                android:textStyle="bold" />
+
+            <Switch
+                android:id="@+id/switch_mike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:thumb="@drawable/switch_white_circle_meeting_selector"
+                android:track="@drawable/switch_selector_meeting_orange" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/open_speaker"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_14"
+                android:textStyle="bold" />
+
+            <Switch
+                android:id="@+id/switch_speaker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:thumb="@drawable/switch_white_circle_meeting_selector"
+                android:track="@drawable/switch_selector_meeting_orange" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/open_video"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_14"
+                android:textStyle="bold" />
+
+            <Switch
+                android:id="@+id/switch_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:thumb="@drawable/switch_white_circle_meeting_selector"
+                android:track="@drawable/switch_selector_meeting_orange" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_creat_meeting"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:background="@drawable/bottom_sheet_wallet_manager_bord"
+            android:text="@string/creat_meeting"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_14" />
+    </LinearLayout>
+
+</LinearLayout>

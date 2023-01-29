@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_50"
+    android:layout_marginTop="@dimen/dp_10"
+    android:background="?attr/wallet_manager_item_bg_color"
+    android:paddingLeft="@dimen/dp_20"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_dot"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/dp_8"
+        android:src="@drawable/dot_bord" />
+
+
+    <TextView
+        android:id="@+id/tv_wallet_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/dp_16"
+        android:layout_weight="1"
+        android:drawableRight="?attr/icon_in_src"
+        android:text="@string/my_wallet"
+        android:textColor="?attr/currency_color"
+        android:textSize="@dimen/sp_16" />
+
+</LinearLayout>

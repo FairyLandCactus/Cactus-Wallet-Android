@@ -1,0 +1,217 @@
+apply plugin: 'com.android.application'
+apply from: "$project.rootDir/tools/versions_configuration.gradle"
+apply plugin: 'kotlin-android'
+apply plugin: 'dagger.hilt.android.plugin'
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.qianlihu.solanawallet"
+        minSdkVersion 24
+        targetSdkVersion 30
+        versionCode 76
+        versionName "1.7.6"
+        multiDexEnabled true
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments += [AROUTER_MODULE_NAME: project.getName()]
+            }
+        }
+
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters 'armeabi' , 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    signingConfigs {
+        config {
+            keyAlias 'solanakey'
+            keyPassword 'solana123456'
+            storeFile file('walletkey.jks')
+            storePassword 'solana123456'
+        }
+    }
+
+    applicationVariants.all {
+        variant ->
+            variant.outputs.all {
+                Calendar calendar = Calendar.getInstance(Locale.CHINA);
+                def buildDate = String.format(Locale.CHINA, "%04d%02d%02d", calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH) + 1, calendar.get(Calendar.DAY_OF_MONTH))
+                def versionName = defaultConfig.versionName
+                def versionCode = defaultConfig.versionCode
+                def appName = "SolanaWallet"
+                if (variant.buildType.name == 'release') {
+                    outputFileName = "${appName}_${buildDate}_V${versionName}_${versionCode}.apk"
+                } else {
+                    outputFileName = "${appName}_${buildDate}_V${versionName}_debug.apk"
+                }
+            }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    packagingOptions {
+        exclude 'lib/x86_64/darwin/libscrypt.dylib'
+        exclude 'lib/x86_64/freebsd/libscrypt.so'
+        exclude 'lib/x86_64/linux/libscrypt.so'
+    }
+
+    sourceSets {
+        main {
+            res.srcDirs = [
+                    'src/main/res/layouts/bottom_dialog',
+                    'src/main/res/layouts/dialog',
+                    'src/main/res/layouts/fragment',
+                    'src/main/res/layouts/includes',
+                    'src/main/res/layouts/item',
+                    'src/main/res/layouts/main',
+                    'src/main/res/layouts/widget',
+                    'src/main/res'
+            ]
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+//    implementation files('libs\\bitcoinj-core.jar')
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+    implementation 'androidx.navigation:navigation-fragment:2.1.0'
+    implementation 'androidx.navigation:navigation-ui:2.1.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.20'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'com.trello.rxlifecycle3:rxlifecycle:3.1.0'
+    implementation 'com.trello.rxlifecycle3:rxlifecycle-android-lifecycle:3.1.0'
+    implementation 'com.trello.rxlifecycle3:rxlifecycle-components:3.1.0'
+
+    implementation 'com.android.support:multidex:1.0.3'
+
+    //ConverterFactory的String依赖包
+    implementation 'com.squareup.retrofit2:converter-scalars:2.9.0'
+    //ConverterFactory的Gson依赖包
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    //CallAdapterFactory的Rx依赖包
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.9.0'
+    //日志打印工具
+    implementation 'com.orhanobut:logger:2.2.0'
+    //ok_go
+    implementation 'com.lzy.net:okgo:3.0.4'
+//    implementation 'com.lzy.net:okrx2:2.0.2'
+    //图片选择器
+//    implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.5.8'
+    implementation 'io.github.lucksiege:pictureselector:v2.7.3-rc06'
+    //控件加载
+    implementation 'com.jakewharton:butterknife:10.2.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
+    //轮播
+    implementation 'com.youth.banner:banner:1.4.10'
+    // 状态栏基础依赖包，必须要依赖
+    implementation 'com.gyf.immersionbar:immersionbar:3.0.0'
+    // 状态栏fragment快速实现（可选）
+    implementation 'com.gyf.immersionbar:immersionbar-components:3.0.0'
+    //热门强大的图片加载器
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    //圆形头像
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    //本地缓存框架
+    implementation 'com.blankj:utilcode:1.16.2'
+    //权限请求框架
+    implementation 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar'
+    //事件监听
+    implementation 'org.greenrobot:eventbus:3.2.0'
+    //Google Material控件,以及迁移到AndroidX下一些控件的依赖
+    implementation 'com.google.android.material:material:1.2.0'
+    //弹出对话框
+    implementation 'com.afollestad.material-dialogs:core:0.9.1.0'
+    implementation 'com.afollestad.material-dialogs:commons:0.9.1.0'
+    //弹出提示框
+    implementation 'com.github.GrenderG:Toasty:1.3.1'
+    implementation 'com.android.support:multidex:1.0.3'
+    //数据库框架
+    implementation 'org.litepal.guolindev:core:3.2.3'
+    //图片压缩
+    implementation 'top.zibin:Luban:1.1.8'
+    //下拉刷新，上拉加载
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-21'
+//    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+    //版本更新
+    implementation 'com.github.xuexiangjys:XUpdate:2.1.3'
+    implementation 'com.zhy:okhttputils:2.6.2'
+    implementation 'com.github.xuexiangjys.XUtil:xutil-core:2.0.0'
+    //扫描二维码地址
+    implementation 'com.king.zxing:zxing-lite:1.1.7-androidx'
+    //适配器框架
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.45'
+    //选择器时间地址
+    implementation 'com.contrarywind:Android-PickerView:4.1.6'
+    //图表框架
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+    //指示器
+    implementation 'com.github.hackware1993:MagicIndicator:1.7.0'
+    //EdDSAPrivateKey算法
+//    implementation 'org.whispersystems:curve25519-android:0.5.0'
+    implementation 'net.i2p.crypto:eddsa:0.3.0'
+    //web3j以及geth
+    implementation "org.web3j:core:4.6.0-android"
+//    implementation 'org.bitcoinj:bitcoinj-core:0.14.7'
+//    implementation 'androidx.core:core:1.9.0'
+    //比特币钱包生成框架
+    implementation ('org.bitcoinj:bitcoinj-core:0.16.2'){
+        exclude group: 'org.bouncycastle'
+        exclude group: 'com.google.protobuf'
+    }
+//    implementation 'link.magic:magic-android:4.0.0'
+//    implementation 'org.web3j:core:4.8.8-android'
+    //解析json数据框架
+    implementation 'com.squareup.moshi:moshi:1.8.0'
+    implementation 'org.slf4j:slf4j-jdk14:1.7.32'
+    implementation 'com.alibaba:fastjson:1.1.72.android'
+    api getProject().design
+
+    api getProject().constraintLayout
+    api getProject().multidex
+    //websocket通讯协议框架
+    implementation 'org.java-websocket:Java-WebSocket:1.5.3'
+    implementation 'com.github.WalletConnect:kotlin-walletconnect-lib:0.9.6'
+    implementation 'org.jsoup:jsoup:1.12.1'
+    implementation 'com.github.salomonbrys.kotson:kotson:2.5.0'
+    implementation project(":lib")
+    implementation group: 'com.trustwallet', name: 'wallet-core', version: '2.6.3'
+    implementation 'com.jakewharton.timber:timber:5.0.1'
+
+    implementation "io.github.instantwebp2p:tweetnacl-java:1.1.2"
+    implementation "com.google.dagger:hilt-android:2.40.5"
+    annotationProcessor "com.google.dagger:hilt-compiler:2.40.5"
+
+    //腾讯异常数据抓取
+    implementation 'com.tencent.bugly:crashreport:latest.release'
+    //腾讯音视频框架
+    implementation 'com.tencent.liteav:LiteAVSDK_Professional:latest.release'
+    //腾讯IM
+//    api 'com.tencent.imsdk:imsdk:7.0.3754'
+    //悬浮窗
+    implementation 'com.github.princekin-f:EasyFloat:1.3.4'
+
+}

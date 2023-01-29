@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/color_bg_main"
+    android:orientation="vertical"
+    tools:context=".activity.TransactionRecordActivity">
+
+    <include layout="@layout/include_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="@dimen/dp_50"
+            android:layout_height="@dimen/dp_50"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_16"
+            android:src="@mipmap/icon_solana"
+            app:civ_border_color="@color/txt_999"
+            app:civ_border_width="@dimen/dp_1" />
+
+        <TextView
+            android:id="@+id/tv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_6"
+            android:text="0.00"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_20"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_usdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_4"
+            android:text="≈0.00USDT"
+            android:textColor="@color/txt_999"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/tv_copy"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_20"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/dp_50"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_50"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:background="@drawable/bg_tran_record"
+            android:drawableRight="@mipmap/sol_page_copy"
+            android:drawablePadding="@dimen/dp_6"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingRight="@dimen/dp_10"
+            android:singleLine="true"
+            android:text="19sUu25dfgrfge...tjua8741cY85er"
+            android:textColor="#8489A1"
+            android:textSize="@dimen/sp_12" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_6"
+        android:background="?attr/line_2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp_10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_30"
+            android:orientation="vertical">
+
+            <net.lucode.hackware.magicindicator.MagicIndicator
+                android:id="@+id/magic_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:background="?attr/line_2" />
+
+        <com.qianlihu.solanawallet.view.NoScrollViewPager
+            android:id="@+id/vp_transfer"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:background="?attr/line_2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_2"
+        android:paddingRight="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_2">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BNB"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="$0.00"
+            android:textColor="#ff19f371"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="?attr/icon_in_src"
+            android:drawablePadding="@dimen/dp_6"
+            android:text="+0.00%"
+            android:textColor="#ff19f371"
+            android:textSize="@dimen/sp_12" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:background="?attr/line_2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:id="@+id/rl_transfer"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_37"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="1"
+            android:background="@drawable/transfer_btn_bg_bord">
+
+            <TextView
+                android:id="@+id/tv_transfer"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_37"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_vertical"
+                android:drawableLeft="@mipmap/sol_page_transfer_button"
+                android:drawablePadding="@dimen/dp_2"
+                android:gravity="center"
+                android:text="@string/transfer"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_14"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_receive"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_37"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="1"
+            android:background="@drawable/receive_btn_bg_bord">
+
+            <TextView
+                android:id="@+id/tv_receive"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@mipmap/sol_page_receive_button"
+                android:drawablePadding="@dimen/dp_2"
+                android:gravity="center"
+                android:text="@string/collection"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_14"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_exchange"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_37"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_weight="1"
+            android:background="@drawable/exchange_btn_bg_bord">
+
+            <TextView
+                android:id="@+id/tv_exchange"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:drawableLeft="?attr/icon_record_exchange_src"
+                android:drawablePadding="@dimen/dp_2"
+                android:gravity="center"
+                android:text="@string/exchange"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_14"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

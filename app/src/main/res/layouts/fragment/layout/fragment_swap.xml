@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/pb_web"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_3"
+        android:progressDrawable="@drawable/progressbar_bord"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_60"/>
+
+        <com.qianlihu.solanawallet.wc.DappBrowserSwipeLayout
+            android:id="@+id/swip_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <com.qianlihu.solanawallet.wc.Web3View
+                android:id="@+id/wv_h5_QA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layerType="hardware" />
+
+        </com.qianlihu.solanawallet.wc.DappBrowserSwipeLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/rl_net_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/icon_net_error"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:drawablePadding="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_60"
+            android:layout_marginRight="@dimen/dp_60"
+            android:text="@string/net_abnormal"
+            android:textSize="@dimen/sp_14"
+            android:textColor="@color/txt_999" />
+
+    </RelativeLayout>
+
+</LinearLayout>

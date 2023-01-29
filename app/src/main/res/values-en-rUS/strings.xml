@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cactus</string>
+
+    <string name="start_page_dec">Discover high-quality assets in cactus</string>
+    <string name="guide_brand">Brand New Digital Assets</string>
+    <string name="guide_wallet">Start With Cactus Wallet</string>
+    <string name="guide_multiple">Have Multiple Wallets</string>
+    <string name="guide_various">Various Ways To Play</string>
+    <string name="guide_available">Available in black and white</string>
+    <string name="guide_switched">Can be switched at will</string>
+    <string name="guide_try_it_now">Try It Now</string>
+    <string name="guide_jump">Jump</string>
+
+    <string name="wallet">Apply</string>
+    <string name="storage">Storage</string>
+    <string name="gamefi">Mine</string>
+    <string name="swap">Chat</string>
+    <string name="dapp">DApp</string>
+
+    <string name="number_letter">0123456789zxcvbnmasdfghjklqwertyuiopZXCVBNMASDFGHJKLQWERTYUIOP </string>
+    <string name="number_decimal">0123456789.</string>
+
+    <string name="pwd_error">Password error</string>
+    <string name="no_wallet">You don\'t have a wallet yet. Please create a wallet first</string>
+    <string name="operate">Do not operate frequently</string>
+    <string name="loading_data">Loading data...</string>
+    <string name="request_abnormal">The request data is abnormal. Please try again later</string>
+    <string name="request_exception">Request exception</string>
+    <string name="is_connect">Wallet network not connected !</string>
+    <string name="connect_fail">The current network does not support access. Please switch the network</string>
+    <string name="data_exception">Data exception</string>
+
+    <string name="language">Language</string>
+    <string name="select_language">Select language</string>
+    <string name="chinese">Chinese</string>
+    <string name="english">English</string>
+    <string name="russia">Russian</string>
+
+    <!--    我的钱包-->
+    <string name="application_wallet">Application wallet</string>
+    <string name="storage_wallet">Storage wallet</string>
+    <string name="my_assets">My assets</string>
+    <string name="scan">Scan</string>
+    <string name="transfer">Transfer</string>
+    <string name="collection">Collection</string>
+    <string name="all_assets">All assets</string>
+    <string name="add_currency">Add currency</string>
+    <string name="my_wallet">My wallet</string>
+    <string name="tip_delete_token">Are you sure to delete or block the current token?</string>
+    <string name="confirm">Confirm</string>
+    <string name="shield">Shield</string>
+    <string name="cancel">Cancel</string>
+    <string name="reminder">Reminder</string>
+    <string name="invalid_address">Invalid address</string>
+    <string name="flow">Flow:</string>
+    <string name="select_currency">Select currency</string>
+    <string name="select_wallet">Select Wallet</string>
+    <string name="please_select_wallet">Please select wallet</string>
+    <string name="manage_wallet">Manage Wallet</string>
+    <string name="add_wallet">Add Wallet</string>
+    <string name="transfer_error">Transaction failed</string>
+
+    <!--    Dapp-->
+    <string name="my">My</string>
+    <string name="Cross_chain">Cross chain</string>
+    <string name="Aggregate_transaction">Aggregate</string>
+    <string name="ranking">Ranking</string>
+    <string name="sol">SOL</string>
+    <string name="ius">IUS</string>
+    <string name="news">New</string>
+    <string name="IRS">NFT</string>
+    <string name="bsc">BSC</string>
+    <string name="eth">ETH</string>
+    <string name="heco">HECO</string>
+    <string name="defii">Defi</string>
+    <string name="net">NET</string>
+    <string name="tron">TRON</string>
+    <string name="iost">IOST</string>
+    <string name="enter_dapp_web_address">Enter DApp name or web address</string>
+    <string name="defi">DeFi</string>
+    <string name="efficient_aggregator_on_sol_chain">Efficient aggregator on sol chain</string>
+    <string name="recent_browsing">History</string>
+    <string name="dapp_money_security_smart">Money security smart chain (BSC) new project</string>
+    <string name="dex">Dex</string>
+    <string name="GameFi">GameFi</string>
+    <string name="nft">NFT</string>
+    <string name="to_loan">To loan</string>
+    <string name="derivative">Derivative</string>
+    <string name="aggregation">Aggregation</string>
+    <string name="Asset_Bridge">Asset bridge</string>
+    <string name="Oracle">oracle</string>
+    <string name="dapp_opening">You are opening a DApp</string>
+    <string name="dapp_name">Name</string>
+    <string name="dapp_info">Info</string>
+    <string name="dapp_website">Website</string>
+    <string name="dapp_email">Email</string>
+    <string name="dapp_telegram">Telegram</string>
+    <string name="dapp_twitter">Twitter</string>
+    <string name="dapp_risk_warning">Risk Warning</string>
+    <string name="dapp_copy_link">Copy link</string>
+    <string name="dapp_risk_dec">"1. The DApp page is completely controlled by the project party, and Cuctus only charges
+Please be careful when using this DApp
+Be careful, please be sure to check the receiving address or contract address when transferring money;
+2. Cuctus does not recommend any DApp, it is only for inclusion and does not constitute an investment
+funding opinion. Cuctus will collect as much objective information as possible to help
+Help judge whether to continue to use DApp;
+3. Once you use the DApp and cause the loss of assets, Cuctus will not bear the responsibility
+assume any responsibility, and do not have the obligation to compensate. Cuctus will work with
+Relevant agencies extract project data to cooperate with the investigation;
+4. If you encounter problems when using the DApp, you can contact the above
+way to get in touch with the project party, or contact Cuctus customer service;"</string>
+    <string name="swap_you_liquidity">Your liquidity</string>
+    <string name="swap_remove_liquidity">Remove liquidity to recover tokens</string>
+    <string name="swap_no_liquidity_found">No liquidity found</string>
+    <string name="swap_no_liquidity">We don\'t see the liquidity pool you joined</string>
+    <string name="swap_find_other_lp">Find other LP tokens</string>
+    <string name="swap_add_liquidity">Increase liquidity</string>
+    <string name="swap_import_pool">Import liquidity pool</string>
+    <string name="swap_import_existing_pool">Import existing liquidity pool</string>
+    <string name="swap_find_choice">Find your choice of liquidity tokens</string>
+    <string name="swap_add_lp_token">Increase liquidity to receive LP tokens</string>
+    <string name="dapp_sol_item_1">The most humanized DEX on Solana</string>
+    <string name="dapp_eth_item_1">Eth mainstream trading market</string>
+    <string name="dapp_interested">You might be interested in</string>
+    <string name="dapp_hide">Hide</string>
+    <string name="dapp_display">Display</string>
+    <string name="dapp_Win_stepn">The digital age is coming -- "paper cut scroll of terracotta warriors"Issued by cactus cooperative NFT</string>
+    <string name="dapp_new">NEW</string>
+    <string name="dapp_ads">Ads</string>
+    <string name="dapp_search_history">History record</string>
+    <string name="dapp_Weekend">Weekend recommended reading: overview of Sequoia encryption investment territory, A1 explain Web3 decentralization</string>
+    <string name="classify">Classify</string>
+    <string name="hot">Hot</string>
+    <string name="av">AV</string>
+    <string name="Industry">Industry</string>
+    <string name="Business">Business</string>
+    <string name="product">Product</string>
+    <string name="message">Message</string>
+    <string name="energy">Energy</string>
+    <string name="technology">Technology</string>
+    <string name="main_chain_2">Main chain</string>
+    <string name="click_switch">Click switch</string>
+
+    <!--    swap-->
+    <string name="QUOTATION">QUOTATION</string>
+    <string name="EXCHANGE">EXCHANGE</string>
+    <string name="web3">Web3</string>
+    <string name="nft_market">NFT market</string>
+    <string name="exchange">Exchange</string>
+    <string name="LANCHID">LANCHID</string>
+    <string name="Daily">Daily</string>
+    <string name="Weekly">Weekly</string>
+    <string name="Quarerly">Quarerly</string>
+    <string name="Sundy">Sundy</string>
+    <string name="enter_contract_address">Enter contract address</string>
+    <string name="real_time_price">Real-time-price</string>
+    <string name="yuan_universe">Yuan universe</string>
+    <string name="whole">Whole</string>
+    <string name="swap_collect">Collect</string>
+    <string name="swap_increase_list">#Increase</string>
+    <string name="swap_decline_list">#Decline</string>
+    <string name="swap_new_currency_list">#New currency</string>
+    <string name="swap_sell">Sell</string>
+    <string name="swap_buy">Buy</string>
+    <string name="swap_balance">Balance:</string>
+    <string name="swap_balance_2">Balance</string>
+    <string name="swap_exchange">Exchange</string>
+    <string name="swap_exchange_mobility">Lquidity</string>
+    <string name="swap_exchange_timely">Timely transaction token</string>
+    <string name="swap_exchange_max">Max</string>
+    <string name="swap_exchange_slip">Slip point tolerance</string>
+    <string name="swap_exchange_enter_amount">Enter amount</string>
+    <string name="swap_exchange_select_token">Select token</string>
+    <string name="swap_entrusted_price">Price/Wave</string>
+    <string name="swap_slide_point">Slide point/GAS FEE</string>
+    <string name="swap_enter_entrusted_price">Please enter the entrusted price</string>
+    <string name="swap_entrusted_quantity">Entrusted quantity</string>
+    <string name="swap_enter_entrusted_quantity">Please enter the entrusted quantity</string>
+    <string name="swap_expected_obtain">Expected to obtain</string>
+    <string name="swap_liquidity_pool">Liquidity pool</string>
+    <string name="swap_current_price">Current price:</string>
+    <string name="swap_quantity">Quantity</string>
+    <string name="swap_please_select">Please select</string>
+    <string name="swap_place_order">Place order</string>
+
+    <!--    我的-->
+    <string name="blind_box">Blind Box</string>
+    <string name="airdrop">Airdrop</string>
+    <string name="node">Node</string>
+    <string name="invite">Invite</string>
+    <string name="help_center">Help Center</string>
+    <string name="telegram">Telegram</string>
+    <string name="follow_on_twitter">Follow On Twitter</string>
+    <string name="about_ius">About IUS</string>
+    <string name="set_up">Set Up</string>
+    <string name="my_wallet_node">Wallet node</string>
+    <string name="my_community">Community</string>
+
+    <!--    扫一扫-->
+    <string name="scan_for_transfer_address">Please scan QR code</string>
+    <string name="qr_code">QR code</string>
+    <string name="album">Album</string>
+    <string name="not_recognize_qr_code">The picture does not recognize the QR code</string>
+
+    <!--    转账-->
+    <string name="collection_address">Collection Address</string>
+    <string name="enter_collection_address">Please enter the collection address</string>
+    <string name="transfer_quantity">Transfer Quantity</string>
+    <string name="gas_fee">Gas fee</string>
+    <string name="gas_custom">Custom Miner Fee</string>
+    <string name="gas_price">Gas prices(GWEI)</string>
+    <string name="gas_limit">Gas limits</string>
+    <string name="gas_estimated">Estimated gas fee</string>
+    <string name="speed_fast">Fast</string>
+    <string name="speed_recommend">Recommend</string>
+    <string name="speed_slow">Slow</string>
+    <string name="usd_unknown">Unknown</string>
+    <string name="available">Available: </string>
+    <string name="memo">Memo</string>
+    <string name="enter_memo">Please enter memo</string>
+    <string name="fill_transfer_address">Please fill in the transfer address</string>
+    <string name="fill_amount">Please fill in the amount</string>
+    <string name="running_low">Sorry, your credit is running low</string>
+    <string name="do_not_leave">Transfer in progress, please don\'t leave!</string>
+    <string name="conform_transfer_loading">Transaction confirmation in progress, please wait!</string>
+    <string name="transfer_succeeded">Transfer succeeded!</string>
+    <string name="recharge_succeeded">Recharge succeeded!</string>
+    <string name="transfer_fail">Transfer failed, please check!</string>
+    <string name="transaction_data_processing">Please do not leave the current page during transaction data processing...</string>
+    <string name="confirmation_of_transaction">Please don\'t leave the current page during the confirmation of transaction data to avoid data loss. Please wait...</string>
+
+    <!--    收款-->
+    <string name="enter_wallet_pwd">Please enter your wallet password</string>
+    <string name="import_wallet_pwd">Import wallet password</string>
+    <string name="confirm_wallet_pwd">Confirm wallet password</string>
+    <string name="two_pwd_inconsistent">The two passwords are inconsistent</string>
+    <string name="note">Note: This address only supports %s collection. Please do not transfer it to other public chain assets.</string>
+    <string name="share">Share</string>
+    <string name="copy_address">Copy Address</string>
+    <string name="scan_qr_code_pay_me">Scan the QR code and pay me</string>
+    <string name="collection_verify_tip">For the security of your account and to ensure that your address has not been tampered with, please enter your wallet password for verification</string>
+
+    <!--    添加代币-->
+    <string name="search_coin">Search coin or contract</string>
+    <string name="search">Search</string>
+    <string name="top_assets">Hot assets</string>
+    <string name="add_other_tokens">Add other tokens</string>
+    <string name="input_content_empty">The input content cannot be empty</string>
+    <string name="no_token">There is no such token</string>
+    <string name="not_yet">You don\'t have a wallet yet. Please import or create a wallet</string>
+    <string name="not_need_add_again">The token has been added and does not need to be added again</string>
+    <string name="hand_add_token">Manually add missing currencies</string>
+    <string name="currency_name">Currency Name</string>
+    <string name="enter_token_name">Please enter the name of the currency</string>
+    <string name="token_address">Token address</string>
+    <string name="enter_token_address">Please enter the token contract address</string>
+    <string name="token_description">Token description</string>
+    <string name="enter_token_description">Please enter token description</string>
+    <string name="token_Decimal">Decimal places(Default 18)</string>
+    <string name="enter_token_Decimal">Please enter decimal places</string>
+    <string name="token_add_icon">Add Icon</string>
+    <string name="please_token_add_icon">Please add an icon</string>
+    <string name="confirm_add">Confirm add</string>
+    <string name="hint_main_chain">Enter the name main chain</string>
+
+    <!--    交易记录-->
+    <string name="no_transaction_record">No transaction record</string>
+    <string name="pull_up_loading_record">Pull up loading record</string>
+    <string name="transaction_record">Record</string>
+    <string name="transfer_completed">Transfer completed</string>
+    <string name="transfer_address_this">Transfer address (this wallet)</string>
+    <string name="transfer_in_address">Transfer-in address</string>
+    <string name="miner_fee">Miner fee</string>
+    <string name="time">Time</string>
+    <string name="transaction_id">Transaction ID</string>
+    <string name="collection_completed">Collection completed</string>
+    <string name="tool">Tool</string>
+    <string name="asset_introduction">About</string>
+    <string name="tool_block_browser">Block browser</string>
+    <string name="tool_detection">Authorization detection</string>
+    <string name="tool_defi">Defi Leaderboard</string>
+    <string name="web3_spece">Personal space</string>
+    <string name="web3_friends_list">Friends list</string>
+    <string name="web3_world">Web3 World</string>
+    <string name="web3_trajectory">Trajectory</string>
+    <string name="put_away">    Put</string>
+    <string name="view_all">View all</string>
+    <string name="coin_info">Currency information</string>
+    <string name="token_name">Token name</string>
+    <string name="project_name">Entry name</string>
+    <string name="total_circulation">Total circulation</string>
+    <string name="token_address2">Contract address</string>
+    <string name="bnb_dec">"Binance coin is a token issued by Qian'an, abbreviated as BNB. It is based on Ethereum
+Decentralized blockchain digital assets. The total number of issuances is 200million, and each quarter according to the currency security
+The platform destroys BNB according to the transaction volume in the quarter, and the destruction records will be published at the - time. Users can
+Query through the blockchain browser to ensure openness and transparency until 100million BNB coins are destroyed
+Stop.
+BNB, as the fuel of binance ecosystem and decentralized exchange, has been applied to multiple farms
+Jing, if BNB is used to deduct the binance transaction service charge, a maximum discount of 50% can be obtained at
+BNB payment can be used in Monaco visa and app applications, and it can be used in uplive live broadcast platform
+BNB buys virtual gifts, etc. At present, BNB ranks among the top 20 in the world, and the best ranking is global
+Top10, supported by blockchain enthusiasts in more than 180 countries and regions around the world."</string>
+    <string name="solana_dec">"Solana was founded by former Qualcomm, Intel and Dropbox engineers at the end of 2017. It is a single chain
+The key point of the entrusted proof of interest agreement is to provide expandable
+Expansibility. At the heart of Solana's extended solution is a decentralized time
+Clock is designed to solve the time problem that there is no single reliable time source in the distributed network. through the use of
+Verifiable delay function, poh allows each node to calculate the local generation time using sha256
+Stamp. In this way, there is no need to broadcast timestamp on the whole network, which improves the overall network efficiency.
+Sol is the local token of Solana blockchain. Solana uses the entrusted equity proof consensus algorithm to stimulate
+Encourage the token holder to validate the transaction. As part of Solana's security design, all costs will be
+Sol is paid and burned, thereby reducing the total supply. This deflationary sol incentive mechanism
+More token holders participate in the stock market, thus improving the network security. Stow"</string>
+    <string name="delete_record">Are you sure to delete this record ?</string>
+
+    <!--    钱包管理-->
+    <string name="enter_wallet_name">Please enter wallet name</string>
+    <string name="modified_successfully">Modified successfully</string>
+    <string name="add">Add</string>
+    <string name="enter_new_wallet_name">Enter A New Wallet Name</string>
+    <string name="private_key">Private key</string>
+    <string name="close">Close</string>
+    <string name="copy">Copy</string>
+    <string name="delet_wallet">Are you sure you want to delete the wallet?</string>
+    <string name="delete_mnemonic">After deleting, you can re-import the wallet through the backup mnemonic</string>
+    <string name="confirm_deletion">Confirm Deletion</string>
+    <string name="modify_wallet_name">Modify Wallet Name</string>
+    <string name="view_private_key">View Private Key</string>
+    <string name="view_mnemonics">View Mnemonics</string>
+    <string name="wallet_id">Wallet ID</string>
+    <string name="delete_wallet">Delete Wallet</string>
+    <string name="mn_transcribe">Transcribe</string>
+    <string name="mn_digital_copy">Digital copy</string>
+    <string name="mn_screenshot">Screenshot</string>
+
+    <!--    添加钱包-->
+    <string name="multi_chain">Multi Chain Wallet focusing ON DEFI</string>
+    <string name="suppurt_more">Support more than 30 public chains including BTC, ETH, BSC, HECO, OKT, TRX, DOT, FIL, ETC</string>
+    <string name="create_new_wallet">Create a new wallet</string>
+    <string name="brand_new_wallet">You can create a brand new wallet</string>
+    <string name="import_existing_wallet">Import existing wallet</string>
+    <string name="import_mnemonic_private_key">Import from a backed up wallet mnemonic or private key</string>
+    <string name="select_wallet_type">Select import wallet type</string>
+    <string name="select_create_wallet_type">Select Create wallet type</string>
+    <string name="select_main_chain">Please select the main chain</string>
+    <string name="next_stept">Next Stept</string>
+
+    <!--    助记词-->
+    <string name="not_take_screenshots">Do not take screenshots</string>
+    <string name="cameras_around">Please do not share and store screenshots, and pay attention to whether there are other people or cameras around．</string>
+    <string name="safe_place">Please copy the mnemonic words correctly on the paper text and keep it in a safe place．</string>
+    <string name="got_it">Got It</string>
+    <string name="backup_mnemonics">Backup Mnemonics</string>
+    <string name="they_are_correct">Please copy the following mnemonics in order and make sure they are correct</string>
+    <string name="toggle_24">Toggle 24 bit mnemonics</string>
+    <string name="toggle_12">Toggle 12 bit mnemonics</string>
+    <string name="change_group">Change group</string>
+    <string name="backed_up">I\'ve backed up</string>
+    <string name="mnemonics_properly">Mnemonic words are equivalent to the key of a wallet. Having mnemonic words is equivalent to having a wallet. Please keep your mnemonics properly.</string>
+    <string name="retrieve_your_wallet">Cactus will not save your mnemonic words on the server, so once lost, Cactus cannot help you retrieve your wallet</string>
+    <string name="usually_composed">Mnemonic words are usually composed of 12 or 24 words. The more words, the safer</string>
+
+    <!--    助记词验证-->
+    <string name="enter_th_word">Please enter the %sth word</string>
+    <string name="enter_th_word_1">The %sth</string>
+    <string name="word_wrong">The %sth word is wrong</string>
+    <string name="wallet_create_success">Wallet created successfully</string>
+    <string name="verification_mnemonics">Verification Mnemonics</string>
+    <string name="verify_the_following_questions">Please select the correct mnemonic word according to the sequence number</string>
+    <string name="enter_mnemonics">Enter mnemonics</string>
+
+    <!--    导入钱包-->
+    <string name="separated_by_spaces">Please enter mnemonics or private keys separated by spaces</string>
+    <string name="enter_mnemonic_or_private_key">Please enter a mnemonic or private key</string>
+    <string name="confirm_import">Confirm Import</string>
+    <string name="inprot_wallet_success">Wallet imported successfully</string>
+    <string name="mnemonics_private_title">What are mnemonics and private keys</string>
+    <string name="mnemonics_private_1">Mnemonics are a group of 12 randomly generated English words. A group of mnemonics can manage all wallets under the main chain</string>
+    <string name="mnemonics_private_2">Private keys are a group of unordered and irregular strings. A group of private keys can only manage one or more wallets under the main chain</string>
+    <string name="mnemonics_private_3">Please try not to enter mnemonics or private keys by copying and pasting, because other software may listen to the content after copying</string>
+
+    <!--    邀请-->
+    <string name="invite_friends">Invite Friends</string>
+    <string name="together">Invite friends to use Cactus together</string>
+    <string name="scan_install_ius">Scan to install Cactus</string>
+    <string name="share_install_ius">Share the link to install Cactus</string>
+    <string name="share_with_your_friends">Share with your friends</string>
+
+    <!--    空投-->
+    <string name="claim_airdrop">Claim Airdrop</string>
+    <string name="ongoing">Ongoing</string>
+    <string name="ended">Ended</string>
+    <string name="event_time">Event Time</string>
+    <string name="availables">Available</string>
+    <string name="get_it_right_now">Get it right now</string>
+    <string name="airdrop_time">Airdrop Time</string>
+    <string name="receiving_condition">Receiving condition</string>
+    <string name="ius_users">IUS users</string>
+    <string name="airdrop_rules">Airdrop Rules</string>
+    <string name="meet_the_conditions">Users who have participated in the IUS activities can get it if they meet the conditions</string>
+    <string name="project_introduction">Project Introduction</string>
+    <string name="island_mining">Island Mining is a metaverse built on Binance Smart Chain (BSC), including trading platforms and NFT trading markets, and social platforms in the future</string>
+    <string name="airdrop_is_only">The IUS airdrop is only a fan welfare activity and does not serve as any investment advice.IUS reminds users that digital assets are highly volatile, and users should participate cautiously when they fully understand and accept the risks of digital asset investment.
+The final analysis right of this IUS airdrop activity belongs to IUS</string>
+
+    <string name="Website">Website</string>
+    <string name="Mail">Mail</string>
+    <string name="user_agreement">User Agreement</string>
+    <string name="privacy_agreement">Privacy Agreement</string>
+    <string name="version">Version</string>
+
+    <string name="one_star_per_week">One Star Per Week</string>
+
+    <string name="use_settings">Use Settings</string>
+    <string name="Address_book_management">Address book management</string>
+    <string name="Security_settings">Security Settings</string>
+    <string name="open_pwd">Open with wallet password</string>
+    <string name="Secret">Secret-free payment during this use</string>
+    <string name="Currency_unit">Currency unit</string>
+    <string name="DApp_node_settings">IUS node settings</string>
+    <string name="Display_setting">Display Setting</string>
+    <string name="Display_setting_theme">Display mode</string>
+    <string name="about_us_dec">cactus is a fully decentralized mobile wallet based on Solana. It works by creating and managing private keys on behalf of users, allowing them to store funds and sign transactions. Can be used to manage digital assets and access decentralized applications on the Solana blockchain.</string>
+
+    <!--    地址管理-->
+    <string name="no_address_added_yet">No address added yet</string>
+    <string name="add_new_address">Add new address</string>
+    <string name="edit_address">Edit Address</string>
+    <string name="hint_name">Please enter a name</string>
+    <string name="hint_address">Please enter the address</string>
+    <string name="tip_delete_address">Are you sure to delete or change the address</string>
+    <string name="delete_succeeded">Delete succeeded</string>
+    <string name="address_name">Address name</string>
+    <string name="enter_address">Enter address</string>
+    <string name="choose_your_own_network">Choose your own network</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="add_address">Add Address</string>
+    <string name="incorrect_input">Incorrect input</string>
+    <string name="wallet_already_exists">The wallet already exists</string>
+    <string name="address_alrealy_exists">The address already exists</string>
+    <string name="added_successfully">Added successfully</string>
+    <string name="seed_forced">Seed is too short and could be brute forced</string>
+    <string name="invalid_public_key_input">Invalid public key input</string>
+    <string name="max_seed_length_exceeded">Max seed length exceeded</string>
+    <string name="invalid_seeds">Invalid seeds, address must fall off the curve</string>
+    <string name="program_address_nonce">Unable to find a viable program address nonce</string>
+    <string name="address_book">Address book</string>
+
+    <!--    自定义添加代币-->
+    <string name="token_custom_add_token">Custom add token</string>
+    <string name="token_corresponding">If the corresponding token is not found, you can click the button below to add it</string>
+    <string name="token_select_main_chain">Select main chain</string>
+    <string name="token_select_add_wallet">Select Wallet</string>
+    <string name="token_is_add_token">Add token</string>
+    <string name="token_no_add">Not added yet</string>
+    <string name="token_right_add">Add now</string>
+    <string name="token_dialog_select_main_chain">Select token main chain</string>
+    <string name="token_dialog_select_add_wallet">Select wallet to add</string>
+    <string name="token_no_found_contract">Contract address not found</string>
+    <string name="token_no_type">This type of token is not open</string>
+    <string name="token_no_wallet">You don\'t have a wallet with this type of token yet. Add it after creation</string>
+
+    <string name="no_wallet_data">No wallet, please create</string>
+    <string name="no_more_data">No more data</string>
+    <string name="no_data">No data</string>
+    <string name="dilog_ok">well</string>
+    <string name="not_yet_open">Not yet open</string>
+    <string name="main_chain">Main chain</string>
+    <string name="copied_text">Copied text</string>
+    <string name="press_again_to_exit">Press again to exit</string>
+
+    <string name="new_version">New version found</string>
+    <string name="version_update">Version update</string>
+    <string name="downloading_update">Downloading update</string>
+    <string name="version_update_permission">Please allow permission to download and install</string>
+    <string name="app_downloading">Software download, please wait...</string>
+    <string name="is_upgrade_version">Do you want to upgrade to version %s ?</string>
+    <string name="now_update_app">Update now</string>
+    <string name="approve">Approve</string>
+    <string name="request_link">Request link</string>
+    <string name="transfer_in">Transfer in</string>
+    <string name="transfer_out">Transfer out</string>
+    <string name="exchang_quantity">Exchange quantity</string>
+    <string name="operate_after_purchase">You do not have this currency yet, please operate after purchase</string>
+    <string name="cannot_read_encrypt_file">Wallet can not read encrypted key; re-import required.</string>
+    <string name="authentication_error">Authentication to unlock key not provided or timed out. Please try again.</string>
+    <string name="device_security_changed">Since this key was created the mobile device security has changed and the OS has invalidated the key. Please re-import your key.</string>
+    <string name="message_authentication_failed">Authentication failed</string>
+    <string name="message_reject_request">Rejected by the user</string>
+    <string name="dialog_reject">Reject</string>
+    <string name="dialog_approve">Approve</string>
+    <string name="session_terminated">Session has been terminated. Please start DAPP and reconnect the wallet.</string>
+
+    <!--    dapp 工具-->
+    <string name="Blockchain_browser">Blockchain browser</string>
+    <string name="blockchain_browser_porta">Multi Chain blockchain browser portal</string>
+    <string name="Batch_transfer">Batch transfer</string>
+    <string name="batch_transfer_tool">Multi Chain batch transfer tool</string>
+    <string name="Contract_inspection">Contract inspection</string>
+    <string name="contract_detection_tool">Multi Chain token contract detection tool</string>
+    <string name="Transaction_authorization">Transaction authorization</string>
+    <string name="Transaction_loading">Transaction in progress, please do not leave the current page</string>
+    <string name="user_cancle">User Unauthorization</string>
+    <string name="Risk_statement">The current token is unofficially issued. Please use it with caution to avoid being cheated!</string>
+    <string name="connect_request">Connection request in progress...</string>
+    <string name="detector">Detector</string>
+    <string name="close_wsol_tip">You are unpacking%s wsol, which will turn wsol into sol and close this token account</string>
+    <string name="close_success_wsol">WSOL closed successfully!</string>
+    <string name="request_timeout">Request timeout!</string>
+    <string name="verify_fingerprint">Verify fingerprint</string>
+    <string name="fingerprint_authentication_failed">Fingerprint authentication failed, please try again</string>
+    <string name="invite_bind">Bind invitation</string>
+    <string name="bind_wallet">Bind Wallet</string>
+    <string name="binding_courtesy">Binding courtesy</string>
+    <string name="airdrop_gifts">Mobile phone binding wallet to receive more airdrop gifts</string>
+    <string name="bind_now">Bind now</string>
+    <string name="unbound">Unbound</string>
+    <string name="invite_mobile_ID">Invite mobile ID</string>
+    <string name="my_wallet_address">My wallet address</string>
+    <string name="My_mobile_ID">My mobile ID</string>
+    <string name="hint_invite_mobile_id">Please enter the invitation mobile ID</string>
+    <string name="hint_wallet_address">Please enter the wallet address</string>
+    <string name="submitting_data">Submitting data...</string>
+    <string name="moblie_id">Mobile ID: </string>
+    <string name="verification_data">Verification data...</string>
+    <string name="error_in_invitation_QR_code">Error in invitation QR code</string>
+    <string name="pwd_verify">Password verification</string>
+    <string name="pay_address">Payment address</string>
+    <string name="Receiving_address">Receiving address</string>
+    <string name="unlimited">Unlimited</string>
+    <string name="Authorized_quantity">Authorized quantity</string>
+    <string name="token_value">Value</string>
+    <string name="Data_processing">Data processing...</string>
+    <string name="Authorization_Risk">Risk</string>
+    <string name="Authorization_Risk_msg">be careful! After granting this permission, the contract will gain your% s transfer permission. If the contract is malicious, there will be a risk of theft. Please make sure that the current link is trustworthy!</string>
+    <string name="articles_source">source: </string>
+    <string name="permissions_tip">If you refuse this permission, you will not be able to use the chat software to locate people nearby. If you need to use the location permission again, please go to Settings>Application Settings>Application Management>Cactus>Permission Management. After you find the location permission authorization, you can use the location permission normally!</string>
+    <string name="sweep_wallet_fragment_request_wallet_balance_failed_connection">You\'ve got a bad connection to the Electrum network.</string>
+    <string name="sweep_wallet_fragment_request_wallet_balance_empty">The paper wallet is empty.</string>
+
+    <!--    社区会议-->
+    <string name="creat_meeting">Create Meeting</string>
+    <string name="creat_meeting_dec">Only the friends you initiated the link invitation can join this meeting</string>
+    <string name="join_meeting">Join the meeting</string>
+    <string name="join_meeting_dec">Enter the meeting number set by the creator to join the meeting</string>
+    <string name="meeting_no">Meeting No</string>
+    <string name="meeting_name">Meeting name</string>
+    <string name="meeting_person">Number of people</string>
+    <string name="hint_meeting_no">Please enter the conference number</string>
+    <string name="hint_meeting_name">Please enter the name of the meeting room</string>
+    <string name="hint_meeting_person">Please enter the number of people</string>
+    <string name="open_mike">Turn on the microphone</string>
+    <string name="open_speaker">Turn on the speaker</string>
+    <string name="open_video">Open Video</string>
+    <string name="meeting_room">Room (%s people)</string>
+    <string name="moderator">(Moderator)</string>
+    <string name="member">(Member)</string>
+    <string name="mute">Mute</string>
+    <string name="video">Video</string>
+    <string name="member_manager">Manager</string>
+    <string name="meeting_member">Member</string>
+    <string name="more">More</string>
+    <string name="meeting_user_name">Your name</string>
+    <string name="meeting_header">Your avatar</string>
+    <string name="hint_user_name">Please enter your name</string>
+    <string name="member_list">Member list</string>
+    <string name="kick_out">Kick out</string>
+    <string name="more_intive">Invite</string>
+    <string name="more_safe">Safe</string>
+    <string name="more_chat">Chat</string>
+    <string name="more_red_paper">Hongbao</string>
+    <string name="more_float_window">Window</string>
+    <string name="more_set">Setting</string>
+    <string name="select_invite_type">Please select an invitation method</string>
+    <string name="invite_weichat">WeChat</string>
+    <string name="invite_qq">QQ</string>
+    <string name="invite_copy">Copy Invitation</string>
+    <string name="invite_qr">QR code</string>
+    <string name="set_host">Host Settings</string>
+    <string name="set_member_join_mute">Mute when members join the club</string>
+    <string name="set_timeout_open">Automatically open when more than 6 people</string>
+    <string name="set_member_join_tip_voice">Play a prompt tone when members enter</string>
+    <string name="set_local_recording_permissions">Local Recording Permissions</string>
+    <string name="set_only_host_record">Only the host can record</string>
+    <string name="set_open_subtitle">Allow members to open subtitles</string>
+    <string name="set_personal">Personal settings</string>
+    <string name="set_mine_name">My name</string>
+    <string name="set_mine_header">My avatar</string>
+    <string name="set_open_mike_window">Open the microphone float window</string>
+    <string name="set_voice_mode">Voice mode</string>
+    <string name="set_video_mirroring">video mirroring</string>
+    <string name="set_show_duration">Show duration</string>
+    <string name="set_show_bullet_chat">Show bullet screen</string>
+    <string name="set_voice_stimulation">Voice stimulation</string>
+    <string name="set_noise_reduction">noise reduction</string>
+    <string name="safe_meeting_manager">management of meetings</string>
+    <string name="safe_lock_meeting">Lock Meeting</string>
+    <string name="safe_open_waiting_room">Open the waiting room</string>
+    <string name="safe_hide_pwd">Hide meeting number and password</string>
+    <string name="safe_allow_participants">Allow participants</string>
+    <string name="safe_initiate_sharing">Initiate sharing</string>
+    <string name="safe_own_chat">Own chat</string>
+    <string name="safe_open_video">Open Video</string>
+    <string name="safe_change_name">Renaming</string>
+    <string name="safe_self_unmute">Self unmute</string>
+    <string name="safe_sharing_apps">Sharing apps</string>
+    <string name="safe_comments">Interactive annotation</string>
+    <string name="red_send">Hand out Hongbao</string>
+    <string name="red_luck">Hongbao for fighting luck</string>
+    <string name="red_number">Number of Hongbao</string>
+    <string name="red_hint_num">Fill in the number</string>
+    <string name="red_num">Number</string>
+    <string name="red_join_member">%s current participants</string>
+    <string name="red_total_money">Total amount</string>
+    <string name="red_default_blessing">Congratulations on Facai, good luck</string>
+    <string name="red_hint_blessing">Please enter blessing words</string>
+    <string name="red_into">Insert money into Hongbao</string>
+    <string name="red_timeout_back">Refund will be initiated in 24 hours for unclaimed Hongbao</string>
+    <string name="red_common">Ordinary Hongbao</string>
+    <string name="share_meeting_qr">Conference QR code</string>
+    <string name="share_hour">%s Hours</string>
+    <string name="share_tip">Please scan the community code of Cactus App on the mobile phone to join</string>
+    <string name="share_save_camer">Save to album</string>
+    <string name="share_save_camer_tip">To save to the album, please go to check!</string>
+    <string name="share_launch">%s Initiated meetings</string>
+    <string name="meeting_num_tip">The number of people in the meeting cannot be less than 2</string>
+    <string name="exit_meeting_tip">If you do not want to end the meeting, please appoint a new moderator before leaving the meeting</string>
+    <string name="exit_meeting_member_tip">Are you sure you want to leave the meeting?</string>
+    <string name="leav_meeting">Leave the meeting</string>
+    <string name="end_meeting">leave the chair</string>
+    <string name="prem_tip">If not authorized, related functions cannot be used normally !</string>
+    <string name="entering_meeting">Entering the meeting...</string>
+    <string name="kick_out_tip">You been kicked out of the room</string>
+    <string name="room_disbanded_tip">Room disbanded</string>
+    <string name="meeting_max_personal">The conference can accommodate up to 300 people</string>
+    <string name="meeting_share_dec">The conference organized by %s is in progress in Cactus. Please join the conference as soon as possible \n Meeting No.: %s</string>
+    <string name="not_indtall_weichat_tip">It is detected that you have not installed WeChat. Please try again after installing</string>
+    <string name="not_indtall_qq_tip">It is detected that you have not installed QQ. Please try again after installing</string>
+    <string name="open_float_window_tip">To use the floating window function, you need to authorize the floating window permission</string>
+    <string name="go_open">To open</string>
+    <string name="send">Send</string>
+    <string name="message_overrun_tip">The message is too long, up to 200 words can be sent</string>
+
+    <string name="net_parsing">Abnormal parsing data</string>
+    <string name="net_request">Server update or exception, please try again later</string>
+    <string name="net_abnormal">The network connection is abnormal. Please check the network</string>
+    <string name="net_connect">Request connection timeout, please try again later</string>
+    <string name="net_unknown">Unknown system error</string>
+</resources>

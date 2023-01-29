@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_30"
+    android:orientation="vertical"
+    android:id="@+id/ll_chain"
+    android:background="@drawable/select_main_chain_bg_bord_dark">
+
+    <TextView
+        android:id="@+id/tv_chain"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="SOL"
+        android:textColor="?attr/main_chain_text_color"
+        android:textSize="@dimen/sp_14" />
+
+</LinearLayout>

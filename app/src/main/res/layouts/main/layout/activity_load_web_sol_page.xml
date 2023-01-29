@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_0c0"
+    tools:context=".activity.LoadWebPageActivity">
+
+    <include layout="@layout/include_title" />
+
+    <ProgressBar
+        android:id="@+id/pb_web"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_3"
+        android:progressDrawable="@drawable/progressbar_bord"
+        android:visibility="gone" />
+    <com.qianlihu.solanawallet.wc.DappBrowserSwipeLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.qianlihu.solanawallet.wc.Web3SolView
+            android:id="@+id/web3view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.qianlihu.solanawallet.wc.DappBrowserSwipeLayout>
+
+</LinearLayout>

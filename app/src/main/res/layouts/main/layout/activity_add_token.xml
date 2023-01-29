@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/color_bg_main"
+    android:orientation="vertical"
+    tools:context=".activity.AddTokenActivity">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swip_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dp_16"
+                android:paddingTop="@dimen/dp_44"
+                android:paddingRight="@dimen/dp_16"
+                android:paddingBottom="@dimen/dp_10">
+
+                <ImageView
+                    android:id="@+id/iv_back"
+                    android:layout_width="@dimen/dp_20"
+                    android:layout_height="@dimen/dp_24"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="@dimen/dp_16"
+                    android:src="?attr/icon_back" />
+
+                <EditText
+                    android:id="@+id/et_search"
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_height="@dimen/dp_36"
+                    android:layout_weight="1"
+                    android:background="@drawable/add_token_search_bg_bord"
+                    android:drawableLeft="@mipmap/icon_search"
+                    android:drawablePadding="@dimen/dp_6"
+                    android:hint="@string/search_coin"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/dp_10"
+                    android:paddingRight="@dimen/dp_10"
+                    android:textColor="?attr/currency_color"
+                    android:textColorHint="@color/txt_999"
+                    android:textSize="@dimen/sp_14" />
+
+                <TextView
+                    android:id="@+id/tv_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:gravity="center_vertical"
+                    android:text="@string/search"
+                    android:textColor="?attr/currency_color"
+                    android:textSize="@dimen/sp_16"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_custom_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/dp_200"
+                    android:text="@string/token_corresponding"
+                    android:textColor="@color/txt_999"
+                    android:gravity="center_horizontal"
+                    android:layout_marginRight="@dimen/dp_20"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:textSize="@dimen/sp_16" />
+
+                <Button
+                    android:id="@+id/btn_custom"
+                    style="?attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_45"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:background="@drawable/token_custom_add_token_bord"
+                    android:drawableLeft="@mipmap/create_wallet_add"
+                    android:drawablePadding="@dimen/dp_6"
+                    android:paddingLeft="@dimen/dp_20"
+                    android:paddingRight="@dimen/dp_20"
+                    android:text="@string/token_custom_add_token"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_16" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="@dimen/dp_90"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:layout_marginBottom="@dimen/dp_6"
+                        android:gravity="center_horizontal"
+                        android:text="@string/main_chain"
+                        android:textColor="#ff7b7d89"
+                        android:textSize="@dimen/sp_16"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_16"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:layout_marginBottom="@dimen/dp_6"
+                        android:text="@string/top_assets"
+                        android:textColor="#ff7b7d89"
+                        android:textSize="@dimen/sp_16"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_select_wallet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_16"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:layout_marginRight="@dimen/dp_10"
+                        android:layout_marginBottom="@dimen/dp_6"
+                        android:layout_weight="1"
+                        android:drawableRight="@mipmap/icon_in"
+                        android:drawablePadding="@dimen/dp_6"
+                        android:ellipsize="end"
+                        android:gravity="right"
+                        android:maxLength="20"
+                        android:text="@string/select_wallet"
+                        android:textColor="#ff7b7d89"
+                        android:textSize="@dimen/sp_16"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_0_5"
+                    android:layout_marginTop="@dimen/dp_4"
+                    android:background="?attr/line_2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/dp_90"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_token_type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/dp_0"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/dp_10"
+                            android:layout_marginBottom="@dimen/dp_10"
+                            android:layout_weight="1" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp_0_5"
+                            android:background="?attr/line_2" />
+
+                        <TextView
+                            android:id="@+id/tv_all"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:drawableTop="@mipmap/icon_add_token_all"
+                            android:drawablePadding="@dimen/dp_4"
+                            android:gravity="center_horizontal"
+                            android:paddingTop="@dimen/dp_10"
+                            android:paddingBottom="@dimen/dp_10"
+                            android:text="@string/whole"
+                            android:textColor="#ff9395aa"
+                            android:textSize="@dimen/sp_10" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/dp_0_5"
+                        android:layout_height="match_parent"
+                        android:background="?attr/line_2" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_token"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/dp_10" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

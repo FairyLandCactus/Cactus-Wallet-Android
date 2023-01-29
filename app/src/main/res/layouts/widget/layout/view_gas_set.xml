@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_gas_fee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_custom_gas"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginTop="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"
+        android:paddingLeft="@dimen/dp_10"
+        android:drawableRight="?attr/icon_in_src"
+        android:gravity="center_vertical"
+        android:background="@drawable/verify_mnemonics_et_bord"
+        android:text="@string/gas_custom"
+        android:textColor="?attr/currency_color"
+        android:textColorHint="#ff8a8a8a"
+        android:textSize="@dimen/sp_12" />
+
+    <LinearLayout
+        android:id="@+id/ll_custom"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/gas_price"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/gas_limit"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_12"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp_4">
+
+            <EditText
+                android:id="@+id/et_gas_price"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_45"
+                android:background="@drawable/verify_mnemonics_et_bord"
+                android:digits="@string/number_decimal"
+                android:inputType="numberDecimal"
+                android:layout_weight="1"
+                android:maxLength="6"
+                android:text="5"
+                android:paddingLeft="@dimen/dp_10"
+                android:textColor="?attr/currency_color"
+                android:textColorHint="#ff8a8a8a"
+                android:textSize="@dimen/sp_12" />
+
+            <EditText
+                android:id="@+id/et_gas_limit"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_45"
+                android:background="@drawable/verify_mnemonics_et_bord"
+                android:digits="@string/number_decimal"
+                android:inputType="numberDecimal"
+                android:layout_weight="1"
+                android:maxLength="12"
+                android:text="300000"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:paddingLeft="@dimen/dp_10"
+                android:textColor="?attr/currency_color"
+                android:textColorHint="#ff8a8a8a"
+                android:textSize="@dimen/sp_12" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/gas_estimated"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_12"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_estimated_fee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="#ff8a8a8a"
+                android:textSize="@dimen/sp_10" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

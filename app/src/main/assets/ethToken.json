@@ -1,0 +1,301 @@
+[{
+	"name": "ETH",
+	"dec": "ethereum",
+	"contractAdd": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+	"logoUrl": "",
+	"decimals": 18
+},{
+	"name": "USDT",
+	"dec": "Tether USD",
+	"contractAdd": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+	"logoUrl": "https://etherscan.io/token/images/tether_32.png",
+	"decimals": 6
+},{
+	"name": "USDC",
+	"dec": "USD Coin",
+	"contractAdd": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+	"logoUrl": "https://etherscan.io/token/images/centre-usdc_28.png",
+	"decimals": 6
+},{
+	"name": "BNB",
+	"dec": "Binance",
+	"contractAdd": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
+	"logoUrl": "https://etherscan.io/token/images/bnb_28_2.png",
+	"decimals": 18
+},{
+	"name": "HEX",
+	"dec": "Hex",
+	"contractAdd": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+	"logoUrl": "https://etherscan.io/token/images/hex_32.png",
+	"decimals": 8
+},{
+	"name": "MATIC",
+	"dec": "Matic Token",
+	"contractAdd": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+	"logoUrl": "https://etherscan.io/token/images/polygonnew_32.png",
+	"decimals": 18
+},{
+	"name": "SHIB",
+	"dec": "SHIBA INU",
+	"contractAdd": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
+	"logoUrl": "https://etherscan.io/token/images/shibatoken_32.png",
+	"decimals": 18
+},{
+	"name": " DAI",
+	"dec": "Dai Stablecoin",
+	"contractAdd": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+	"logoUrl": "https://etherscan.io/token/images/MCDDai_32.png",
+	"decimals": 18
+},{
+	"name": "stETH",
+	"dec": "stETH",
+	"contractAdd": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+	"logoUrl": "https://etherscan.io/token/images/lido-steth_32.png",
+	"decimals": 18
+},{
+	"name": "WBTC",
+	"dec": "Wrapped BTC",
+	"contractAdd": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+	"logoUrl": "https://etherscan.io/token/images/wbtc_28.png",
+	"decimals": 8
+},{
+	"name": "THETA",
+	"dec": "Theta Token",
+	"contractAdd": "0x3883f5e181fccaF8410FA61e12b59BAd963fb645",
+	"logoUrl": "https://etherscan.io/token/images/theta_28.png",
+	"decimals": 18
+},{
+	"name": "LEO",
+	"dec": "LEO Token",
+	"contractAdd": "0x2AF5D2aD76741191D15Dfe7bF6aC92d4Bd912Ca3",
+	"logoUrl": "https://etherscan.io/token/images/leo_28_2.png",
+	"decimals": 18
+},{
+	"name": "OKB",
+	"dec": "OKB",
+	"contractAdd": "0x75231F58b43240C9718Dd58B4967c5114342a86c",
+	"logoUrl": "https://etherscan.io/token/images/okex_28.png",
+	"decimals": 18
+},{
+	"name": "CRO",
+	"dec": "Cronos Coin",
+	"contractAdd": "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b",
+	"logoUrl": "https://etherscan.io/token/images/cro_32.png",
+	"decimals": 8
+},{
+	"name": "LINK",
+	"dec": "ChainLink Token",
+	"contractAdd": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+	"logoUrl": "https://etherscan.io/token/images/chainlinktoken_32.png?v=6",
+	"decimals": 18
+},{
+	"name": "UNI ",
+	"dec": "Uniswap",
+	"contractAdd": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+	"logoUrl": "https://etherscan.io/token/images/uniswap_32.png",
+	"decimals": 18
+},{
+	"name": "APE",
+	"dec": "ApeCoin",
+	"contractAdd": "0x4d224452801ACEd8B2F0aebE155379bb5D594381",
+	"logoUrl": "https://etherscan.io/token/images/apecoin_32.png",
+	"decimals": 18
+},{
+	"name": "XCN",
+	"dec": "Chain",
+	"contractAdd": "0xA2cd3D43c775978A96BdBf12d733D5A1ED94fb18",
+	"logoUrl": "https://etherscan.io/token/images/chainchn_32.png",
+	"decimals": 18
+},{
+	"name": "VEN",
+	"dec": "VeChain",
+	"contractAdd": "0xD850942eF8811f2A866692A623011bDE52a462C1",
+	"logoUrl": "https://etherscan.io/token/images/vechain_28.png",
+	"decimals": 18
+},{
+	"name": "SAND",
+	"dec": "SAND",
+	"contractAdd": "0x3845badAde8e6dFF049820680d1F14bD3903a5d0",
+	"logoUrl": "https://etherscan.io/token/images/sand_32.png",
+	"decimals": 18
+},{
+	"name": "wMANA",
+	"dec": "Wrapped Decentraland MANA",
+	"contractAdd": "0xFd09Cf7cFffa9932e33668311C4777Cb9db3c9Be",
+	"logoUrl": "https://etherscan.io/images/main/empty-token.png",
+	"decimals": 18
+},{
+	"name": "QNT",
+	"dec": "Quant",
+	"contractAdd": "0x4a220E6096B25EADb88358cb44068A3248254675",
+	"logoUrl": "https://etherscan.io/token/images/quantnetwork_28_2.png?v=2",
+	"decimals": 18
+},{
+	"name": "FRAX",
+	"dec": "Frax",
+	"contractAdd": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+	"logoUrl": "https://etherscan.io/token/images/fraxfinance_32.png",
+	"decimals": 18
+},{
+	"name": "WFIL",
+	"dec": "Wrapped Filecoin",
+	"contractAdd": "0x6e1A19F235bE7ED8E3369eF73b196C07257494DE",
+	"logoUrl": "https://etherscan.io/token/images/wrappedfil_32.png",
+	"decimals": 18
+},{
+	"name": "TUSD",
+	"dec": "TrueUSD",
+	"contractAdd": "0x0000000000085d4780B73119b644AE5ecd22b376",
+	"logoUrl": "https://etherscan.io/token/images/trueusd_32.png?v=2",
+	"decimals": 18
+},{
+	"name": "KCS",
+	"dec": "KuCoin Token",
+	"contractAdd": "0xf34960d9d60be18cC1D5Afc1A6F012A723a28811",
+	"logoUrl": "https://etherscan.io/token/images/kucointoken_32.png",
+	"decimals": 6
+},{
+	"name": "HBTC",
+	"dec": "Huobi BTC",
+	"contractAdd": "0x0316EB71485b0Ab14103307bf65a021042c6d380",
+	"logoUrl": "https://etherscan.io/token/images/huobibtc_32.png",
+	"decimals": 18
+},{
+	"name": "MKR",
+	"dec": "Maker",
+	"contractAdd": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+	"logoUrl": "https://etherscan.io/token/images/mkr-etherscan-35.png",
+	"decimals": 18
+},{
+	"name": "BTT",
+	"dec": "BitTorrent",
+	"contractAdd": "0xC669928185DbCE49d2230CC9B0979BE6DC797957",
+	"logoUrl": "https://etherscan.io/token/images/bittorrent_32.png",
+	"decimals": 18
+},{
+	"name": "USDP",
+	"dec": "Pax Dollar",
+	"contractAdd": "0x8E870D67F660D95d5be530380D0eC0bd388289E1",
+	"logoUrl": "https://etherscan.io/token/images/paxos-usdp_32.png",
+	"decimals": 18
+},{
+	"name": "FTM",
+	"dec": "Fantom Token",
+	"contractAdd": "0x4E15361FD6b4BB609Fa63C81A2be19d873717870",
+	"logoUrl": "https://etherscan.io/token/images/fantomtoken_32.png",
+	"decimals": 18
+},{
+	"name": "GRT",
+	"dec": "Graph Token",
+	"contractAdd": "0xc944E90C64B2c07662A292be6244BDf05Cda44a7",
+	"logoUrl": "https://etherscan.io/token/images/TheGraph_32.png",
+	"decimals": 18
+},{
+	"name": "LDO",
+	"dec": "Lido DAO Token",
+	"contractAdd": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+	"logoUrl": "https://etherscan.io/token/images/lido-dao_32.png",
+	"decimals": 18
+},{
+	"name": "SNX",
+	"dec": "Synthetix Network Token",
+	"contractAdd": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+	"logoUrl": "https://etherscan.io/token/images/SynthetixSNX_32.png",
+	"decimals": 18
+},{
+	"name": "HT",
+	"dec": "HuobiToken",
+	"contractAdd": "0x6f259637dcD74C767781E37Bc6133cd6A68aa161",
+	"logoUrl": "https://etherscan.io/token/images/huobi_28.png",
+	"decimals": 18
+},{
+	"name": "USDD",
+	"dec": "Decentralized USD",
+	"contractAdd": "0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6",
+	"logoUrl": "https://etherscan.io/token/images/usdd-tron_32.png",
+	"decimals": 18
+},{
+	"name": "AMP",
+	"dec": "Amp",
+	"contractAdd": "0xfF20817765cB7f73d4bde2e66e067E58D11095C2",
+	"logoUrl": "https://etherscan.io/token/images/amp_32.png?v=2",
+	"decimals": 18
+},{
+	"name": "BAT",
+	"dec": "BAT",
+	"contractAdd": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
+	"logoUrl": "https://etherscan.io/token/images/bat.png",
+	"decimals": 18
+},{
+	"name": "BIT",
+	"dec": "BitDAO",
+	"contractAdd": "0x1A4b46696b2bB4794Eb3D4c26f1c55F9170fa4C5",
+	"logoUrl": "https://etherscan.io/token/images/bitdao_32.png",
+	"decimals": 18
+},{
+	"name": "CHZ",
+	"dec": "chiliZ",
+	"contractAdd": "0x3506424F91fD33084466F402d5D97f05F8e3b4AF",
+	"logoUrl": "https://etherscan.io/token/images/chiliz_28.png",
+	"decimals": 18
+},{
+	"name": "PAXG",
+	"dec": "Paxos Gold",
+	"contractAdd": "0x45804880De22913dAFE09f4980848ECE6EcbAf78",
+	"logoUrl": "https://etherscan.io/token/images/paxosgold_32.png",
+	"decimals": 18
+},{
+	"name": "ENJ",
+	"dec": "EnjinCoin",
+	"contractAdd": "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
+	"logoUrl": "https://etherscan.io/token/images/enjin_28_2.png",
+	"decimals": 18
+},{
+	"name": "ZIL",
+	"dec": "Zilliqa",
+	"contractAdd": "0x05f4a42e251f2d52b8ed15E9FEdAacFcEF1FAD27",
+	"logoUrl": "https://etherscan.io/token/images/zilliqa_28_2.png",
+	"decimals": 12
+},{
+	"name": "LRC",
+	"dec": "LoopringCoin V2",
+	"contractAdd": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
+	"logoUrl": "https://etherscan.io/token/images/lrc_32.png",
+	"decimals": 18
+},{
+	"name": "FXS",
+	"dec": "Frax Share",
+	"contractAdd": "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0",
+	"logoUrl": "https://etherscan.io/token/images/Fraxfinanceshare_32.png",
+	"decimals": 18
+},{
+	"name": "wCELO",
+	"dec": "Wrapped Celo",
+	"contractAdd": "0xE452E6Ea2dDeB012e20dB73bf5d3863A3Ac8d77a",
+	"logoUrl": "https://etherscan.io/token/images/wrappedcelo_32.png",
+	"decimals": 18
+},{
+	"name": "XAUt",
+	"dec": "Tether Gold",
+	"contractAdd": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+	"logoUrl": "https://etherscan.io/token/images/goldtether_32.png",
+	"decimals": 6
+},{
+	"name": "GALA",
+	"dec": "Gala",
+	"contractAdd": "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA",
+	"logoUrl": "https://etherscan.io/token/images/gala_32.png?v=2",
+	"decimals": 8
+},{
+	"name": "XDCE",
+	"dec": "XinFin XDCE",
+	"contractAdd": "0x41AB1b6fcbB2fA9DCEd81aCbdeC13Ea6315F2Bf2",
+	"logoUrl": "https://etherscan.io/token/images/xinfin_28.png",
+	"decimals": 18
+},{
+	"name": "COMP",
+	"dec": "Compound",
+	"contractAdd": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+	"logoUrl": "https://etherscan.io/token/images/comp_32.png",
+	"decimals": 18
+}]

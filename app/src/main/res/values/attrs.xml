@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PasswordView">
+        <!-- 密码的个数 -->
+        <attr name="passwordNumber" format="integer"/>
+        <!-- 密码圆点的半径 -->
+        <attr name="passwordRadius" format="dimension"/>
+        <!-- 密码圆点的颜色 -->
+        <attr name="passwordColor" format="color"/>
+        <!-- 外圈颜色 -->
+        <attr name="outRingColor" format="color"/>
+        <!-- 外圆线条大小 -->
+        <attr name="outRingLineSize" format="color"/>
+        <!-- 背景边框的颜色 -->
+        <attr name="bgColor" format="color"/>
+        <!-- 背景边框的大小 -->
+        <attr name="bgSize" format="dimension"/>
+        <!-- 背景边框的圆角大小 -->
+        <attr name="bgCorner" format="dimension"/>
+    </declare-styleable>
+
+    <attr name="color_bg_main" format="color|reference"/>
+    <attr name="color_bg_main_2" format="color|reference"/>
+    <attr name="status_bar" format="color"/>
+    <attr name="top_line" format="color"/>
+    <attr name="top_line_2" format="color"/>
+    <attr name="font_color" format="color"/>
+    <attr name="font_2_color" format="color"/>
+    <attr name="main_title_text" format="color"/>
+    <attr name="main_all_asset" format="color"/>
+    <attr name="icon_right_top_scan" format="reference"/>
+    <attr name="icon_scan_src" format="reference"/>
+    <attr name="icon_dapp_increase" format="reference"/>
+    <attr name="bg_0b0" format="color"/>
+    <attr name="currency_color" format="color"/>
+    <attr name="line_1" format="color"/>
+    <attr name="line_2" format="color"/>
+    <attr name="line_3" format="color"/>
+
+    <attr name="dapp_mark_bord" format="color"/>
+    <attr name="no_data_src" format="reference"/>
+    <attr name="no_data_color" format="color"/>
+    <attr name="dapp_risk_bord_color" format="color"/>
+    <attr name="dapp_risk_tip_bg_color" format="color"/>
+    <attr name="dapp_close" format="reference"/>
+    <attr name="dapp_might_bg_color" format="color"/>
+
+    <attr name="swap_search_bg_color" format="color"/>
+    <attr name="swap_curve_green1_color" format="color"/>
+    <attr name="swap_curve_green2_color" format="color"/>
+    <attr name="swap_curve_red1_color" format="color"/>
+    <attr name="swap_curve_red2_color" format="color"/>
+    <attr name="swap_liquidity_green1_color" format="color"/>
+    <attr name="swap_liquidity_green2_color" format="color"/>
+    <attr name="swap_liquidity_red1_color" format="color"/>
+    <attr name="swap_liquidity_red2_color" format="color"/>
+    <attr name="swap_liquidity_text1_color" format="color"/>
+    <attr name="swap_liquidity_text2_color" format="color"/>
+    <attr name="icon_swap_exchang_record" format="reference"/>
+    <attr name="swap_tab_bg_color" format="color"/>
+    <attr name="swap_exchange_child_bg_bord_color" format="color"/>
+    <attr name="swap_exchange_child_line_bord_color" format="color"/>
+    <attr name="swap_exchange_edit_bord_color" format="color"/>
+    <attr name="swap_exchange_2_src" format="reference"/>
+    <attr name="swap_exchange_input_bord_color" format="color"/>
+    <attr name="swap_exchange_hint_color" format="color"/>
+    <attr name="swap_exchange_btn_coloe" format="color"/>
+    <attr name="bottom_sheet_dialog_swap_select_token_bg_color" format="color"/>
+    <attr name="swap_edit_search_bord_color" format="color"/>
+    <attr name="swap_lquidity_bg_coloe" format="color"/>
+    <attr name="swap_hanging_order_bg_bord_color" format="color"/>
+    <attr name="swap_nft_test_src" format="reference"/>
+    <attr name="bind_src" format="reference"/>
+
+    <attr name="icon_white_down_src" format="reference"/>
+    <attr name="icon_back_2_src" format="reference"/>
+    <attr name="icon_dialog_close_src" format="reference"/>
+    <attr name="swap_exchange_down_bg_bord_color" format="color"/>
+    <attr name="gamefi_item_bg_bord_color" format="color"/>
+    <attr name="icon_node_src" format="reference"/>
+    <attr name="my_airdrop_src" format="reference"/>
+    <attr name="my_node_src" format="reference"/>
+    <attr name="my_community_src" format="reference"/>
+
+    <attr name="gamefi_manage_wallet_src" format="reference"/>
+    <attr name="gamefi_blind_box_src" format="reference"/>
+    <attr name="gamefi_airdrop_src" format="reference"/>
+    <attr name="gamefi_invite_src" format="reference"/>
+    <attr name="gamefi_help_center_src" format="reference"/>
+    <attr name="gamefi_telegram_src" format="reference"/>
+    <attr name="icon_in_src" format="reference"/>
+    <attr name="gamefi_follow_on_twitter_src" format="reference"/>
+    <attr name="gamefi_about_ius_src" format="reference"/>
+    <attr name="gamefi_set_up_src" format="reference"/>
+    <attr name="gamefi_bind_wallet_src" format="reference"/>
+    <attr name="title_bg_color" format="color"/>
+    <attr name="icon_back" format="reference"/>
+    <attr name="dot_bord_color" format="color"/>
+    <attr name="wallet_manager_item_bg_color" format="color"/>
+    <attr name="add_token_search_bg_bord_color" format="color"/>
+    <attr name="token_custom_add_token_color" format="color"/>
+    <attr name="enter_token_address_color" format="color"/>
+    <attr name="bg_tran_record_color" format="color"/>
+
+    <attr name="icon_record_exchange_src" format="reference"/>
+    <attr name="add_wallet_establish_src" format="reference"/>
+    <attr name="add_wallet_import_src" format="reference"/>
+    <attr name="import_wallet_tips_src" format="reference"/>
+    <attr name="wallet_edit_src" format="reference"/>
+    <attr name="icon_add_src" format="reference"/>
+    <attr name="icon_clear_src" format="reference"/>
+    <attr name="icon_book_src" format="reference"/>
+
+    <attr name="line_stock_1_color" format="color"/>
+    <attr name="line_stock_2_color" format="color"/>
+    <attr name="line_stock_3_color" format="color"/>
+    <attr name="line_stock_4_color" format="color"/>
+    <attr name="line_stockcolor" format="color"/>
+    <attr name="dialog_bg_color" format="color"/>
+    <attr name="btn_grey_bg_1" format="color"/>
+    <attr name="verify_text_bg_color" format="color"/>
+    <attr name="transfer_edit_bg_color" format="color"/>
+    <attr name="impot_edit_bg_color" format="color"/>
+    <attr name="tansfer_detail_bg_color" format="color"/>
+    <attr name="import_btn_bg_color" format="color"/>
+    <attr name="bottom_sheet_add_wallet_bord" format="color"/>
+    <attr name="bottom_sheet_wallet_manager_bord" format="color"/>
+    <attr name="my_wallet_unselect_bord_color" format="color|reference"/>
+    <attr name="my_wallet_select_bord_color" format="color|reference"/>
+    <attr name="dialog_change_wallet_name_bord_color" format="color"/>
+    <attr name="dialog_change_wallet_name_enter_bord_color" format="color"/>
+    <attr name="btn_add_bord_color" format="color"/>
+    <attr name="btn_delete_bord_color" format="color"/>
+    <attr name="edit_select_main_chain_1_bord_color" format="color"/>
+    <attr name="main_chain_text_color" format="color"/>
+
+    <attr name="web3_item_bord_color" format="color"/>
+
+    <attr name="bg_create_meeting_color" format="color"/>
+
+    <attr name="meeting_room_icon_mute_src" format="reference"/>
+    <attr name="meeting_room_icon_video_src" format="reference"/>
+    <attr name="meeting_room_icon_member_src" format="reference"/>
+    <attr name="meeting_room_icon_more_src" format="reference"/>
+    <attr name="meeting_room_item_chair_src" format="reference"/>
+    <attr name="meeting_room_icon_voice_src" format="reference"/>
+    <attr name="meeting_room_icon_voice2_src" format="reference"/>
+    <attr name="bg_meeting_share_qr_src" format="reference"/>
+
+</resources>

@@ -1,0 +1,282 @@
+<resources>
+    <!-- Base com.qianlihu.solanawallet.application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!--自定义dialog背景全透明无边框theme -->
+    <style name="Dialog_Msg" parent="android:style/Theme.Dialog">
+        <!--背景颜色及和透明程度-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--是否去除标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否去除边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="BottomSheetEdit" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="SplashAppTheme" parent="android:Theme">
+          <item name="android:windowNoTitle">true</item>
+          <item name="android:windowFullscreen">true</item>
+          <item name="android:windowBackground">@drawable/layer_splash</item>
+    </style>
+
+    <style name="ThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="color_bg_main">@color/bg_f9f</item>
+        <item name="color_bg_main_2">@color/white</item>
+        <item name="status_bar">@color/black</item>
+        <item name="top_line">@color/white</item>
+        <item name="font_color">@color/txt_818FAA</item>
+        <item name="top_line_2">@color/line_f6f</item>
+        <item name="main_title_text">@color/txt_333</item>
+        <item name="main_all_asset">@color/txt_888</item>
+        <item name="icon_right_top_scan">@mipmap/icon_right_top_scan_light</item>
+        <item name="icon_scan_src">@mipmap/icon_scan_light</item>
+        <item name="bg_0b0">@color/bg_f4f</item>
+        <item name="icon_dapp_increase">@mipmap/icon_dapp_increase_light</item>
+        <item name="currency_color">@color/txt_484848</item>
+        <item name="line_1">@color/line_eee</item>
+        <item name="line_2">@color/line_ccc</item>
+        <item name="line_3">@color/line_EEEFF9</item>
+        <item name="dapp_mark_bord">@color/bg_bae</item>
+        <item name="no_data_src">@mipmap/no_data_light</item>
+        <item name="no_data_color">@color/txt_606775</item>
+        <item name="dapp_risk_bord_color">@color/white</item>
+        <item name="dapp_risk_tip_bg_color">@color/bg_f9f</item>
+        <item name="dapp_close">@mipmap/dapp_close_light</item>
+        <item name="icon_dialog_close_src">@mipmap/icon_dialog_close_light</item>
+        <item name="swap_search_bg_color">@color/white</item>
+        <item name="swap_curve_green1_color">@color/bg_f4f</item>
+        <item name="swap_curve_green2_color">@color/bg_ACFFAA</item>
+        <item name="swap_curve_red1_color">@color/bg_f4f</item>
+        <item name="swap_curve_red2_color">@color/bg_FFADAD</item>
+
+        <item name="swap_liquidity_green1_color">@color/bg_9BFFEC</item>
+        <item name="swap_liquidity_green2_color">@color/bg_9CFFDB</item>
+        <item name="swap_liquidity_red1_color">@color/bg_FFACB9</item>
+        <item name="swap_liquidity_red2_color">@color/bg_FF8B9D</item>
+        <item name="swap_liquidity_text1_color">@color/txt_05B090</item>
+        <item name="swap_liquidity_text2_color">@color/txt_C8203A</item>
+
+        <item name="swap_hanging_order_bg_bord_color">@color/bg_f4f</item>
+        <item name="icon_swap_exchang_record">@mipmap/icon_swap_exchang_record_light</item>
+        <item name="swap_tab_bg_color">@color/bg_F5F4FF</item>
+        <item name="swap_exchange_child_bg_bord_color">@color/white</item>
+        <item name="swap_exchange_child_line_bord_color">@color/bg_e6e</item>
+        <item name="swap_exchange_edit_bord_color">@color/edit_bg_E7DFFF</item>
+        <item name="swap_exchange_2_src">@mipmap/swap_exchange_2_light</item>
+        <item name="swap_exchange_input_bord_color">@color/btn_bg_F1F1F1</item>
+        <item name="swap_exchange_hint_color">@color/hint_C19EFA</item>
+        <item name="swap_exchange_btn_coloe">@color/btn_txt_B8B2C5</item>
+        <item name="bottom_sheet_dialog_swap_select_token_bg_color">@color/white</item>
+        <item name="swap_edit_search_bord_color">@color/edit_bg_E6E4EB</item>
+        <item name="swap_lquidity_bg_coloe">@color/bg_F1F3F5</item>
+        <item name="icon_white_down_src">@mipmap/icon_white_down_light</item>
+        <item name="icon_back_2_src">@mipmap/icon_back_2_light</item>
+        <item name="swap_exchange_down_bg_bord_color">@color/bg_CCD0DE</item>
+        <item name="gamefi_item_bg_bord_color">@color/white</item>
+        <item name="icon_node_src">@mipmap/icon_node_light</item>
+        <item name="gamefi_manage_wallet_src">@mipmap/gamefi_manage_wallet_light</item>
+        <item name="gamefi_blind_box_src">@mipmap/gamefi_blind_box_light</item>
+        <item name="gamefi_airdrop_src">@mipmap/gamefi_airdrop_light</item>
+        <item name="gamefi_invite_src">@mipmap/gamefi_invite_light</item>
+        <item name="gamefi_help_center_src">@mipmap/gamefi_help_center_light</item>
+        <item name="gamefi_telegram_src">@mipmap/gamefi_telegram_light</item>
+        <item name="icon_in_src">@mipmap/icon_in_light</item>
+        <item name="gamefi_follow_on_twitter_src">@mipmap/gamefi_follow_on_twitter_light</item>
+        <item name="gamefi_about_ius_src">@mipmap/gamefi_about_ius_light</item>
+        <item name="gamefi_set_up_src">@mipmap/gamefi_set_up_light</item>
+        <item name="gamefi_bind_wallet_src">@mipmap/icon_bind_wallet_light</item>
+        <item name="title_bg_color">@color/white</item>
+        <item name="icon_back">@mipmap/icon_back_light</item>
+        <item name="dot_bord_color">@color/txt_2575EE</item>
+        <item name="wallet_manager_item_bg_color">@color/white</item>
+        <item name="add_token_search_bg_bord_color">@color/edit_bg_E9ECF2</item>
+        <item name="token_custom_add_token_color">@color/btn_bg_DEE0ED</item>
+        <item name="enter_token_address_color">@color/white</item>
+        <item name="bg_tran_record_color">@color/bg_E9EBF5</item>
+        <item name="icon_record_exchange_src">@mipmap/icon_record_exchange_light</item>
+        <item name="add_wallet_establish_src">@mipmap/add_wallet_establish_light</item>
+        <item name="add_wallet_import_src">@mipmap/add_wallet_import_light</item>
+        <item name="line_stock_1_color">@color/line_stock_E9EEFA</item>
+        <item name="line_stock_2_color">@color/line_stock_E1E9FE</item>
+        <item name="dialog_bg_color">@color/white</item>
+        <item name="btn_grey_bg_1">@color/btn_bg_E9EBF4</item>
+        <item name="line_stock_3_color">@color/line_stock_EAECF2</item>
+        <item name="verify_text_bg_color">@color/bg_F3F4F8</item>
+        <item name="line_stock_4_color">@color/line_stock_E5E8ED</item>
+        <item name="transfer_edit_bg_color">@color/bg_EFF0F2</item>
+        <item name="impot_edit_bg_color">@color/line_stock_919AB1</item>
+        <item name="tansfer_detail_bg_color">@color/bg_F9F9FB</item>
+        <item name="font_2_color">@color/txt_B5BBD3</item>
+        <item name="import_wallet_tips_src">@mipmap/import_wallet_tips</item>
+        <item name="import_btn_bg_color">@color/btn_bg_E0E3F1</item>
+        <item name="bottom_sheet_add_wallet_bord">@color/bg_EAEEF8</item>
+        <item name="wallet_edit_src">@mipmap/wallet_edit</item>
+        <item name="my_wallet_unselect_bord_color">@color/bg_EAEEF8</item>
+        <item name="my_wallet_select_bord_color">@color/bg_C8D4F4</item>
+        <item name="line_stockcolor">@color/line_stock_1361D7</item>
+        <item name="dialog_change_wallet_name_bord_color">@color/white</item>
+        <item name="dialog_change_wallet_name_enter_bord_color">@color/edit_bg_F9FAFF</item>
+        <item name="dapp_might_bg_color">@color/bg_E8EBF8</item>
+        <item name="icon_add_src">@mipmap/icon_add_light</item>
+        <item name="btn_add_bord_color">@color/btn_bg_F7F7FB</item>
+        <item name="btn_delete_bord_color">@color/btn_bg_EAEAEA</item>
+        <item name="icon_clear_src">@mipmap/wallet_close</item>
+        <item name="icon_book_src">@mipmap/icon_adress_book_light</item>
+        <item name="main_chain_text_color">@color/txt_6880FF</item>
+        <item name="my_airdrop_src">@mipmap/icon_my_airdrop_light</item>
+        <item name="my_node_src">@mipmap/icon_my_node_light</item>
+        <item name="my_community_src">@mipmap/icon_my_community_light</item>
+        <item name="swap_nft_test_src">@mipmap/swap_nft_test_light</item>
+        <item name="bind_src">@mipmap/icon_bind_dark</item>
+        <item name="web3_item_bord_color">@color/line_ccc</item>
+        <item name="bg_create_meeting_color">@color/white</item>
+        <item name="meeting_room_icon_mute_src">@mipmap/icon_mute</item>
+        <item name="meeting_room_icon_video_src">@mipmap/icon_video</item>
+        <item name="meeting_room_icon_member_src">@mipmap/icon_member_manager</item>
+        <item name="meeting_room_icon_more_src">@mipmap/icon_meeting_more</item>
+        <item name="meeting_room_item_chair_src">@mipmap/meeting_chair</item>
+        <item name="meeting_room_icon_voice_src">@mipmap/icon_voice</item>
+        <item name="meeting_room_icon_voice2_src">@mipmap/icon_voice_2</item>
+        <item name="bg_meeting_share_qr_src">@mipmap/bg_meeting_share_qr</item>
+    </style>
+
+    <style name="ThemeDark" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="color_bg_main">@color/bg_161</item>
+        <item name="color_bg_main_2">@color/bg_161</item>
+        <item name="status_bar">@color/white</item>
+        <item name="top_line">@color/bg_161</item>
+        <item name="font_color">@color/txt_C2C9D7</item>
+        <item name="top_line_2">@color/line_1b1</item>
+        <item name="main_title_text">@color/white</item>
+        <item name="main_all_asset">@color/txt_999</item>
+        <item name="icon_right_top_scan">@mipmap/icon_right_top_scan</item>
+        <item name="icon_scan_src">@mipmap/icon_scan_dark</item>
+        <item name="bg_0b0">@color/bg_0b0</item>
+        <item name="icon_dapp_increase">@mipmap/icon_dapp_increase</item>
+        <item name="icon_dialog_close_src">@mipmap/icon_dialog_close_dark</item>
+        <item name="currency_color">@color/white</item>
+        <item name="line_1">@color/line_1b1</item>
+        <item name="line_2">@color/line_26293F</item>
+        <item name="line_3">@color/line_2F3141</item>
+        <item name="dapp_mark_bord">@color/bg_1b3</item>
+        <item name="no_data_src">@mipmap/sol_page_default</item>
+        <item name="no_data_color">@color/txt_606482</item>
+        <item name="dapp_risk_bord_color">@color/bg_222</item>
+        <item name="dapp_risk_tip_bg_color">@color/bg_2A2F4A</item>
+        <item name="dapp_close">@mipmap/dapp_close</item>
+        <item name="swap_search_bg_color">@color/bg_181824</item>
+        <item name="swap_curve_green1_color">@color/bg_151626</item>
+        <item name="swap_curve_green2_color">@color/bg_025700</item>
+        <item name="swap_curve_red1_color">@color/bg_151626</item>
+        <item name="swap_curve_red2_color">@color/bg_680707</item>
+
+        <item name="swap_liquidity_green1_color">@color/bg_05DBB1</item>
+        <item name="swap_liquidity_green2_color">@color/bg_0AE797</item>
+        <item name="swap_liquidity_red1_color">@color/bg_FF516C</item>
+        <item name="swap_liquidity_red2_color">@color/bg_FF3554</item>
+        <item name="swap_liquidity_text1_color">@color/txt_57FDDE</item>
+        <item name="swap_liquidity_text2_color">@color/txt_FF8093</item>
+
+        <item name="swap_hanging_order_bg_bord_color">@color/bg_242732</item>
+        <item name="icon_swap_exchang_record">@mipmap/icon_swap_exchang_record</item>
+        <item name="swap_tab_bg_color">@color/bg_151424</item>
+        <item name="swap_exchange_child_bg_bord_color">@color/bg_202</item>
+        <item name="swap_exchange_child_line_bord_color">@color/bg_202</item>
+        <item name="swap_exchange_edit_bord_color">@color/edit_bg_404456</item>
+        <item name="swap_exchange_2_src">@mipmap/swap_exchange_2</item>
+        <item name="swap_exchange_input_bord_color">@color/btn_bg_272836</item>
+        <item name="swap_exchange_hint_color">@color/hint_5e6d7f</item>
+        <item name="swap_exchange_btn_coloe">@color/btn_txt_454765</item>
+        <item name="bottom_sheet_dialog_swap_select_token_bg_color">@color/bg_2b2</item>
+        <item name="swap_edit_search_bord_color">@color/edit_bg_423A59</item>
+        <item name="swap_lquidity_bg_coloe">@color/black</item>
+        <item name="icon_white_down_src">@mipmap/icon_white_down</item>
+        <item name="icon_back_2_src">@mipmap/icon_back_2</item>
+        <item name="swap_exchange_down_bg_bord_color">@color/bg_2a2</item>
+        <item name="gamefi_item_bg_bord_color">@color/bg_292E3E</item>
+        <item name="icon_node_src">@mipmap/icon_node</item>
+        <item name="gamefi_manage_wallet_src">@mipmap/gamefi_manage_wallet</item>
+        <item name="gamefi_blind_box_src">@mipmap/gamefi_blind_box</item>
+        <item name="gamefi_airdrop_src">@mipmap/gamefi_airdrop</item>
+        <item name="gamefi_invite_src">@mipmap/gamefi_invite</item>
+        <item name="gamefi_help_center_src">@mipmap/gamefi_help_center</item>
+        <item name="gamefi_telegram_src">@mipmap/gamefi_telegram</item>
+        <item name="icon_in_src">@mipmap/icon_in</item>
+        <item name="gamefi_follow_on_twitter_src">@mipmap/gamefi_follow_on_twitter</item>
+        <item name="gamefi_about_ius_src">@mipmap/gamefi_about_ius</item>
+        <item name="gamefi_set_up_src">@mipmap/gamefi_set_up</item>
+        <item name="gamefi_bind_wallet_src">@mipmap/icon_bind_wallet_dark</item>
+        <item name="title_bg_color">@color/bg_17161E</item>
+        <item name="icon_back">@mipmap/icon_back</item>
+        <item name="dot_bord_color">@color/txt_815BEC</item>
+        <item name="wallet_manager_item_bg_color">@color/bg_252</item>
+        <item name="add_token_search_bg_bord_color">@color/bg_0b0</item>
+        <item name="token_custom_add_token_color">@color/btn_bg_363A53</item>
+        <item name="enter_token_address_color">@color/bg_2A2C37</item>
+        <item name="bg_tran_record_color">@color/bg_2C2F3E</item>
+        <item name="icon_record_exchange_src">@mipmap/icon_record_exchange</item>
+        <item name="add_wallet_establish_src">@mipmap/add_wallet_establish</item>
+        <item name="add_wallet_import_src">@mipmap/add_wallet_import</item>
+        <item name="line_stock_1_color">@color/line_stock_707A93</item>
+        <item name="line_stock_2_color">@color/line_stock_707A93</item>
+        <item name="dialog_bg_color">@color/bg_292B35</item>
+        <item name="btn_grey_bg_1">@color/btn_bg_2C3046</item>
+        <item name="line_stock_3_color">@color/line_stock_3D404B</item>
+        <item name="verify_text_bg_color">@color/bg_2C2E3C</item>
+        <item name="line_stock_4_color">@color/line_stock_2D313A</item>
+        <item name="transfer_edit_bg_color">@color/bg_25242C</item>
+        <item name="impot_edit_bg_color">@color/line_stock_F4F0F0</item>
+        <item name="tansfer_detail_bg_color">@color/bg_252A35</item>
+        <item name="font_2_color">@color/txt_737A92</item>
+        <item name="import_wallet_tips_src">@mipmap/import_wallet_tips_light</item>
+        <item name="import_btn_bg_color">@color/btn_bg_2D2F3D</item>
+        <item name="bottom_sheet_add_wallet_bord">@color/bg_2F3545</item>
+        <item name="bottom_sheet_wallet_manager_bord">@color/bg_2F3545</item>
+        <item name="wallet_edit_src">@mipmap/wallet_edit_light</item>
+        <item name="my_wallet_unselect_bord_color">@color/bg_2E3446</item>
+        <item name="my_wallet_select_bord_color">@color/bg_25304C</item>
+        <item name="line_stockcolor">@color/line_stock_1767DF</item>
+        <item name="dialog_change_wallet_name_bord_color">@color/bg_1C202C</item>
+        <item name="dialog_change_wallet_name_enter_bord_color">@color/edit_bg_2B2F3E</item>
+        <item name="dapp_might_bg_color">@color/bg_2A2C38</item>
+        <item name="icon_add_src">@mipmap/icon_add_dark</item>
+        <item name="btn_add_bord_color">@color/btn_bg_23252F</item>
+        <item name="btn_delete_bord_color">@color/btn_bg_282A37</item>
+        <item name="icon_clear_src">@mipmap/icon_clear_dark</item>
+        <item name="icon_book_src">@mipmap/icon_adress_book_dark</item>
+        <item name="main_chain_text_color">@color/txt_3757FF</item>
+        <item name="my_airdrop_src">@mipmap/icon_my_airdrop_dark</item>
+        <item name="my_node_src">@mipmap/icon_my_node_dark</item>
+        <item name="my_community_src">@mipmap/icon_my_community_dark</item>
+        <item name="swap_nft_test_src">@mipmap/swap_nft_test_dark</item>
+        <item name="bind_src">@mipmap/icon_bind_light</item>
+        <item name="web3_item_bord_color">@color/line_26293F</item>
+        <item name="bg_create_meeting_color">@color/bg_232323</item>
+        <item name="meeting_room_icon_mute_src">@mipmap/icon_mute_dark</item>
+        <item name="meeting_room_icon_video_src">@mipmap/icon_video_dark</item>
+        <item name="meeting_room_icon_member_src">@mipmap/icon_member_dark</item>
+        <item name="meeting_room_icon_more_src">@mipmap/icon_more_dark</item>
+        <item name="meeting_room_item_chair_src">@mipmap/meeting_room_chair_dark</item>
+        <item name="meeting_room_icon_voice_src">@mipmap/icon_voice_dark</item>
+        <item name="meeting_room_icon_voice2_src">@mipmap/icon_voice_2_dark</item>
+        <item name="bg_meeting_share_qr_src">@mipmap/bg_meeting_share_qr_dark</item>
+    </style>
+
+</resources>

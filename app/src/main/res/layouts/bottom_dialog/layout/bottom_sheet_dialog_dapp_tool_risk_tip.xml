@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp_30"
+        android:background="@drawable/bottom_sheet_dialog_dapp_risk_bord"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_20"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_close"
+                android:layout_width="@dimen/dp_16"
+                android:layout_height="@dimen/dp_16"
+                android:layout_gravity="center_vertical"
+                android:src="?attr/icon_dialog_close_src" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/dapp_opening"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/dp_16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_16"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_dapp_logo"
+                android:layout_width="@dimen/dp_42"
+                android:layout_height="@dimen/dp_42"
+                android:layout_marginRight="@dimen/dp_10" />
+
+            <TextView
+                android:id="@+id/tv_dapp_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="?currency_color"
+                android:textSize="@dimen/sp_14" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_dapp_dec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_26"
+            android:layout_marginTop="@dimen/dp_10"
+            android:textColor="?font_2_color"
+            android:textSize="@dimen/sp_12" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_22"
+            android:layout_marginTop="@dimen/dp_20"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/main_chain_2"
+                android:textColor="?currency_color"
+                android:textSize="@dimen/sp_12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:text="@string/click_switch"
+                android:textColor="?font_2_color"
+                android:textSize="@dimen/sp_10" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_main_chain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"/>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/dp_16"
+            android:layout_weight="1"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginRight="@dimen/dp_20"
+                android:background="?attr/dapp_risk_tip_bg_color"
+                android:orientation="vertical"
+                android:padding="@dimen/dp_10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dapp_risk_warning"
+                    android:textColor="?attr/currency_color"
+                    android:textSize="@dimen/sp_16" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:text="@string/dapp_risk_dec"
+                    android:textColor="#ff7e8caf"
+                    android:textSize="@dimen/sp_12" />
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <Button
+            android:id="@+id/btn_got_it"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_45"
+            android:layout_margin="@dimen/dp_20"
+            android:background="@drawable/swap_exchane_btn_bord"
+            android:text="@string/got_it"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</LinearLayout>

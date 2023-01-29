@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp_10"
+    android:layout_marginBottom="@dimen/dp_10"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_6"
+            android:src="@mipmap/icon_solana" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_icon"
+            android:text="BabySwap"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_16"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginTop="@dimen/dp_4"
+            android:layout_toRightOf="@+id/iv_icon"
+            android:orientation="horizontal">
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_tag_1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_18"
+                android:background="@drawable/dapp_mark_bord"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp_6"
+                android:paddingRight="@dimen/dp_6"
+                android:text="DeFi"
+                android:textColor="#ff37e0b8"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_tag_2"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_18"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:background="@drawable/dapp_mark_bord"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp_6"
+                android:paddingRight="@dimen/dp_6"
+                android:text="Hot"
+                android:textColor="#ff37e0b8"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_16"
+            android:text="..."
+            android:textSize="@dimen/sp_20"
+            android:textColor="?attr/font_2_color"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_dec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_6"
+        android:layout_marginRight="@dimen/dp_10"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/dapp_money_security_smart"
+        android:textColor="#ff818994"
+        android:textSize="@dimen/sp_14" />
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_0_5"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="?attr/line_1" />
+
+</LinearLayout>

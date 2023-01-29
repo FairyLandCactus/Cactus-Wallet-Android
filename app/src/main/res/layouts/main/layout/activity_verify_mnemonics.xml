@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/color_bg_main"
+    android:orientation="vertical"
+    tools:context=".activity.VerifyMnemonicsActivity">
+
+    <include layout="@layout/include_title" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_30"
+                android:text="@string/verification_mnemonics"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_6"
+                android:text="@string/verify_the_following_questions"
+                android:textColor="?attr/font_color"
+                android:textSize="@dimen/sp_14" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_20"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_mn_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/enter_th_word_1"
+                        android:textColor="?attr/currency_color"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:id="@+id/tv_mnemonics_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_40"
+                        android:layout_marginTop="@dimen/dp_6"
+                        android:background="@drawable/verify_edit_bg_bord"
+                        android:gravity="center"
+                        android:textColor="?attr/currency_color"
+                        android:textSize="@dimen/sp_14" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_mn_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/enter_th_word_1"
+                        android:textColor="?attr/currency_color"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:id="@+id/tv_mnemonics_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_40"
+                        android:layout_marginTop="@dimen/dp_6"
+                        android:background="@drawable/verify_edit_bg_bord"
+                        android:gravity="center"
+                        android:textColor="?attr/currency_color"
+                        android:textSize="@dimen/sp_14" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_mn_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/enter_th_word_1"
+                        android:textColor="?attr/currency_color"
+                        android:textSize="@dimen/sp_14" />
+
+                    <TextView
+                        android:id="@+id/tv_mnemonics_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_40"
+                        android:layout_marginTop="@dimen/dp_6"
+                        android:background="@drawable/verify_edit_bg_bord"
+                        android:gravity="center"
+                        android:textColor="?attr/currency_color"
+                        android:textSize="@dimen/sp_14" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_mnemonics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+               android:layout_margin="@dimen/dp_20" />
+
+            <TextView
+                android:id="@+id/tv_random_word"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_30"
+                android:text="@string/enter_th_word"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_16"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/et_word"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_45"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_16"
+                android:background="@drawable/verify_mnemonics_et_bord"
+                android:hint="@string/enter_mnemonics"
+                android:inputType="text"
+                android:paddingLeft="@dimen/dp_10"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_16"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_random_word_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_20"
+                android:text="@string/enter_th_word"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_16"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/et_again_word"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_45"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_16"
+                android:background="@drawable/btn_blue_1_bord"
+                android:hint="@string/enter_mnemonics"
+                android:inputType="text"
+                android:paddingLeft="@dimen/dp_10"
+                android:textColor="?attr/currency_color"
+                android:textSize="@dimen/sp_16"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_confirm"
+                style="?attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_45"
+                android:layout_marginLeft="@dimen/dp_20"
+               android:layout_margin="@dimen/dp_20"
+                android:background="@drawable/btn_blue_1_bord"
+                android:text="@string/confirm"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_16" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

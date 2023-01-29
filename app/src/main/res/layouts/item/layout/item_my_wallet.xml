@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_wallet_bg"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_60"
+    android:layout_marginTop="@dimen/dp_16"
+    android:background="@drawable/my_wallet_unselect_bord"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/dp_16">
+
+        <ImageView
+            android:id="@+id/iv_ed_wallet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="?attr/wallet_edit_src"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/tv_wallet_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_6"
+            android:textColor="?attr/currency_color"
+            android:textSize="@dimen/sp_18" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp_10"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/iv_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/dp_20"
+        android:src="@mipmap/wallet_confirm"
+        android:visibility="gone" />
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/color_bg_main"
+    android:orientation="vertical"
+    tools:context=".activity.ImportExistingWalletActivity">
+
+    <include layout="@layout/include_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_30"
+        android:text="@string/import_existing_wallet"
+        android:textColor="?attr/currency_color"
+        android:textSize="@dimen/sp_16"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_120"
+        android:text="@string/separated_by_spaces"
+        android:textColor="@color/txt_999"
+        android:layout_marginTop="@dimen/sp_6"
+        android:textSize="@dimen/sp_14" />
+
+    <EditText
+        android:id="@+id/et_private_key"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_100"
+        android:layout_marginTop="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:padding="@dimen/dp_10"
+        android:background="@drawable/import_edit_bg_bord"
+        android:hint="@string/enter_mnemonic_or_private_key"
+        android:textColor="?attr/currency_color"
+        android:textSize="@dimen/sp_14"
+        android:textColorHint="@color/txt_999"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+       />
+
+    <Button
+        android:id="@+id/btn_confirm_import"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:layout_marginTop="@dimen/dp_80"
+        android:layout_marginRight="@dimen/dp_30"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:background="@drawable/import_btn_bg_bord"
+        android:text="@string/confirm_import"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_14" />
+
+</LinearLayout>

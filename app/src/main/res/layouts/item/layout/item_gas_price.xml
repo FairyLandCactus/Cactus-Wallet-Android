@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/ll_gas_fee"
+    android:background="@drawable/un_gas_price_bg_bord_dark">
+
+
+    <TextView
+        android:id="@+id/tv_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="?attr/currency_color"
+        android:textSize="@dimen/sp_12"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_fee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/sp_10"
+        android:layout_marginTop="@dimen/dp_6"
+        android:textColor="?attr/font_2_color" />
+
+    <TextView
+        android:id="@+id/tv_usd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/sp_10"
+        android:layout_marginTop="@dimen/dp_6"
+        android:textColor="?attr/font_2_color" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/sp_10"
+        android:layout_marginTop="@dimen/dp_6"
+        android:textColor="?attr/font_2_color"
+        android:layout_marginBottom="@dimen/dp_10"/>
+
+
+</LinearLayout>
